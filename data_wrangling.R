@@ -432,7 +432,7 @@ mortality %>%
     })
   } ) -> mortality_ls
 
-save(incidence_ls,file = 'data/clean/incidence_ls.Rdata')
-save(mortality_ls, file = 'data/clean/mortality_ls.Rdata')
+save(incidence_ls,file = 'data/clean/incidence_rf.Rdata')
+save(mortality_ls, file = 'data/clean/mortality_rf.Rdata')
 
 
