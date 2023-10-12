@@ -1,0 +1,99 @@
+---
+title: "Cancer and risk factors analysis in New Zealand"
+author: "The Health Guardians (Group I)"
+date: "2023-10-01"
+# bibliography: "myref.bib"
+# csl: "apa-6th-edition.csl"
+output:
+  pdf_document: 
+    fig_width: 7
+    fig_height: 5
+  html_document: default
+  extra_dependencies: ["float"]
+header-includes: 
+  \usepackage{float} \floatplacement{figure}{H} 
+  \newcommand{\beginsupplement}{\setcounter{table}{0}  \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message=FALSE,fig.align='center',fig.pos = "H", out.extra = "")
+library(tidyverse)
+library(ggplot2)
+library(skimr)
+library(ComplexHeatmap)
+library(circlize)
+library(ggsci)
+library(lubridate)
+library(flextable)
+library(rempsyc)
+
+library(sf)
+library(spData)
+library(rgeos)
+library(ggrepel)
+
+cancer_filepath = 'data/cancer-registrations-by-dhb.csv'
+cancer <- read_csv('data/cancer-registrations-by-dhb.csv')
+
+DHB_map <- st_read("data/NZ_District_Health_Board_boundaries_-_generalised.kml", quiet=TRUE)
+
+
+REGION_TO_ABBREVIATION <- c(
+  "Auckland" = "AUK",
+  "Bay of Plenty" = "BOP",
+  "Canterbury" = "CAN",
+  "Capital & Coast" = "",
+  "Counties Manukau" = "",
+  # "Gisborne" = "GIS",
+  "Hawke's Bay" = "HKB",
+  "Hutt Valley" = "",
+  "Lakes" = "",
+  "MidCentral" = "",
+  "Nelson Marlborough" = "",
+  # "Manawatu-Wanganui" = "MWT",
+  # "Marlborough" = "MBH",
+  # "Nelson" = "NSN",
+  "Northland" = "NTL",
+  "South Canterbury" = "",
+  "Southern" = "",
+  "Tairawhiti" = "",
+  
+  # "Otago" = "OTA",
+  # "Southland" = "STL",
+  "Taranaki" = "TKI",
+  # "Tasman" = "TAS",
+  "Waikato" = "WKO",
+  "Wairarapa" = "",
+  "Waitemata" = "",
+  "Whanganui" = "",
+  # "Wellington" = "WGN",
+   "West Coast" = "WTC"
+)
+
+
+
+```
+
+## Data wrangling
+
+#### 1. Unify the DHB names
+
+``` r
+any(DHB_map$DHB %in% unique(cancer$DHB))
+```
+
+``` r
+{r}
+
+#modify DHB names in DHB_mapto match cancer
+DHB_map %>% 
+  mutate(DHB = case_when(DHB_name == "Capital and Coast" ~ "Capital & Coast",
+                         TRUE ~ DHB_name)) -> DHB_map
+#Verify that DHB_map and cancer share the same DHB name
+any(DHB_map$DHB %in% unique(cancer$DHB))
+```
+
+```{r}
+
+any(DHB_map$DHB %in% unique(cancer$DHB))
+```

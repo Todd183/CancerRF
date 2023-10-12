@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/
+.DS_Store
+.Rprofile
+Assignments.ipynb
