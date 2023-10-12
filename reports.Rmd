@@ -76,24 +76,25 @@ REGION_TO_ABBREVIATION <- c(
 
 ## Data wrangling
 
-#### 1. Unify the DHB names
-
-``` r
-any(DHB_map$DHB %in% unique(cancer$DHB))
-```
-
-``` r
-{r}
-
+### 1. Unify DHB names
+```{r}
+ 
 #modify DHB names in DHB_mapto match cancer
 DHB_map %>% 
   mutate(DHB = case_when(DHB_name == "Capital and Coast" ~ "Capital & Coast",
                          TRUE ~ DHB_name)) -> DHB_map
 #Verify that DHB_map and cancer share the same DHB name
 any(DHB_map$DHB %in% unique(cancer$DHB))
+
+
+
+
+
 ```
 
-```{r}
 
-any(DHB_map$DHB %in% unique(cancer$DHB))
-```
+
+
+
+
+
