@@ -1,4 +1,8 @@
 
+library(ComplexHeatmap)
+library(circlize)
+col_jama = ggsci::pal_jama(palette = "default")(7)
+cols_heatmap = pal_nejm("default")(7)
 
 DHB_TO_ISLANDS <- c(
   "Auckland" = "North",
@@ -92,7 +96,7 @@ draw_sex_variance <- function(data,type,fulltitle=FALSE){
 
 #draw regional cancer heatmap
 regional_heatmap <- function(data, type){
-  data = incidence_sexfiltered %>% mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL'))  
+  data = data %>% mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL'))  
   rate_name = colnames(data)[grepl('rate',colnames(data))]
   data %>%
     arrange(sex) %>%
@@ -171,5 +175,124 @@ regional_heatmap <- function(data, type){
   )
   return(ht)
 }
+
+
+
+cancer_region_map <- function(data,type,map){
+  rate_name = colnames(data)[grepl('rate',colnames(data))]
+  
+  data %>%
+    rename(rate = rate_name) %>%
+    mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL')) %>%
+    filter(DHB != "All New Zealand") %>%
+    group_by(DHB,cancer) %>%
+    summarise(rate = mean(rate)) %>%
+    group_by(cancer) %>%
+    top_n(1,rate) %>%
+    group_by(DHB) %>%
+    summarise(cancers = paste0(cancer, " (", round(rate,digits = 1),") ",collapse = "\n· ")) -> top_cancer_DHB
+  
+  data %>%
+    rename(rate = rate_name) %>%
+    mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL')) %>%
+    filter(DHB != "All New Zealand") %>%
+    group_by(DHB,cancer) %>%
+    summarise(rate = mean(rate)) %>%
+    group_by(DHB) %>%
+    summarise(total_rate = sum(rate)) -> overall_rate
+  
+  DHB_map2 <- DHB_map %>% 
+    mutate(DHB = case_when(DHB_name == "Capital and Coast" ~ "Capital & Coast", #modify DHB names in DHB_mapto match cancer
+                           TRUE ~ DHB_name)) %>%
+    select( DHB,geometry) %>%
+    left_join(., top_cancer_DHB) %>%
+    left_join(., overall_rate) %>%
+    mutate(label = paste0(DHB," (",total_rate,") ",'\n· ',cancers))
+  
+  label <- DHB_map2 %>% filter(!is.na(cancers))
+  
+  if(type == "Incidence"){
+    label2 <- label %>% filter(DHB %in% c("Auckland","Counties Manukau",'Taranaki','Whanganui'))
+    label1 <- label %>% filter(DHB %in% c("Southern","Tairawhiti","Hawke's Bay","MidCentral",'Hutt Valley','Capital & Coast'))
+  }else{
+    label2 <- label[1:nrow(label)/2-1,]
+    label1 <- label[nrow(label)/2 :  nrow(label),]
+  }
+  axis_limits=  c(165,-50,179,-30)
+  x_scale = (axis_limits[3] - axis_limits[1])
+  
+  ggmap <- ggplot(DHB_map2) +
+    geom_sf(aes(fill = total_rate)) +
+    coord_sf(xlim = c(165,188), ylim = c(-50,-30))+
+    scale_fill_gradientn(
+      # colors = c("#004729","#9DBF9E", "#FFFFE3"),
+      colors =  c(cols_heatmap[2],cols_heatmap[7],cols_heatmap[1]),
+      #colors = c(cols_heatmap[2],cols_heatmap[7],cols_heatmap[1]),
+      # colors = c("#9DBF9E", "#FCB97D", "#A84268"),
+      na.value = "grey80",
+      limits = c(min(DHB_map2$total_rate), max(DHB_map2$total_rate)),
+      oob = scales::squish,
+      name = paste("  ",type,"Rate\n(per 100,000 people)")
+    ) +
+    geom_label_repel(
+      data = label1,
+      aes(geometry = geometry,label = label, fill = total_rate),
+      size = 2.5,
+      segment.size = 0.2,
+      stat = "sf_coordinates",
+      hjust = 0,
+      direction='y',
+      xlim = c(axis_limits[3] + x_scale * 0.2, axis_limits[3]+x_scale * 0.5)
+    ) +
+    geom_label_repel(
+      data = label2,
+      aes(geometry = geometry,label = label, fill = total_rate),
+      size = 2.5,
+      segment.size = 0.2,
+      stat = "sf_coordinates",
+      hjust = 0,
+      direction='y',
+      xlim = c(axis_limits[1] - x_scale * 0.2, axis_limits[3] - x_scale * 0.5),
+    ) +
+    # geom_label_repel(
+    #   data = label2,
+    #   aes(geometry = geometry,label = label, fill = total_rate),
+    #   size = 2.5,
+    #   segment.size = 0.2,
+    #   stat = "sf_coordinates",
+    #   hjust = 0,
+    #   direction='y',
+    #   xlim = c(axis_limits[1] - x_scale * 0.2, axis_limits[3] - x_scale * 0.5),
+    # ) +
+    geom_point(
+      data = label,
+      aes(geometry = geometry),
+      size = 2,
+      color = 'grey',
+      stat = "sf_coordinates"
+    ) +
+    geom_point(
+      data = label,
+      aes(geometry = geometry),
+      size = 1,
+      color =  'white',
+      stat = "sf_coordinates"
+    ) +
+    # scale_color_viridis_c(option = "C") +
+    # theme(legend.position = "bottom")+
+    coord_sf(xlim = c(axis_limits[1] - x_scale * 0.2,axis_limits[3] + x_scale * 0.5), ylim = c(axis_limits[2],axis_limits[4])) +
+    theme_void(base_family = "serif") +
+    theme(
+      # legend.justification defines the edge of the legend that the legend.position coordinates refer to
+      # Set the legend flush with the left side of the plot, and just slightly below the top of the plot
+      legend.justification = c(0, 0.2),
+      legend.position = c(0.38, 0.1),
+      legend.title = element_text(vjust = 1),
+      legend.direction = 'horizontal'
+    )
+  return(ggmap)
+}
+
+
 
 
