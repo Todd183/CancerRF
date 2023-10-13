@@ -1,0 +1,2941 @@
+DHB,year,sex,cancer,incidence_num,incidence_rate,group
+All New Zealand,2011,Male,Bladder,234,7.3,Male
+Auckland,2011,Male,Bladder,17,6.7,Male
+Bay of Plenty,2011,Male,Bladder,14,6.9,Male
+Canterbury,2011,Male,Bladder,32,8.1,Male
+Capital & Coast,2011,Male,Bladder,13,7.5,Male
+Counties Manukau,2011,Male,Bladder,14,5.2,Male
+Hawke's Bay,2011,Male,Bladder,14,11.5,Male
+Hutt Valley,2011,Male,Bladder,10,9.8,Male
+Lakes,2011,Male,Bladder,5,0,Male
+MidCentral,2011,Male,Bladder,10,7.7,Male
+Nelson Marlborough,2011,Male,Bladder,9,6.6,Male
+Northland,2011,Male,Bladder,10,6.7,Male
+South Canterbury,2011,Male,Bladder,5,0,Male
+Southern,2011,Male,Bladder,15,5.8,Male
+Tairawhiti,2011,Male,Bladder,2,0,Male
+Taranaki,2011,Male,Bladder,5,0,Male
+Waikato,2011,Male,Bladder,18,6.5,Male
+Wairarapa,2011,Male,Bladder,1,0,Male
+Waitemata,2011,Male,Bladder,30,8.4,Male
+West Coast,2011,Male,Bladder,3,0,Male
+Whanganui,2011,Male,Bladder,7,14.4,Male
+All New Zealand,2011,Male,Kidney,346,11.7,Male
+Auckland,2011,Male,Kidney,23,9,Male
+Bay of Plenty,2011,Male,Kidney,16,8.7,Male
+Canterbury,2011,Male,Kidney,54,15.1,Male
+Capital & Coast,2011,Male,Kidney,18,10.7,Male
+Counties Manukau,2011,Male,Kidney,28,10.3,Male
+Hawke's Bay,2011,Male,Kidney,11,9,Male
+Hutt Valley,2011,Male,Kidney,8,9.4,Male
+Lakes,2011,Male,Kidney,8,11.1,Male
+MidCentral,2011,Male,Kidney,12,9.9,Male
+Nelson Marlborough,2011,Male,Kidney,12,9.9,Male
+Northland,2011,Male,Kidney,13,9.6,Male
+South Canterbury,2011,Male,Kidney,9,20.7,Male
+Southern,2011,Male,Kidney,34,15.9,Male
+Tairawhiti,2011,Male,Kidney,5,0,Male
+Taranaki,2011,Male,Kidney,11,12.2,Male
+Waikato,2011,Male,Kidney,25,10.2,Male
+Wairarapa,2011,Male,Kidney,3,0,Male
+Waitemata,2011,Male,Kidney,41,11.9,Male
+West Coast,2011,Male,Kidney,3,0,Male
+Whanganui,2011,Male,Kidney,10,23.4,Male
+All New Zealand,2011,Male,Prostate,3094,99.9,Male
+Auckland,2011,Male,Prostate,247,98.9,Male
+Bay of Plenty,2011,Male,Prostate,211,115.2,Male
+Canterbury,2011,Male,Prostate,397,108.3,Male
+Capital & Coast,2011,Male,Prostate,201,115.1,Male
+Counties Manukau,2011,Male,Prostate,237,86.4,Male
+Hawke's Bay,2011,Male,Prostate,116,90.6,Male
+Hutt Valley,2011,Male,Prostate,119,126.7,Male
+Lakes,2011,Male,Prostate,88,118.7,Male
+MidCentral,2011,Male,Prostate,138,104.8,Male
+Nelson Marlborough,2011,Male,Prostate,133,103.8,Male
+Northland,2011,Male,Prostate,145,100.9,Male
+South Canterbury,2011,Male,Prostate,55,97.3,Male
+Southern,2011,Male,Prostate,186,78.5,Male
+Tairawhiti,2011,Male,Prostate,30,92.4,Male
+Taranaki,2011,Male,Prostate,78,89.7,Male
+Waikato,2011,Male,Prostate,270,101.6,Male
+Wairarapa,2011,Male,Prostate,48,121.5,Male
+Waitemata,2011,Male,Prostate,279,79.6,Male
+West Coast,2011,Male,Prostate,34,115.1,Male
+Whanganui,2011,Male,Prostate,79,153.2,Male
+All New Zealand,2011,Male,Testis,151,7.5,Male
+Auckland,2011,Male,Testis,17,7,Male
+Bay of Plenty,2011,Male,Testis,10,11.5,Male
+Canterbury,2011,Male,Testis,18,7.6,Male
+Capital & Coast,2011,Male,Testis,6,4.1,Male
+Counties Manukau,2011,Male,Testis,8,3.5,Male
+Hawke's Bay,2011,Male,Testis,4,0,Male
+Hutt Valley,2011,Male,Testis,5,0,Male
+Lakes,2011,Male,Testis,6,14.4,Male
+MidCentral,2011,Male,Testis,6,8.3,Male
+Nelson Marlborough,2011,Male,Testis,6,10.9,Male
+Northland,2011,Male,Testis,5,0,Male
+South Canterbury,2011,Male,Testis,3,0,Male
+Southern,2011,Male,Testis,10,7.3,Male
+Tairawhiti,2011,Male,Testis,3,0,Male
+Taranaki,2011,Male,Testis,6,13.9,Male
+Waikato,2011,Male,Testis,15,9.2,Male
+Wairarapa,2011,Male,Testis,2,0,Male
+Waitemata,2011,Male,Testis,20,7.7,Male
+Whanganui,2011,Male,Testis,1,0,Male
+All New Zealand,2012,Male,Bladder,237,7.1,Male
+Auckland,2012,Male,Bladder,16,6.2,Male
+Bay of Plenty,2012,Male,Bladder,15,6.9,Male
+Canterbury,2012,Male,Bladder,27,6.9,Male
+Capital & Coast,2012,Male,Bladder,16,8.8,Male
+Counties Manukau,2012,Male,Bladder,18,6.4,Male
+Hawke's Bay,2012,Male,Bladder,9,6.8,Male
+Hutt Valley,2012,Male,Bladder,8,7.6,Male
+Lakes,2012,Male,Bladder,8,9.9,Male
+MidCentral,2012,Male,Bladder,9,7.5,Male
+Nelson Marlborough,2012,Male,Bladder,8,5.2,Male
+Northland,2012,Male,Bladder,11,7,Male
+South Canterbury,2012,Male,Bladder,5,0,Male
+Southern,2012,Male,Bladder,18,6.8,Male
+Tairawhiti,2012,Male,Bladder,5,0,Male
+Taranaki,2012,Male,Bladder,7,7.2,Male
+Waikato,2012,Male,Bladder,15,5.2,Male
+Wairarapa,2012,Male,Bladder,4,0,Male
+Waitemata,2012,Male,Bladder,29,7.7,Male
+West Coast,2012,Male,Bladder,2,0,Male
+Whanganui,2012,Male,Bladder,6,10.2,Male
+All New Zealand,2012,Male,Kidney,355,11.8,Male
+Auckland,2012,Male,Kidney,33,13.1,Male
+Bay of Plenty,2012,Male,Kidney,17,9.5,Male
+Canterbury,2012,Male,Kidney,53,14.5,Male
+Capital & Coast,2012,Male,Kidney,12,6.9,Male
+Counties Manukau,2012,Male,Kidney,32,11.7,Male
+Hawke's Bay,2012,Male,Kidney,13,9.9,Male
+Hutt Valley,2012,Male,Kidney,9,9.2,Male
+Lakes,2012,Male,Kidney,6,7.7,Male
+MidCentral,2012,Male,Kidney,12,8.8,Male
+Nelson Marlborough,2012,Male,Kidney,13,10.8,Male
+Northland,2012,Male,Kidney,19,14.5,Male
+South Canterbury,2012,Male,Kidney,8,15,Male
+Southern,2012,Male,Kidney,26,12.2,Male
+Tairawhiti,2012,Male,Kidney,4,0,Male
+Taranaki,2012,Male,Kidney,9,10.4,Male
+Waikato,2012,Male,Kidney,33,12.8,Male
+Wairarapa,2012,Male,Kidney,4,0,Male
+Waitemata,2012,Male,Kidney,34,9.7,Male
+West Coast,2012,Male,Kidney,8,31.4,Male
+Whanganui,2012,Male,Kidney,8,19.8,Male
+All New Zealand,2012,Male,Prostate,3195,100.1,Male
+Auckland,2012,Male,Prostate,243,94.2,Male
+Bay of Plenty,2012,Male,Prostate,153,85.6,Male
+Canterbury,2012,Male,Prostate,444,118.5,Male
+Capital & Coast,2012,Male,Prostate,186,103.2,Male
+Counties Manukau,2012,Male,Prostate,246,86.4,Male
+Hawke's Bay,2012,Male,Prostate,119,91.7,Male
+Hutt Valley,2012,Male,Prostate,106,108.2,Male
+Lakes,2012,Male,Prostate,78,100.9,Male
+MidCentral,2012,Male,Prostate,140,104.5,Male
+Nelson Marlborough,2012,Male,Prostate,129,98.8,Male
+Northland,2012,Male,Prostate,143,100.6,Male
+South Canterbury,2012,Male,Prostate,59,103.3,Male
+Southern,2012,Male,Prostate,260,106.5,Male
+Tairawhiti,2012,Male,Prostate,43,129.1,Male
+Taranaki,2012,Male,Prostate,91,98.3,Male
+Waikato,2012,Male,Prostate,279,100.9,Male
+Wairarapa,2012,Male,Prostate,45,109.1,Male
+Waitemata,2012,Male,Prostate,341,93.8,Male
+West Coast,2012,Male,Prostate,30,100.2,Male
+Whanganui,2012,Male,Prostate,59,107.7,Male
+All New Zealand,2012,Male,Testis,145,7.3,Male
+Auckland,2012,Male,Testis,15,6.2,Male
+Bay of Plenty,2012,Male,Testis,8,10.2,Male
+Canterbury,2012,Male,Testis,16,6.9,Male
+Capital & Coast,2012,Male,Testis,8,5.4,Male
+Counties Manukau,2012,Male,Testis,13,6.1,Male
+Hawke's Bay,2012,Male,Testis,8,12.2,Male
+Hutt Valley,2012,Male,Testis,8,13.5,Male
+Lakes,2012,Male,Testis,2,0,Male
+MidCentral,2012,Male,Testis,4,0,Male
+Nelson Marlborough,2012,Male,Testis,8,10.3,Male
+Northland,2012,Male,Testis,5,0,Male
+South Canterbury,2012,Male,Testis,3,0,Male
+Southern,2012,Male,Testis,7,5.1,Male
+Tairawhiti,2012,Male,Testis,1,0,Male
+Taranaki,2012,Male,Testis,3,0,Male
+Waikato,2012,Male,Testis,16,10.3,Male
+Waitemata,2012,Male,Testis,18,6.9,Male
+West Coast,2012,Male,Testis,1,0,Male
+Whanganui,2012,Male,Testis,1,0,Male
+All New Zealand,2013,Male,Bladder,274,8,Male
+Auckland,2013,Male,Bladder,27,9.8,Male
+Bay of Plenty,2013,Male,Bladder,27,12.1,Male
+Canterbury,2013,Male,Bladder,28,6.7,Male
+Capital & Coast,2013,Male,Bladder,12,5.9,Male
+Counties Manukau,2013,Male,Bladder,34,12.2,Male
+Hawke's Bay,2013,Male,Bladder,10,8.3,Male
+Hutt Valley,2013,Male,Bladder,8,7.8,Male
+Lakes,2013,Male,Bladder,6,7,Male
+MidCentral,2013,Male,Bladder,11,7.8,Male
+Nelson Marlborough,2013,Male,Bladder,8,5.2,Male
+Northland,2013,Male,Bladder,6,3.6,Male
+South Canterbury,2013,Male,Bladder,5,0,Male
+Southern,2013,Male,Bladder,10,3.5,Male
+Tairawhiti,2013,Male,Bladder,2,0,Male
+Taranaki,2013,Male,Bladder,13,13.1,Male
+Waikato,2013,Male,Bladder,25,8.5,Male
+Wairarapa,2013,Male,Bladder,4,0,Male
+Waitemata,2013,Male,Bladder,31,7.6,Male
+West Coast,2013,Male,Bladder,1,0,Male
+Whanganui,2013,Male,Bladder,6,9.5,Male
+All New Zealand,2013,Male,Kidney,372,11.9,Male
+Auckland,2013,Male,Kidney,38,14.4,Male
+Bay of Plenty,2013,Male,Kidney,21,12.2,Male
+Canterbury,2013,Male,Kidney,39,10.1,Male
+Capital & Coast,2013,Male,Kidney,20,10.6,Male
+Counties Manukau,2013,Male,Kidney,46,16.4,Male
+Hawke's Bay,2013,Male,Kidney,7,5.4,Male
+Hutt Valley,2013,Male,Kidney,13,14,Male
+Lakes,2013,Male,Kidney,15,20.9,Male
+MidCentral,2013,Male,Kidney,20,16,Male
+Nelson Marlborough,2013,Male,Kidney,10,7.3,Male
+Northland,2013,Male,Kidney,14,10.2,Male
+South Canterbury,2013,Male,Kidney,7,14,Male
+Southern,2013,Male,Kidney,34,14.1,Male
+Tairawhiti,2013,Male,Kidney,3,0,Male
+Taranaki,2013,Male,Kidney,7,8.6,Male
+Waikato,2013,Male,Kidney,21,7.9,Male
+Wairarapa,2013,Male,Kidney,5,0,Male
+Waitemata,2013,Male,Kidney,45,12.3,Male
+West Coast,2013,Male,Kidney,2,0,Male
+Whanganui,2013,Male,Kidney,4,0,Male
+All New Zealand,2013,Male,Prostate,3196,97.2,Male
+Auckland,2013,Male,Prostate,246,91.5,Male
+Bay of Plenty,2013,Male,Prostate,159,87,Male
+Canterbury,2013,Male,Prostate,483,126.4,Male
+Capital & Coast,2013,Male,Prostate,172,92.6,Male
+Counties Manukau,2013,Male,Prostate,260,88.6,Male
+Hawke's Bay,2013,Male,Prostate,121,88.6,Male
+Hutt Valley,2013,Male,Prostate,78,77.2,Male
+Lakes,2013,Male,Prostate,67,85.9,Male
+MidCentral,2013,Male,Prostate,145,105.5,Male
+Nelson Marlborough,2013,Male,Prostate,128,91.9,Male
+Northland,2013,Male,Prostate,153,101.2,Male
+South Canterbury,2013,Male,Prostate,59,98.9,Male
+Southern,2013,Male,Prostate,217,87,Male
+Tairawhiti,2013,Male,Prostate,36,106.4,Male
+Taranaki,2013,Male,Prostate,101,110.6,Male
+Waikato,2013,Male,Prostate,258,91.4,Male
+Wairarapa,2013,Male,Prostate,55,135.9,Male
+Waitemata,2013,Male,Prostate,351,92.9,Male
+West Coast,2013,Male,Prostate,33,103.2,Male
+Whanganui,2013,Male,Prostate,64,116.9,Male
+All New Zealand,2013,Male,Testis,137,6.8,Male
+Auckland,2013,Male,Testis,9,3.6,Male
+Bay of Plenty,2013,Male,Testis,7,8.6,Male
+Canterbury,2013,Male,Testis,17,6.7,Male
+Capital & Coast,2013,Male,Testis,8,5.6,Male
+Counties Manukau,2013,Male,Testis,9,3.8,Male
+Hawke's Bay,2013,Male,Testis,7,11.5,Male
+Hutt Valley,2013,Male,Testis,4,0,Male
+Lakes,2013,Male,Testis,5,0,Male
+MidCentral,2013,Male,Testis,6,8,Male
+Nelson Marlborough,2013,Male,Testis,3,0,Male
+Northland,2013,Male,Testis,7,14,Male
+South Canterbury,2013,Male,Testis,3,0,Male
+Southern,2013,Male,Testis,10,6.8,Male
+Tairawhiti,2013,Male,Testis,2,0,Male
+Taranaki,2013,Male,Testis,6,11.8,Male
+Waikato,2013,Male,Testis,13,8.4,Male
+Wairarapa,2013,Male,Testis,1,0,Male
+Waitemata,2013,Male,Testis,19,7.6,Male
+West Coast,2013,Male,Testis,1,0,Male
+All New Zealand,2014,Male,Bladder,323,9.1,Male
+Auckland,2014,Male,Bladder,17,6.1,Male
+Bay of Plenty,2014,Male,Bladder,22,9.6,Male
+Canterbury,2014,Male,Bladder,34,8.6,Male
+Capital & Coast,2014,Male,Bladder,26,13.1,Male
+Counties Manukau,2014,Male,Bladder,23,7.8,Male
+Hawke's Bay,2014,Male,Bladder,12,7.6,Male
+Hutt Valley,2014,Male,Bladder,11,10,Male
+Lakes,2014,Male,Bladder,11,12.5,Male
+MidCentral,2014,Male,Bladder,16,10.9,Male
+Nelson Marlborough,2014,Male,Bladder,20,12.7,Male
+Northland,2014,Male,Bladder,11,7.6,Male
+South Canterbury,2014,Male,Bladder,9,13.3,Male
+Southern,2014,Male,Bladder,21,7.4,Male
+Tairawhiti,2014,Male,Bladder,2,0,Male
+Taranaki,2014,Male,Bladder,12,11.9,Male
+Waikato,2014,Male,Bladder,21,6.7,Male
+Wairarapa,2014,Male,Bladder,4,0,Male
+Waitemata,2014,Male,Bladder,41,10.2,Male
+West Coast,2014,Male,Bladder,4,0,Male
+Whanganui,2014,Male,Bladder,6,10.2,Male
+All New Zealand,2014,Male,Kidney,403,12.5,Male
+Auckland,2014,Male,Kidney,28,10.2,Male
+Bay of Plenty,2014,Male,Kidney,14,7.6,Male
+Canterbury,2014,Male,Kidney,50,13.4,Male
+Capital & Coast,2014,Male,Kidney,27,14.3,Male
+Counties Manukau,2014,Male,Kidney,33,11.3,Male
+Hawke's Bay,2014,Male,Kidney,9,6.8,Male
+Hutt Valley,2014,Male,Kidney,17,18.3,Male
+Lakes,2014,Male,Kidney,9,12.6,Male
+MidCentral,2014,Male,Kidney,29,20.5,Male
+Nelson Marlborough,2014,Male,Kidney,14,11.2,Male
+Northland,2014,Male,Kidney,19,11.7,Male
+South Canterbury,2014,Male,Kidney,7,10.9,Male
+Southern,2014,Male,Kidney,34,13.9,Male
+Tairawhiti,2014,Male,Kidney,2,0,Male
+Taranaki,2014,Male,Kidney,10,12.7,Male
+Waikato,2014,Male,Kidney,33,12.5,Male
+Wairarapa,2014,Male,Kidney,5,0,Male
+Waitemata,2014,Male,Kidney,48,12.8,Male
+West Coast,2014,Male,Kidney,4,0,Male
+Whanganui,2014,Male,Kidney,8,14.2,Male
+All New Zealand,2014,Male,Prostate,3199,94,Male
+Auckland,2014,Male,Prostate,218,78.7,Male
+Bay of Plenty,2014,Male,Prostate,189,93.9,Male
+Canterbury,2014,Male,Prostate,431,109.2,Male
+Capital & Coast,2014,Male,Prostate,202,105.4,Male
+Counties Manukau,2014,Male,Prostate,249,81.5,Male
+Hawke's Bay,2014,Male,Prostate,140,98.7,Male
+Hutt Valley,2014,Male,Prostate,127,124.7,Male
+Lakes,2014,Male,Prostate,77,94,Male
+MidCentral,2014,Male,Prostate,139,98,Male
+Nelson Marlborough,2014,Male,Prostate,134,96.7,Male
+Northland,2014,Male,Prostate,140,87.8,Male
+South Canterbury,2014,Male,Prostate,55,90.1,Male
+Southern,2014,Male,Prostate,242,94.9,Male
+Tairawhiti,2014,Male,Prostate,44,124.4,Male
+Taranaki,2014,Male,Prostate,79,80.1,Male
+Waikato,2014,Male,Prostate,254,85.7,Male
+Wairarapa,2014,Male,Prostate,47,108.6,Male
+Waitemata,2014,Male,Prostate,345,88.5,Male
+West Coast,2014,Male,Prostate,27,82,Male
+Whanganui,2014,Male,Prostate,55,99.6,Male
+All New Zealand,2014,Male,Testis,151,7.3,Male
+Auckland,2014,Male,Testis,19,7.5,Male
+Bay of Plenty,2014,Male,Testis,8,8.8,Male
+Canterbury,2014,Male,Testis,17,7.1,Male
+Capital & Coast,2014,Male,Testis,11,7.7,Male
+Counties Manukau,2014,Male,Testis,14,6.1,Male
+Hawke's Bay,2014,Male,Testis,9,15.4,Male
+Hutt Valley,2014,Male,Testis,2,0,Male
+Lakes,2014,Male,Testis,4,0,Male
+MidCentral,2014,Male,Testis,4,0,Male
+Nelson Marlborough,2014,Male,Testis,4,0,Male
+Northland,2014,Male,Testis,4,0,Male
+Southern,2014,Male,Testis,10,7.3,Male
+Tairawhiti,2014,Male,Testis,3,0,Male
+Taranaki,2014,Male,Testis,4,0,Male
+Waikato,2014,Male,Testis,18,10,Male
+Wairarapa,2014,Male,Testis,1,0,Male
+Waitemata,2014,Male,Testis,17,5.8,Male
+Whanganui,2014,Male,Testis,2,0,Male
+All New Zealand,2015,Male,Bladder,308,8.2,Male
+Auckland,2015,Male,Bladder,24,8.1,Male
+Bay of Plenty,2015,Male,Bladder,19,8.4,Male
+Canterbury,2015,Male,Bladder,36,8.1,Male
+Capital & Coast,2015,Male,Bladder,17,7.9,Male
+Counties Manukau,2015,Male,Bladder,20,6.3,Male
+Hawke's Bay,2015,Male,Bladder,10,6.3,Male
+Hutt Valley,2015,Male,Bladder,7,6.5,Male
+Lakes,2015,Male,Bladder,7,7.6,Male
+MidCentral,2015,Male,Bladder,16,10.9,Male
+Nelson Marlborough,2015,Male,Bladder,7,4.9,Male
+Northland,2015,Male,Bladder,21,11.8,Male
+South Canterbury,2015,Male,Bladder,8,10.4,Male
+Southern,2015,Male,Bladder,20,7,Male
+Tairawhiti,2015,Male,Bladder,2,0,Male
+Taranaki,2015,Male,Bladder,9,7.9,Male
+Waikato,2015,Male,Bladder,30,9,Male
+Wairarapa,2015,Male,Bladder,4,0,Male
+Waitemata,2015,Male,Bladder,41,9.6,Male
+West Coast,2015,Male,Bladder,4,0,Male
+Whanganui,2015,Male,Bladder,6,8.9,Male
+All New Zealand,2015,Male,Kidney,383,11.9,Male
+Auckland,2015,Male,Kidney,35,12.7,Male
+Bay of Plenty,2015,Male,Kidney,16,8.4,Male
+Canterbury,2015,Male,Kidney,49,13,Male
+Capital & Coast,2015,Male,Kidney,20,10.6,Male
+Counties Manukau,2015,Male,Kidney,39,12.9,Male
+Hawke's Bay,2015,Male,Kidney,18,13.1,Male
+Hutt Valley,2015,Male,Kidney,9,8.6,Male
+Lakes,2015,Male,Kidney,5,0,Male
+MidCentral,2015,Male,Kidney,13,9.6,Male
+Nelson Marlborough,2015,Male,Kidney,19,15,Male
+Northland,2015,Male,Kidney,23,16,Male
+South Canterbury,2015,Male,Kidney,3,0,Male
+Southern,2015,Male,Kidney,24,9.9,Male
+Tairawhiti,2015,Male,Kidney,3,0,Male
+Taranaki,2015,Male,Kidney,11,13.4,Male
+Waikato,2015,Male,Kidney,34,12.2,Male
+Wairarapa,2015,Male,Kidney,4,0,Male
+Waitemata,2015,Male,Kidney,40,10.9,Male
+West Coast,2015,Male,Kidney,3,0,Male
+Whanganui,2015,Male,Kidney,12,22.1,Male
+All New Zealand,2015,Male,Prostate,3136,89.3,Male
+Auckland,2015,Male,Prostate,237,83.4,Male
+Bay of Plenty,2015,Male,Prostate,170,83.7,Male
+Canterbury,2015,Male,Prostate,422,104.2,Male
+Capital & Coast,2015,Male,Prostate,208,104.9,Male
+Counties Manukau,2015,Male,Prostate,244,77.6,Male
+Hawke's Bay,2015,Male,Prostate,121,84.4,Male
+Hutt Valley,2015,Male,Prostate,109,103.6,Male
+Lakes,2015,Male,Prostate,58,69.1,Male
+MidCentral,2015,Male,Prostate,111,75.4,Male
+Nelson Marlborough,2015,Male,Prostate,131,87.8,Male
+Northland,2015,Male,Prostate,143,86.7,Male
+South Canterbury,2015,Male,Prostate,51,83.3,Male
+Southern,2015,Male,Prostate,266,98.6,Male
+Tairawhiti,2015,Male,Prostate,51,139.5,Male
+Taranaki,2015,Male,Prostate,90,93.4,Male
+Waikato,2015,Male,Prostate,265,86.3,Male
+Wairarapa,2015,Male,Prostate,45,104.5,Male
+Waitemata,2015,Male,Prostate,322,79.8,Male
+West Coast,2015,Male,Prostate,26,76.4,Male
+Whanganui,2015,Male,Prostate,62,106.6,Male
+All New Zealand,2015,Male,Testis,173,8.1,Male
+Auckland,2015,Male,Testis,14,5.5,Male
+Bay of Plenty,2015,Male,Testis,6,6,Male
+Canterbury,2015,Male,Testis,21,8.5,Male
+Capital & Coast,2015,Male,Testis,11,7.2,Male
+Counties Manukau,2015,Male,Testis,13,5.3,Male
+Hawke's Bay,2015,Male,Testis,3,0,Male
+Hutt Valley,2015,Male,Testis,5,0,Male
+Lakes,2015,Male,Testis,6,12.7,Male
+MidCentral,2015,Male,Testis,5,0,Male
+Nelson Marlborough,2015,Male,Testis,6,9.9,Male
+Northland,2015,Male,Testis,7,10.7,Male
+South Canterbury,2015,Male,Testis,8,29.3,Male
+Southern,2015,Male,Testis,20,13.4,Male
+Tairawhiti,2015,Male,Testis,3,0,Male
+Waikato,2015,Male,Testis,17,9.6,Male
+Wairarapa,2015,Male,Testis,2,0,Male
+Waitemata,2015,Male,Testis,23,8.5,Male
+Whanganui,2015,Male,Testis,3,0,Male
+All New Zealand,2016,Male,Bladder,318,8.2,Male
+Auckland,2016,Male,Bladder,26,8.7,Male
+Bay of Plenty,2016,Male,Bladder,22,8.4,Male
+Canterbury,2016,Male,Bladder,47,10.4,Male
+Capital & Coast,2016,Male,Bladder,12,5.5,Male
+Counties Manukau,2016,Male,Bladder,27,8.2,Male
+Hawke's Bay,2016,Male,Bladder,20,12.1,Male
+Hutt Valley,2016,Male,Bladder,8,6.9,Male
+Lakes,2016,Male,Bladder,7,7.5,Male
+MidCentral,2016,Male,Bladder,20,12.1,Male
+Nelson Marlborough,2016,Male,Bladder,11,6.8,Male
+Northland,2016,Male,Bladder,17,9.4,Male
+South Canterbury,2016,Male,Bladder,5,0,Male
+Southern,2016,Male,Bladder,23,7.9,Male
+Tairawhiti,2016,Male,Bladder,3,0,Male
+Taranaki,2016,Male,Bladder,10,9.8,Male
+Waikato,2016,Male,Bladder,28,8.2,Male
+Wairarapa,2016,Male,Bladder,1,0,Male
+Waitemata,2016,Male,Bladder,24,5.6,Male
+West Coast,2016,Male,Bladder,2,0,Male
+Whanganui,2016,Male,Bladder,5,0,Male
+All New Zealand,2016,Male,Kidney,347,10.3,Male
+Auckland,2016,Male,Kidney,21,7.5,Male
+Bay of Plenty,2016,Male,Kidney,15,9.1,Male
+Canterbury,2016,Male,Kidney,34,8.9,Male
+Capital & Coast,2016,Male,Kidney,14,7.3,Male
+Counties Manukau,2016,Male,Kidney,42,13.2,Male
+Hawke's Bay,2016,Male,Kidney,14,9.3,Male
+Hutt Valley,2016,Male,Kidney,12,11.3,Male
+Lakes,2016,Male,Kidney,6,7.5,Male
+MidCentral,2016,Male,Kidney,18,13.4,Male
+Nelson Marlborough,2016,Male,Kidney,17,10.2,Male
+Northland,2016,Male,Kidney,16,9.8,Male
+South Canterbury,2016,Male,Kidney,8,16.6,Male
+Southern,2016,Male,Kidney,32,11.6,Male
+Tairawhiti,2016,Male,Kidney,5,0,Male
+Taranaki,2016,Male,Kidney,9,10.2,Male
+Waikato,2016,Male,Kidney,30,10.6,Male
+Wairarapa,2016,Male,Kidney,7,18.2,Male
+Waitemata,2016,Male,Kidney,34,8.7,Male
+West Coast,2016,Male,Kidney,7,24.2,Male
+Whanganui,2016,Male,Kidney,6,12.7,Male
+All New Zealand,2016,Male,Prostate,3446,94.9,Male
+Auckland,2016,Male,Prostate,251,85.3,Male
+Bay of Plenty,2016,Male,Prostate,171,81.4,Male
+Canterbury,2016,Male,Prostate,445,104.8,Male
+Capital & Coast,2016,Male,Prostate,248,122.1,Male
+Counties Manukau,2016,Male,Prostate,241,73.6,Male
+Hawke's Bay,2016,Male,Prostate,151,102.8,Male
+Hutt Valley,2016,Male,Prostate,120,108.7,Male
+Lakes,2016,Male,Prostate,66,73.4,Male
+MidCentral,2016,Male,Prostate,148,95.7,Male
+Nelson Marlborough,2016,Male,Prostate,144,93.2,Male
+Northland,2016,Male,Prostate,136,79.9,Male
+South Canterbury,2016,Male,Prostate,62,97.3,Male
+Southern,2016,Male,Prostate,311,114.2,Male
+Tairawhiti,2016,Male,Prostate,43,112.9,Male
+Taranaki,2016,Male,Prostate,84,83.7,Male
+Waikato,2016,Male,Prostate,297,95.4,Male
+Wairarapa,2016,Male,Prostate,29,58.7,Male
+Waitemata,2016,Male,Prostate,400,96.7,Male
+West Coast,2016,Male,Prostate,21,60.6,Male
+Whanganui,2016,Male,Prostate,75,125.1,Male
+All New Zealand,2016,Male,Testis,142,6.3,Male
+Auckland,2016,Male,Testis,8,2.9,Male
+Bay of Plenty,2016,Male,Testis,9,8.9,Male
+Canterbury,2016,Male,Testis,14,5.5,Male
+Capital & Coast,2016,Male,Testis,10,6.6,Male
+Counties Manukau,2016,Male,Testis,21,8,Male
+Hawke's Bay,2016,Male,Testis,6,9.4,Male
+Hutt Valley,2016,Male,Testis,4,0,Male
+Lakes,2016,Male,Testis,3,0,Male
+MidCentral,2016,Male,Testis,4,0,Male
+Nelson Marlborough,2016,Male,Testis,6,9.1,Male
+Northland,2016,Male,Testis,4,0,Male
+South Canterbury,2016,Male,Testis,3,0,Male
+Southern,2016,Male,Testis,12,7.7,Male
+Taranaki,2016,Male,Testis,3,0,Male
+Waikato,2016,Male,Testis,16,8.2,Male
+Wairarapa,2016,Male,Testis,3,0,Male
+Waitemata,2016,Male,Testis,14,5.1,Male
+All New Zealand,2017,Male,Bladder,309,7.9,Male
+Auckland,2017,Male,Bladder,21,7.1,Male
+Bay of Plenty,2017,Male,Bladder,17,6.5,Male
+Canterbury,2017,Male,Bladder,38,8.2,Male
+Capital & Coast,2017,Male,Bladder,18,8.3,Male
+Counties Manukau,2017,Male,Bladder,27,8,Male
+Hawke's Bay,2017,Male,Bladder,9,5.4,Male
+Hutt Valley,2017,Male,Bladder,14,11.7,Male
+Lakes,2017,Male,Bladder,8,8.5,Male
+MidCentral,2017,Male,Bladder,16,9.5,Male
+Nelson Marlborough,2017,Male,Bladder,9,6,Male
+Northland,2017,Male,Bladder,11,5.6,Male
+South Canterbury,2017,Male,Bladder,10,15,Male
+Southern,2017,Male,Bladder,21,6.9,Male
+Taranaki,2017,Male,Bladder,4,0,Male
+Waikato,2017,Male,Bladder,36,10.3,Male
+Wairarapa,2017,Male,Bladder,2,0,Male
+Waitemata,2017,Male,Bladder,33,7.5,Male
+West Coast,2017,Male,Bladder,5,0,Male
+Whanganui,2017,Male,Bladder,9,13.3,Male
+All New Zealand,2017,Male,Kidney,378,10.8,Male
+Auckland,2017,Male,Kidney,29,9.6,Male
+Bay of Plenty,2017,Male,Kidney,26,13.8,Male
+Canterbury,2017,Male,Kidney,46,11.7,Male
+Capital & Coast,2017,Male,Kidney,18,9.1,Male
+Counties Manukau,2017,Male,Kidney,23,7.1,Male
+Hawke's Bay,2017,Male,Kidney,22,16,Male
+Hutt Valley,2017,Male,Kidney,11,11.3,Male
+Lakes,2017,Male,Kidney,5,0,Male
+MidCentral,2017,Male,Kidney,17,13.2,Male
+Nelson Marlborough,2017,Male,Kidney,24,14.7,Male
+Northland,2017,Male,Kidney,15,8.6,Male
+South Canterbury,2017,Male,Kidney,9,15.8,Male
+Southern,2017,Male,Kidney,28,9.6,Male
+Tairawhiti,2017,Male,Kidney,4,0,Male
+Taranaki,2017,Male,Kidney,14,14.3,Male
+Waikato,2017,Male,Kidney,40,13.1,Male
+Wairarapa,2017,Male,Kidney,2,0,Male
+Waitemata,2017,Male,Kidney,34,8.4,Male
+West Coast,2017,Male,Kidney,3,0,Male
+Whanganui,2017,Male,Kidney,8,13.3,Male
+All New Zealand,2017,Male,Prostate,3898,104.4,Male
+Auckland,2017,Male,Prostate,290,96.6,Male
+Bay of Plenty,2017,Male,Prostate,239,111.2,Male
+Canterbury,2017,Male,Prostate,470,108.7,Male
+Capital & Coast,2017,Male,Prostate,236,114.9,Male
+Counties Manukau,2017,Male,Prostate,287,84.9,Male
+Hawke's Bay,2017,Male,Prostate,154,100.6,Male
+Hutt Valley,2017,Male,Prostate,134,120,Male
+Lakes,2017,Male,Prostate,62,70.8,Male
+MidCentral,2017,Male,Prostate,199,127.6,Male
+Nelson Marlborough,2017,Male,Prostate,181,115.1,Male
+Northland,2017,Male,Prostate,176,96.8,Male
+South Canterbury,2017,Male,Prostate,58,85.7,Male
+Southern,2017,Male,Prostate,342,119.9,Male
+Tairawhiti,2017,Male,Prostate,35,93.1,Male
+Taranaki,2017,Male,Prostate,89,82.6,Male
+Waikato,2017,Male,Prostate,331,101.7,Male
+Wairarapa,2017,Male,Prostate,83,180.1,Male
+Waitemata,2017,Male,Prostate,421,100,Male
+West Coast,2017,Male,Prostate,24,67.9,Male
+Whanganui,2017,Male,Prostate,82,137.1,Male
+All New Zealand,2017,Male,Testis,170,7.4,Male
+Auckland,2017,Male,Testis,13,4.7,Male
+Bay of Plenty,2017,Male,Testis,4,0,Male
+Canterbury,2017,Male,Testis,29,10.3,Male
+Capital & Coast,2017,Male,Testis,9,6,Male
+Counties Manukau,2017,Male,Testis,22,8.4,Male
+Hawke's Bay,2017,Male,Testis,12,18.8,Male
+Hutt Valley,2017,Male,Testis,8,11,Male
+Lakes,2017,Male,Testis,4,0,Male
+MidCentral,2017,Male,Testis,8,9.3,Male
+Nelson Marlborough,2017,Male,Testis,7,13.3,Male
+Northland,2017,Male,Testis,4,0,Male
+South Canterbury,2017,Male,Testis,1,0,Male
+Southern,2017,Male,Testis,11,6.8,Male
+Taranaki,2017,Male,Testis,8,14.2,Male
+Waikato,2017,Male,Testis,11,5.8,Male
+Waitemata,2017,Male,Testis,15,5,Male
+West Coast,2017,Male,Testis,1,0,Male
+Whanganui,2017,Male,Testis,1,0,Male
+All New Zealand,2018,Male,Bladder,343,8.4,Male
+Auckland,2018,Male,Bladder,30,9.4,Male
+Bay of Plenty,2018,Male,Bladder,29,10.9,Male
+Canterbury,2018,Male,Bladder,30,6.1,Male
+Capital & Coast,2018,Male,Bladder,36,15.7,Male
+Counties Manukau,2018,Male,Bladder,22,6.3,Male
+Hawke's Bay,2018,Male,Bladder,11,6.3,Male
+Hutt Valley,2018,Male,Bladder,15,12.1,Male
+Lakes,2018,Male,Bladder,5,0,Male
+MidCentral,2018,Male,Bladder,15,9.3,Male
+Nelson Marlborough,2018,Male,Bladder,9,6.3,Male
+Northland,2018,Male,Bladder,23,11.6,Male
+South Canterbury,2018,Male,Bladder,6,8.8,Male
+Southern,2018,Male,Bladder,25,7.9,Male
+Tairawhiti,2018,Male,Bladder,9,21,Male
+Taranaki,2018,Male,Bladder,10,8.8,Male
+Waikato,2018,Male,Bladder,29,8.2,Male
+Wairarapa,2018,Male,Bladder,3,0,Male
+Waitemata,2018,Male,Bladder,28,6.2,Male
+West Coast,2018,Male,Bladder,4,0,Male
+Whanganui,2018,Male,Bladder,4,0,Male
+All New Zealand,2018,Male,Kidney,387,10.8,Male
+Auckland,2018,Male,Kidney,31,10.3,Male
+Bay of Plenty,2018,Male,Kidney,24,11.7,Male
+Canterbury,2018,Male,Kidney,44,12,Male
+Capital & Coast,2018,Male,Kidney,15,7.1,Male
+Counties Manukau,2018,Male,Kidney,25,7.3,Male
+Hawke's Bay,2018,Male,Kidney,13,9.3,Male
+Hutt Valley,2018,Male,Kidney,9,8.5,Male
+Lakes,2018,Male,Kidney,10,10.4,Male
+MidCentral,2018,Male,Kidney,12,8.5,Male
+Nelson Marlborough,2018,Male,Kidney,18,13.3,Male
+Northland,2018,Male,Kidney,15,8,Male
+South Canterbury,2018,Male,Kidney,10,17.7,Male
+Southern,2018,Male,Kidney,34,12.4,Male
+Tairawhiti,2018,Male,Kidney,5,0,Male
+Taranaki,2018,Male,Kidney,13,11.8,Male
+Waikato,2018,Male,Kidney,41,13.2,Male
+Wairarapa,2018,Male,Kidney,6,17.5,Male
+Waitemata,2018,Male,Kidney,51,12.2,Male
+West Coast,2018,Male,Kidney,4,0,Male
+Whanganui,2018,Male,Kidney,7,11.3,Male
+All New Zealand,2018,Male,Prostate,4215,110.4,Male
+Auckland,2018,Male,Prostate,322,105,Male
+Bay of Plenty,2018,Male,Prostate,258,112.2,Male
+Canterbury,2018,Male,Prostate,455,103.9,Male
+Capital & Coast,2018,Male,Prostate,225,105,Male
+Counties Manukau,2018,Male,Prostate,299,85.6,Male
+Hawke's Bay,2018,Male,Prostate,147,95.8,Male
+Hutt Valley,2018,Male,Prostate,128,113.6,Male
+Lakes,2018,Male,Prostate,85,91.8,Male
+MidCentral,2018,Male,Prostate,216,139.4,Male
+Nelson Marlborough,2018,Male,Prostate,192,119,Male
+Northland,2018,Male,Prostate,232,123.8,Male
+South Canterbury,2018,Male,Prostate,74,118.7,Male
+Southern,2018,Male,Prostate,365,128.4,Male
+Tairawhiti,2018,Male,Prostate,37,91.5,Male
+Taranaki,2018,Male,Prostate,96,90.1,Male
+Waikato,2018,Male,Prostate,456,135.4,Male
+Wairarapa,2018,Male,Prostate,54,108.1,Male
+Waitemata,2018,Male,Prostate,445,103.1,Male
+West Coast,2018,Male,Prostate,37,102.5,Male
+Whanganui,2018,Male,Prostate,90,143.9,Male
+All New Zealand,2018,Male,Testis,173,7.1,Male
+Auckland,2018,Male,Testis,15,5.6,Male
+Bay of Plenty,2018,Male,Testis,8,6.2,Male
+Canterbury,2018,Male,Testis,17,5.4,Male
+Capital & Coast,2018,Male,Testis,6,3.8,Male
+Counties Manukau,2018,Male,Testis,19,6.5,Male
+Hawke's Bay,2018,Male,Testis,10,12.6,Male
+Hutt Valley,2018,Male,Testis,8,10.6,Male
+Lakes,2018,Male,Testis,4,0,Male
+MidCentral,2018,Male,Testis,8,9.6,Male
+Nelson Marlborough,2018,Male,Testis,12,18.2,Male
+Northland,2018,Male,Testis,11,15.4,Male
+South Canterbury,2018,Male,Testis,2,0,Male
+Southern,2018,Male,Testis,5,0,Male
+Tairawhiti,2018,Male,Testis,1,0,Male
+Taranaki,2018,Male,Testis,2,0,Male
+Waikato,2018,Male,Testis,20,10.7,Male
+Wairarapa,2018,Male,Testis,1,0,Male
+Waitemata,2018,Male,Testis,21,7.1,Male
+West Coast,2018,Male,Testis,1,0,Male
+Whanganui,2018,Male,Testis,2,0,Male
+All New Zealand,2019,Male,Bladder,347,8.3,Male
+Auckland,2019,Male,Bladder,28,8.8,Male
+Bay of Plenty,2019,Male,Bladder,24,9.3,Male
+Canterbury,2019,Male,Bladder,32,6.6,Male
+Capital & Coast,2019,Male,Bladder,16,7,Male
+Counties Manukau,2019,Male,Bladder,39,10.9,Male
+Hawke's Bay,2019,Male,Bladder,19,11.1,Male
+Hutt Valley,2019,Male,Bladder,7,5.2,Male
+Lakes,2019,Male,Bladder,6,5.9,Male
+MidCentral,2019,Male,Bladder,14,7.5,Male
+Nelson Marlborough,2019,Male,Bladder,9,4.9,Male
+Northland,2019,Male,Bladder,29,13.7,Male
+South Canterbury,2019,Male,Bladder,2,0,Male
+Southern,2019,Male,Bladder,22,6.8,Male
+Tairawhiti,2019,Male,Bladder,2,0,Male
+Taranaki,2019,Male,Bladder,9,8.4,Male
+Waikato,2019,Male,Bladder,25,6.2,Male
+Wairarapa,2019,Male,Bladder,8,15,Male
+Waitemata,2019,Male,Bladder,46,9.7,Male
+West Coast,2019,Male,Bladder,3,0,Male
+Whanganui,2019,Male,Bladder,7,9,Male
+All New Zealand,2019,Male,Kidney,383,10.6,Male
+Auckland,2019,Male,Kidney,34,11.1,Male
+Bay of Plenty,2019,Male,Kidney,23,10.9,Male
+Canterbury,2019,Male,Kidney,53,12.8,Male
+Capital & Coast,2019,Male,Kidney,15,6.9,Male
+Counties Manukau,2019,Male,Kidney,48,13.8,Male
+Hawke's Bay,2019,Male,Kidney,14,10.5,Male
+Hutt Valley,2019,Male,Kidney,12,12.2,Male
+Lakes,2019,Male,Kidney,10,11.4,Male
+MidCentral,2019,Male,Kidney,16,10.8,Male
+Nelson Marlborough,2019,Male,Kidney,19,12.3,Male
+Northland,2019,Male,Kidney,16,9.3,Male
+South Canterbury,2019,Male,Kidney,4,0,Male
+Southern,2019,Male,Kidney,32,11.3,Male
+Tairawhiti,2019,Male,Kidney,1,0,Male
+Taranaki,2019,Male,Kidney,10,10.2,Male
+Waikato,2019,Male,Kidney,24,7.4,Male
+Wairarapa,2019,Male,Kidney,3,0,Male
+Waitemata,2019,Male,Kidney,35,8.3,Male
+West Coast,2019,Male,Kidney,4,0,Male
+Whanganui,2019,Male,Kidney,10,18.2,Male
+All New Zealand,2019,Male,Prostate,4239,107.6,Male
+Auckland,2019,Male,Prostate,304,96.5,Male
+Bay of Plenty,2019,Male,Prostate,261,110.4,Male
+Canterbury,2019,Male,Prostate,482,107,Male
+Capital & Coast,2019,Male,Prostate,237,108.8,Male
+Counties Manukau,2019,Male,Prostate,359,99.3,Male
+Hawke's Bay,2019,Male,Prostate,139,86.6,Male
+Hutt Valley,2019,Male,Prostate,91,78,Male
+Lakes,2019,Male,Prostate,98,104,Male
+MidCentral,2019,Male,Prostate,195,119,Male
+Nelson Marlborough,2019,Male,Prostate,200,120,Male
+Northland,2019,Male,Prostate,209,105.6,Male
+South Canterbury,2019,Male,Prostate,76,119.3,Male
+Southern,2019,Male,Prostate,392,133,Male
+Tairawhiti,2019,Male,Prostate,36,83.6,Male
+Taranaki,2019,Male,Prostate,104,96.6,Male
+Waikato,2019,Male,Prostate,373,106.9,Male
+Wairarapa,2019,Male,Prostate,43,85.4,Male
+Waitemata,2019,Male,Prostate,524,118.3,Male
+West Coast,2019,Male,Prostate,36,99.1,Male
+Whanganui,2019,Male,Prostate,77,122,Male
+All New Zealand,2019,Male,Testis,177,7.3,Male
+Auckland,2019,Male,Testis,15,5,Male
+Bay of Plenty,2019,Male,Testis,6,6.3,Male
+Canterbury,2019,Male,Testis,23,7.8,Male
+Capital & Coast,2019,Male,Testis,9,5.8,Male
+Counties Manukau,2019,Male,Testis,22,7.6,Male
+Hawke's Bay,2019,Male,Testis,10,13.3,Male
+Hutt Valley,2019,Male,Testis,5,0,Male
+Lakes,2019,Male,Testis,5,0,Male
+MidCentral,2019,Male,Testis,8,10.3,Male
+Nelson Marlborough,2019,Male,Testis,7,9.3,Male
+Northland,2019,Male,Testis,4,0,Male
+Southern,2019,Male,Testis,12,7,Male
+Taranaki,2019,Male,Testis,4,0,Male
+Waikato,2019,Male,Testis,22,10.2,Male
+Wairarapa,2019,Male,Testis,1,0,Male
+Waitemata,2019,Male,Testis,22,7.5,Male
+Whanganui,2019,Male,Testis,2,0,Male
+All New Zealand,2020,Male,Bladder,362,8.3,Male
+Auckland,2020,Male,Bladder,14,4.2,Male
+Bay of Plenty,2020,Male,Bladder,21,6.4,Male
+Canterbury,2020,Male,Bladder,49,10.3,Male
+Capital & Coast,2020,Male,Bladder,17,6.8,Male
+Counties Manukau,2020,Male,Bladder,27,7.2,Male
+Hawke's Bay,2020,Male,Bladder,16,10.3,Male
+Hutt Valley,2020,Male,Bladder,14,11,Male
+Lakes,2020,Male,Bladder,8,7.3,Male
+MidCentral,2020,Male,Bladder,21,11,Male
+Nelson Marlborough,2020,Male,Bladder,13,6.5,Male
+Northland,2020,Male,Bladder,29,14.4,Male
+South Canterbury,2020,Male,Bladder,7,8.7,Male
+Southern,2020,Male,Bladder,21,6.4,Male
+Tairawhiti,2020,Male,Bladder,1,0,Male
+Taranaki,2020,Male,Bladder,22,17,Male
+Waikato,2020,Male,Bladder,34,8.8,Male
+Wairarapa,2020,Male,Bladder,1,0,Male
+Waitemata,2020,Male,Bladder,32,6.5,Male
+West Coast,2020,Male,Bladder,4,0,Male
+Whanganui,2020,Male,Bladder,11,16.7,Male
+All New Zealand,2020,Male,Kidney,459,12.2,Male
+Auckland,2020,Male,Kidney,35,11.9,Male
+Bay of Plenty,2020,Male,Kidney,25,11.7,Male
+Canterbury,2020,Male,Kidney,57,13.3,Male
+Capital & Coast,2020,Male,Kidney,30,14,Male
+Counties Manukau,2020,Male,Kidney,50,13.6,Male
+Hawke's Bay,2020,Male,Kidney,13,9.7,Male
+Hutt Valley,2020,Male,Kidney,11,9.3,Male
+Lakes,2020,Male,Kidney,10,10.5,Male
+MidCentral,2020,Male,Kidney,21,15.3,Male
+Nelson Marlborough,2020,Male,Kidney,16,10.1,Male
+Northland,2020,Male,Kidney,19,8.9,Male
+South Canterbury,2020,Male,Kidney,10,21.2,Male
+Southern,2020,Male,Kidney,32,11.2,Male
+Tairawhiti,2020,Male,Kidney,4,0,Male
+Taranaki,2020,Male,Kidney,23,22.3,Male
+Waikato,2020,Male,Kidney,39,11.1,Male
+Wairarapa,2020,Male,Kidney,3,0,Male
+Waitemata,2020,Male,Kidney,49,11.1,Male
+West Coast,2020,Male,Kidney,2,0,Male
+Whanganui,2020,Male,Kidney,7,9.2,Male
+All New Zealand,2020,Male,Prostate,4007,98.3,Male
+Auckland,2020,Male,Prostate,298,90.5,Male
+Bay of Plenty,2020,Male,Prostate,222,91.9,Male
+Canterbury,2020,Male,Prostate,454,98.3,Male
+Capital & Coast,2020,Male,Prostate,234,103.6,Male
+Counties Manukau,2020,Male,Prostate,309,81.6,Male
+Hawke's Bay,2020,Male,Prostate,156,91.9,Male
+Hutt Valley,2020,Male,Prostate,135,113.5,Male
+Lakes,2020,Male,Prostate,81,83.7,Male
+MidCentral,2020,Male,Prostate,236,141.7,Male
+Nelson Marlborough,2020,Male,Prostate,157,89.3,Male
+Northland,2020,Male,Prostate,186,91.6,Male
+South Canterbury,2020,Male,Prostate,58,87.4,Male
+Southern,2020,Male,Prostate,422,139.5,Male
+Tairawhiti,2020,Male,Prostate,37,87.9,Male
+Taranaki,2020,Male,Prostate,94,86.9,Male
+Waikato,2020,Male,Prostate,291,81,Male
+Wairarapa,2020,Male,Prostate,43,77.4,Male
+Waitemata,2020,Male,Prostate,447,96.5,Male
+West Coast,2020,Male,Prostate,37,91.5,Male
+Whanganui,2020,Male,Prostate,107,161.5,Male
+All New Zealand,2020,Male,Testis,199,8,Male
+Auckland,2020,Male,Testis,19,6.3,Male
+Bay of Plenty,2020,Male,Testis,8,8.2,Male
+Canterbury,2020,Male,Testis,31,10.5,Male
+Capital & Coast,2020,Male,Testis,8,4.7,Male
+Counties Manukau,2020,Male,Testis,17,5.9,Male
+Hawke's Bay,2020,Male,Testis,8,9.9,Male
+Hutt Valley,2020,Male,Testis,6,7.6,Male
+Lakes,2020,Male,Testis,5,0,Male
+MidCentral,2020,Male,Testis,6,6.5,Male
+Nelson Marlborough,2020,Male,Testis,4,0,Male
+Northland,2020,Male,Testis,5,0,Male
+South Canterbury,2020,Male,Testis,1,0,Male
+Southern,2020,Male,Testis,15,8,Male
+Tairawhiti,2020,Male,Testis,3,0,Male
+Taranaki,2020,Male,Testis,5,0,Male
+Waikato,2020,Male,Testis,32,15.7,Male
+Wairarapa,2020,Male,Testis,2,0,Male
+Waitemata,2020,Male,Testis,21,6.8,Male
+Whanganui,2020,Male,Testis,3,0,Male
+West Coast,2011,Male,Testis,0,0,Male
+Wairarapa,2012,Male,Testis,0,0,Male
+Whanganui,2013,Male,Testis,0,0,Male
+South Canterbury,2014,Male,Testis,0,0,Male
+West Coast,2014,Male,Testis,0,0,Male
+Taranaki,2015,Male,Testis,0,0,Male
+West Coast,2015,Male,Testis,0,0,Male
+Tairawhiti,2016,Male,Testis,0,0,Male
+West Coast,2016,Male,Testis,0,0,Male
+Whanganui,2016,Male,Testis,0,0,Male
+Tairawhiti,2017,Male,Bladder,0,0,Male
+Tairawhiti,2017,Male,Testis,0,0,Male
+Wairarapa,2017,Male,Testis,0,0,Male
+South Canterbury,2019,Male,Testis,0,0,Male
+Tairawhiti,2019,Male,Testis,0,0,Male
+West Coast,2019,Male,Testis,0,0,Male
+West Coast,2020,Male,Testis,0,0,Male
+All New Zealand,2011,Female,Breast,2874,92.4,Female
+Auckland,2011,Female,Breast,272,97.6,Female
+Bay of Plenty,2011,Female,Breast,186,109,Female
+Canterbury,2011,Female,Breast,312,82.6,Female
+Capital & Coast,2011,Female,Breast,195,102.1,Female
+Counties Manukau,2011,Female,Breast,256,87.2,Female
+Hawke's Bay,2011,Female,Breast,126,101.1,Female
+Hutt Valley,2011,Female,Breast,98,98.7,Female
+Lakes,2011,Female,Breast,75,110,Female
+MidCentral,2011,Female,Breast,106,85,Female
+Nelson Marlborough,2011,Female,Breast,83,70.5,Female
+Northland,2011,Female,Breast,114,95.6,Female
+South Canterbury,2011,Female,Breast,37,83,Female
+Southern,2011,Female,Breast,231,100.7,Female
+Tairawhiti,2011,Female,Breast,23,62.2,Female
+Taranaki,2011,Female,Breast,79,86.1,Female
+Waikato,2011,Female,Breast,241,93.3,Female
+Wairarapa,2011,Female,Breast,22,59.5,Female
+Waitemata,2011,Female,Breast,339,91.2,Female
+West Coast,2011,Female,Breast,23,89,Female
+Whanganui,2011,Female,Breast,50,102.8,Female
+All New Zealand,2011,Female,Ovarian,281,8.8,Female
+Auckland,2011,Female,Ovarian,26,9.5,Female
+Bay of Plenty,2011,Female,Ovarian,15,9.2,Female
+Canterbury,2011,Female,Ovarian,32,8.6,Female
+Capital & Coast,2011,Female,Ovarian,23,11.7,Female
+Counties Manukau,2011,Female,Ovarian,26,8.9,Female
+Hawke's Bay,2011,Female,Ovarian,8,5.5,Female
+Hutt Valley,2011,Female,Ovarian,12,10.8,Female
+Lakes,2011,Female,Ovarian,4,0,Female
+MidCentral,2011,Female,Ovarian,10,8.3,Female
+Nelson Marlborough,2011,Female,Ovarian,13,10.8,Female
+Northland,2011,Female,Ovarian,12,8.5,Female
+South Canterbury,2011,Female,Ovarian,5,0,Female
+Southern,2011,Female,Ovarian,26,11.4,Female
+Tairawhiti,2011,Female,Ovarian,1,0,Female
+Taranaki,2011,Female,Ovarian,9,8.6,Female
+Waikato,2011,Female,Ovarian,16,6.4,Female
+Wairarapa,2011,Female,Ovarian,3,0,Female
+Waitemata,2011,Female,Ovarian,32,8,Female
+West Coast,2011,Female,Ovarian,1,0,Female
+Whanganui,2011,Female,Ovarian,7,11.9,Female
+All New Zealand,2011,Female,Thyroid,190,7.2,Female
+Auckland,2011,Female,Thyroid,20,7.7,Female
+Bay of Plenty,2011,Female,Thyroid,7,4.8,Female
+Canterbury,2011,Female,Thyroid,18,5.8,Female
+Capital & Coast,2011,Female,Thyroid,10,5.8,Female
+Counties Manukau,2011,Female,Thyroid,31,11.5,Female
+Hawke's Bay,2011,Female,Thyroid,8,6.4,Female
+Hutt Valley,2011,Female,Thyroid,5,0,Female
+Lakes,2011,Female,Thyroid,8,13.8,Female
+MidCentral,2011,Female,Thyroid,10,10.1,Female
+Nelson Marlborough,2011,Female,Thyroid,2,0,Female
+Northland,2011,Female,Thyroid,6,6.4,Female
+South Canterbury,2011,Female,Thyroid,4,0,Female
+Southern,2011,Female,Thyroid,12,7.1,Female
+Tairawhiti,2011,Female,Thyroid,1,0,Female
+Taranaki,2011,Female,Thyroid,3,0,Female
+Waikato,2011,Female,Thyroid,16,7.7,Female
+Wairarapa,2011,Female,Thyroid,2,0,Female
+Waitemata,2011,Female,Thyroid,19,5.6,Female
+West Coast,2011,Female,Thyroid,1,0,Female
+Whanganui,2011,Female,Thyroid,5,0,Female
+All New Zealand,2011,Female,Uterine,455,14.5,Female
+Auckland,2011,Female,Uterine,53,19.5,Female
+Bay of Plenty,2011,Female,Uterine,26,12.9,Female
+Canterbury,2011,Female,Uterine,45,11.9,Female
+Capital & Coast,2011,Female,Uterine,25,12.8,Female
+Counties Manukau,2011,Female,Uterine,56,19.1,Female
+Hawke's Bay,2011,Female,Uterine,19,13.8,Female
+Hutt Valley,2011,Female,Uterine,11,10,Female
+Lakes,2011,Female,Uterine,8,11,Female
+MidCentral,2011,Female,Uterine,21,17.3,Female
+Nelson Marlborough,2011,Female,Uterine,13,10.9,Female
+Northland,2011,Female,Uterine,15,12,Female
+South Canterbury,2011,Female,Uterine,6,12.1,Female
+Southern,2011,Female,Uterine,27,11.8,Female
+Tairawhiti,2011,Female,Uterine,5,0,Female
+Taranaki,2011,Female,Uterine,10,9.2,Female
+Waikato,2011,Female,Uterine,33,12.1,Female
+Wairarapa,2011,Female,Uterine,5,0,Female
+Waitemata,2011,Female,Uterine,65,18,Female
+West Coast,2011,Female,Uterine,2,0,Female
+Whanganui,2011,Female,Uterine,10,17.6,Female
+All New Zealand,2012,Female,Breast,3037,97.2,Female
+Auckland,2012,Female,Breast,276,98.2,Female
+Bay of Plenty,2012,Female,Breast,162,96.5,Female
+Canterbury,2012,Female,Breast,362,100.6,Female
+Capital & Coast,2012,Female,Breast,203,102.2,Female
+Counties Manukau,2012,Female,Breast,276,92.2,Female
+Hawke's Bay,2012,Female,Breast,151,120.9,Female
+Hutt Valley,2012,Female,Breast,92,91.8,Female
+Lakes,2012,Female,Breast,77,105,Female
+MidCentral,2012,Female,Breast,131,106,Female
+Nelson Marlborough,2012,Female,Breast,97,81.7,Female
+Northland,2012,Female,Breast,124,96.3,Female
+South Canterbury,2012,Female,Breast,40,88.4,Female
+Southern,2012,Female,Breast,183,81.9,Female
+Tairawhiti,2012,Female,Breast,29,91.6,Female
+Taranaki,2012,Female,Breast,85,97.6,Female
+Waikato,2012,Female,Breast,268,101.2,Female
+Wairarapa,2012,Female,Breast,32,85,Female
+Waitemata,2012,Female,Breast,390,103.3,Female
+West Coast,2012,Female,Breast,14,53.4,Female
+Whanganui,2012,Female,Breast,45,83.7,Female
+All New Zealand,2012,Female,Ovarian,267,8,Female
+Auckland,2012,Female,Ovarian,18,6.3,Female
+Bay of Plenty,2012,Female,Ovarian,17,9.3,Female
+Canterbury,2012,Female,Ovarian,40,10.1,Female
+Capital & Coast,2012,Female,Ovarian,14,7,Female
+Counties Manukau,2012,Female,Ovarian,18,6,Female
+Hawke's Bay,2012,Female,Ovarian,9,7.1,Female
+Hutt Valley,2012,Female,Ovarian,6,5.3,Female
+Lakes,2012,Female,Ovarian,5,0,Female
+MidCentral,2012,Female,Ovarian,10,7.2,Female
+Nelson Marlborough,2012,Female,Ovarian,12,9.1,Female
+Northland,2012,Female,Ovarian,11,12,Female
+South Canterbury,2012,Female,Ovarian,9,13.5,Female
+Southern,2012,Female,Ovarian,20,7.4,Female
+Tairawhiti,2012,Female,Ovarian,6,17,Female
+Taranaki,2012,Female,Ovarian,13,15.5,Female
+Waikato,2012,Female,Ovarian,23,7.4,Female
+Wairarapa,2012,Female,Ovarian,4,0,Female
+Waitemata,2012,Female,Ovarian,25,6.6,Female
+West Coast,2012,Female,Ovarian,3,0,Female
+Whanganui,2012,Female,Ovarian,4,0,Female
+All New Zealand,2012,Female,Thyroid,210,8,Female
+Auckland,2012,Female,Thyroid,29,10.8,Female
+Bay of Plenty,2012,Female,Thyroid,9,6.6,Female
+Canterbury,2012,Female,Thyroid,21,6.8,Female
+Capital & Coast,2012,Female,Thyroid,11,6.3,Female
+Counties Manukau,2012,Female,Thyroid,27,9.1,Female
+Hawke's Bay,2012,Female,Thyroid,5,0,Female
+Hutt Valley,2012,Female,Thyroid,8,9.2,Female
+Lakes,2012,Female,Thyroid,3,0,Female
+MidCentral,2012,Female,Thyroid,13,12.1,Female
+Nelson Marlborough,2012,Female,Thyroid,4,0,Female
+Northland,2012,Female,Thyroid,6,7.5,Female
+South Canterbury,2012,Female,Thyroid,2,0,Female
+Southern,2012,Female,Thyroid,11,6.8,Female
+Tairawhiti,2012,Female,Thyroid,1,0,Female
+Taranaki,2012,Female,Thyroid,4,0,Female
+Waikato,2012,Female,Thyroid,26,12.7,Female
+Wairarapa,2012,Female,Thyroid,2,0,Female
+Waitemata,2012,Female,Thyroid,22,6.5,Female
+West Coast,2012,Female,Thyroid,1,0,Female
+Whanganui,2012,Female,Thyroid,4,0,Female
+All New Zealand,2012,Female,Uterine,518,16.3,Female
+Auckland,2012,Female,Uterine,45,15.7,Female
+Bay of Plenty,2012,Female,Uterine,23,12.1,Female
+Canterbury,2012,Female,Uterine,68,18.1,Female
+Capital & Coast,2012,Female,Uterine,28,14.2,Female
+Counties Manukau,2012,Female,Uterine,86,29.1,Female
+Hawke's Bay,2012,Female,Uterine,19,14.2,Female
+Hutt Valley,2012,Female,Uterine,14,13.4,Female
+Lakes,2012,Female,Uterine,15,21.5,Female
+MidCentral,2012,Female,Uterine,22,15.6,Female
+Nelson Marlborough,2012,Female,Uterine,10,7.6,Female
+Northland,2012,Female,Uterine,30,21.3,Female
+South Canterbury,2012,Female,Uterine,7,16,Female
+Southern,2012,Female,Uterine,28,12.5,Female
+Tairawhiti,2012,Female,Uterine,8,23.4,Female
+Taranaki,2012,Female,Uterine,8,8.4,Female
+Waikato,2012,Female,Uterine,36,13.7,Female
+Wairarapa,2012,Female,Uterine,9,23.4,Female
+Waitemata,2012,Female,Uterine,54,13.9,Female
+West Coast,2012,Female,Uterine,4,0,Female
+Whanganui,2012,Female,Uterine,3,0,Female
+All New Zealand,2013,Female,Breast,3030,94.7,Female
+Auckland,2013,Female,Breast,282,96.8,Female
+Bay of Plenty,2013,Female,Breast,185,103.6,Female
+Canterbury,2013,Female,Breast,356,94.2,Female
+Capital & Coast,2013,Female,Breast,175,89.1,Female
+Counties Manukau,2013,Female,Breast,290,94.2,Female
+Hawke's Bay,2013,Female,Breast,127,104.2,Female
+Hutt Valley,2013,Female,Breast,87,86.2,Female
+Lakes,2013,Female,Breast,67,90.3,Female
+MidCentral,2013,Female,Breast,120,96,Female
+Nelson Marlborough,2013,Female,Breast,109,94,Female
+Northland,2013,Female,Breast,114,81,Female
+South Canterbury,2013,Female,Breast,49,98.4,Female
+Southern,2013,Female,Breast,245,106.6,Female
+Tairawhiti,2013,Female,Breast,30,92.1,Female
+Taranaki,2013,Female,Breast,80,85.6,Female
+Waikato,2013,Female,Breast,239,88.3,Female
+Wairarapa,2013,Female,Breast,29,80,Female
+Waitemata,2013,Female,Breast,377,97.4,Female
+West Coast,2013,Female,Breast,24,96.9,Female
+Whanganui,2013,Female,Breast,40,79.3,Female
+All New Zealand,2013,Female,Ovarian,296,8.7,Female
+Auckland,2013,Female,Ovarian,31,10.3,Female
+Bay of Plenty,2013,Female,Ovarian,16,10.7,Female
+Canterbury,2013,Female,Ovarian,36,8.3,Female
+Capital & Coast,2013,Female,Ovarian,16,7.5,Female
+Counties Manukau,2013,Female,Ovarian,19,5.9,Female
+Hawke's Bay,2013,Female,Ovarian,12,8.9,Female
+Hutt Valley,2013,Female,Ovarian,9,7.9,Female
+Lakes,2013,Female,Ovarian,4,0,Female
+MidCentral,2013,Female,Ovarian,12,9.4,Female
+Nelson Marlborough,2013,Female,Ovarian,16,10.8,Female
+Northland,2013,Female,Ovarian,9,6.9,Female
+South Canterbury,2013,Female,Ovarian,3,0,Female
+Southern,2013,Female,Ovarian,22,9.6,Female
+Tairawhiti,2013,Female,Ovarian,2,0,Female
+Taranaki,2013,Female,Ovarian,12,11,Female
+Waikato,2013,Female,Ovarian,26,9.2,Female
+Wairarapa,2013,Female,Ovarian,6,17.2,Female
+Waitemata,2013,Female,Ovarian,35,8.8,Female
+West Coast,2013,Female,Ovarian,1,0,Female
+Whanganui,2013,Female,Ovarian,9,16.1,Female
+All New Zealand,2013,Female,Thyroid,214,8.3,Female
+Auckland,2013,Female,Thyroid,30,11.1,Female
+Bay of Plenty,2013,Female,Thyroid,9,7,Female
+Canterbury,2013,Female,Thyroid,16,5.5,Female
+Capital & Coast,2013,Female,Thyroid,10,6.2,Female
+Counties Manukau,2013,Female,Thyroid,25,9.1,Female
+Hawke's Bay,2013,Female,Thyroid,14,13.4,Female
+Hutt Valley,2013,Female,Thyroid,4,0,Female
+Lakes,2013,Female,Thyroid,6,8.9,Female
+MidCentral,2013,Female,Thyroid,7,5.8,Female
+Nelson Marlborough,2013,Female,Thyroid,1,0,Female
+Northland,2013,Female,Thyroid,12,10.2,Female
+South Canterbury,2013,Female,Thyroid,4,0,Female
+Southern,2013,Female,Thyroid,7,3.5,Female
+Tairawhiti,2013,Female,Thyroid,6,25.8,Female
+Taranaki,2013,Female,Thyroid,6,5.9,Female
+Waikato,2013,Female,Thyroid,19,9.8,Female
+Wairarapa,2013,Female,Thyroid,2,0,Female
+Waitemata,2013,Female,Thyroid,29,8.7,Female
+Whanganui,2013,Female,Thyroid,6,22.6,Female
+All New Zealand,2013,Female,Uterine,543,16.8,Female
+Auckland,2013,Female,Uterine,68,24.3,Female
+Bay of Plenty,2013,Female,Uterine,30,15.2,Female
+Canterbury,2013,Female,Uterine,60,15.7,Female
+Capital & Coast,2013,Female,Uterine,29,14.9,Female
+Counties Manukau,2013,Female,Uterine,82,27.6,Female
+Hawke's Bay,2013,Female,Uterine,15,12.6,Female
+Hutt Valley,2013,Female,Uterine,12,8.8,Female
+Lakes,2013,Female,Uterine,12,15.6,Female
+MidCentral,2013,Female,Uterine,25,16.9,Female
+Nelson Marlborough,2013,Female,Uterine,14,11.6,Female
+Northland,2013,Female,Uterine,16,10.7,Female
+South Canterbury,2013,Female,Uterine,5,0,Female
+Southern,2013,Female,Uterine,36,15.4,Female
+Tairawhiti,2013,Female,Uterine,7,21.2,Female
+Taranaki,2013,Female,Uterine,18,19.9,Female
+Waikato,2013,Female,Uterine,43,15,Female
+Wairarapa,2013,Female,Uterine,5,0,Female
+Waitemata,2013,Female,Uterine,59,14.7,Female
+West Coast,2013,Female,Uterine,2,0,Female
+Whanganui,2013,Female,Uterine,5,0,Female
+All New Zealand,2014,Female,Breast,3282,101.1,Female
+Auckland,2014,Female,Breast,262,87.8,Female
+Bay of Plenty,2014,Female,Breast,221,122.9,Female
+Canterbury,2014,Female,Breast,361,96.3,Female
+Capital & Coast,2014,Female,Breast,228,112.3,Female
+Counties Manukau,2014,Female,Breast,311,98.6,Female
+Hawke's Bay,2014,Female,Breast,145,109.9,Female
+Hutt Valley,2014,Female,Breast,116,113.5,Female
+Lakes,2014,Female,Breast,58,73.2,Female
+MidCentral,2014,Female,Breast,123,95.4,Female
+Nelson Marlborough,2014,Female,Breast,119,100.1,Female
+Northland,2014,Female,Breast,145,108.8,Female
+South Canterbury,2014,Female,Breast,48,95.8,Female
+Southern,2014,Female,Breast,220,92.9,Female
+Tairawhiti,2014,Female,Breast,39,118.8,Female
+Taranaki,2014,Female,Breast,88,106.6,Female
+Waikato,2014,Female,Breast,269,97.3,Female
+Wairarapa,2014,Female,Breast,49,129.8,Female
+Waitemata,2014,Female,Breast,391,99.5,Female
+West Coast,2014,Female,Breast,30,119,Female
+Whanganui,2014,Female,Breast,57,117.7,Female
+All New Zealand,2014,Female,Ovarian,272,7.8,Female
+Auckland,2014,Female,Ovarian,20,6.8,Female
+Bay of Plenty,2014,Female,Ovarian,15,8.2,Female
+Canterbury,2014,Female,Ovarian,33,7.7,Female
+Capital & Coast,2014,Female,Ovarian,18,8.5,Female
+Counties Manukau,2014,Female,Ovarian,30,9.6,Female
+Hawke's Bay,2014,Female,Ovarian,5,0,Female
+Hutt Valley,2014,Female,Ovarian,13,11.1,Female
+Lakes,2014,Female,Ovarian,5,0,Female
+MidCentral,2014,Female,Ovarian,12,7.4,Female
+Nelson Marlborough,2014,Female,Ovarian,13,9.7,Female
+Northland,2014,Female,Ovarian,12,9.3,Female
+South Canterbury,2014,Female,Ovarian,5,0,Female
+Southern,2014,Female,Ovarian,25,10.7,Female
+Tairawhiti,2014,Female,Ovarian,3,0,Female
+Taranaki,2014,Female,Ovarian,5,0,Female
+Waikato,2014,Female,Ovarian,23,7.4,Female
+Wairarapa,2014,Female,Ovarian,2,0,Female
+Waitemata,2014,Female,Ovarian,28,6.3,Female
+West Coast,2014,Female,Ovarian,1,0,Female
+Whanganui,2014,Female,Ovarian,4,0,Female
+All New Zealand,2014,Female,Thyroid,207,7.8,Female
+Auckland,2014,Female,Thyroid,23,8.9,Female
+Bay of Plenty,2014,Female,Thyroid,8,6.3,Female
+Canterbury,2014,Female,Thyroid,17,6,Female
+Capital & Coast,2014,Female,Thyroid,16,9.3,Female
+Counties Manukau,2014,Female,Thyroid,29,10.7,Female
+Hawke's Bay,2014,Female,Thyroid,11,7.7,Female
+Hutt Valley,2014,Female,Thyroid,4,0,Female
+Lakes,2014,Female,Thyroid,11,17.3,Female
+MidCentral,2014,Female,Thyroid,10,11.3,Female
+Nelson Marlborough,2014,Female,Thyroid,4,0,Female
+Northland,2014,Female,Thyroid,6,5.5,Female
+South Canterbury,2014,Female,Thyroid,3,0,Female
+Southern,2014,Female,Thyroid,13,6.6,Female
+Tairawhiti,2014,Female,Thyroid,3,0,Female
+Taranaki,2014,Female,Thyroid,5,0,Female
+Waikato,2014,Female,Thyroid,17,6.8,Female
+Wairarapa,2014,Female,Thyroid,2,0,Female
+Waitemata,2014,Female,Thyroid,19,5.8,Female
+West Coast,2014,Female,Thyroid,1,0,Female
+Whanganui,2014,Female,Thyroid,5,0,Female
+All New Zealand,2014,Female,Uterine,526,15.5,Female
+Auckland,2014,Female,Uterine,59,20.1,Female
+Bay of Plenty,2014,Female,Uterine,26,12.8,Female
+Canterbury,2014,Female,Uterine,37,8.9,Female
+Capital & Coast,2014,Female,Uterine,36,18,Female
+Counties Manukau,2014,Female,Uterine,81,25.7,Female
+Hawke's Bay,2014,Female,Uterine,24,17.5,Female
+Hutt Valley,2014,Female,Uterine,15,14.8,Female
+Lakes,2014,Female,Uterine,10,13,Female
+MidCentral,2014,Female,Uterine,27,18.7,Female
+Nelson Marlborough,2014,Female,Uterine,22,14.9,Female
+Northland,2014,Female,Uterine,18,12.2,Female
+South Canterbury,2014,Female,Uterine,8,14,Female
+Southern,2014,Female,Uterine,32,12.1,Female
+Tairawhiti,2014,Female,Uterine,3,0,Female
+Taranaki,2014,Female,Uterine,13,12.5,Female
+Waikato,2014,Female,Uterine,51,17,Female
+Wairarapa,2014,Female,Uterine,7,18.4,Female
+Waitemata,2014,Female,Uterine,48,12.2,Female
+West Coast,2014,Female,Uterine,2,0,Female
+Whanganui,2014,Female,Uterine,7,11.5,Female
+All New Zealand,2015,Female,Breast,3304,98.7,Female
+Auckland,2015,Female,Breast,280,93.4,Female
+Bay of Plenty,2015,Female,Breast,201,104.7,Female
+Canterbury,2015,Female,Breast,377,95.9,Female
+Capital & Coast,2015,Female,Breast,227,109.8,Female
+Counties Manukau,2015,Female,Breast,348,106.8,Female
+Hawke's Bay,2015,Female,Breast,117,97.4,Female
+Hutt Valley,2015,Female,Breast,124,117.1,Female
+Lakes,2015,Female,Breast,78,102.3,Female
+MidCentral,2015,Female,Breast,123,87.6,Female
+Nelson Marlborough,2015,Female,Breast,129,99.7,Female
+Northland,2015,Female,Breast,128,92.1,Female
+South Canterbury,2015,Female,Breast,45,88.3,Female
+Southern,2015,Female,Breast,248,105.8,Female
+Tairawhiti,2015,Female,Breast,45,132.2,Female
+Taranaki,2015,Female,Breast,85,93.4,Female
+Waikato,2015,Female,Breast,267,93.5,Female
+Wairarapa,2015,Female,Breast,32,88.1,Female
+Waitemata,2015,Female,Breast,370,91.3,Female
+West Coast,2015,Female,Breast,14,57.3,Female
+Whanganui,2015,Female,Breast,64,118.9,Female
+All New Zealand,2015,Female,Ovarian,279,8.1,Female
+Auckland,2015,Female,Ovarian,15,5.2,Female
+Bay of Plenty,2015,Female,Ovarian,21,11.7,Female
+Canterbury,2015,Female,Ovarian,25,6.2,Female
+Capital & Coast,2015,Female,Ovarian,23,10.9,Female
+Counties Manukau,2015,Female,Ovarian,26,8.3,Female
+Hawke's Bay,2015,Female,Ovarian,15,12.2,Female
+Hutt Valley,2015,Female,Ovarian,14,13.2,Female
+Lakes,2015,Female,Ovarian,3,0,Female
+MidCentral,2015,Female,Ovarian,10,6.7,Female
+Nelson Marlborough,2015,Female,Ovarian,14,9.3,Female
+Northland,2015,Female,Ovarian,10,9.6,Female
+South Canterbury,2015,Female,Ovarian,8,13.4,Female
+Southern,2015,Female,Ovarian,28,10.8,Female
+Taranaki,2015,Female,Ovarian,6,7,Female
+Waikato,2015,Female,Ovarian,21,6.6,Female
+Wairarapa,2015,Female,Ovarian,2,0,Female
+Waitemata,2015,Female,Ovarian,32,7.1,Female
+Whanganui,2015,Female,Ovarian,6,9.5,Female
+All New Zealand,2015,Female,Thyroid,214,7.8,Female
+Auckland,2015,Female,Thyroid,26,9.2,Female
+Bay of Plenty,2015,Female,Thyroid,8,5.1,Female
+Canterbury,2015,Female,Thyroid,12,4.1,Female
+Capital & Coast,2015,Female,Thyroid,13,7.6,Female
+Counties Manukau,2015,Female,Thyroid,41,14.4,Female
+Hawke's Bay,2015,Female,Thyroid,11,12,Female
+Hutt Valley,2015,Female,Thyroid,6,6.8,Female
+Lakes,2015,Female,Thyroid,6,7.6,Female
+MidCentral,2015,Female,Thyroid,9,9.1,Female
+Nelson Marlborough,2015,Female,Thyroid,3,0,Female
+Northland,2015,Female,Thyroid,2,0,Female
+Southern,2015,Female,Thyroid,9,4.5,Female
+Tairawhiti,2015,Female,Thyroid,3,0,Female
+Taranaki,2015,Female,Thyroid,3,0,Female
+Waikato,2015,Female,Thyroid,16,7,Female
+Wairarapa,2015,Female,Thyroid,2,0,Female
+Waitemata,2015,Female,Thyroid,35,10.4,Female
+Whanganui,2015,Female,Thyroid,9,20.6,Female
+All New Zealand,2015,Female,Uterine,553,15.9,Female
+Auckland,2015,Female,Uterine,49,16.1,Female
+Bay of Plenty,2015,Female,Uterine,26,12.4,Female
+Canterbury,2015,Female,Uterine,55,13.6,Female
+Capital & Coast,2015,Female,Uterine,31,15.1,Female
+Counties Manukau,2015,Female,Uterine,76,24.1,Female
+Hawke's Bay,2015,Female,Uterine,25,16.6,Female
+Hutt Valley,2015,Female,Uterine,15,13.7,Female
+Lakes,2015,Female,Uterine,10,12.6,Female
+MidCentral,2015,Female,Uterine,15,10,Female
+Nelson Marlborough,2015,Female,Uterine,20,13.1,Female
+Northland,2015,Female,Uterine,30,20.4,Female
+South Canterbury,2015,Female,Uterine,7,14.4,Female
+Southern,2015,Female,Uterine,30,11.3,Female
+Tairawhiti,2015,Female,Uterine,7,19,Female
+Taranaki,2015,Female,Uterine,16,16.1,Female
+Waikato,2015,Female,Uterine,62,20.1,Female
+Wairarapa,2015,Female,Uterine,5,0,Female
+Waitemata,2015,Female,Uterine,59,13.8,Female
+West Coast,2015,Female,Uterine,7,21.7,Female
+Whanganui,2015,Female,Uterine,8,14.8,Female
+All New Zealand,2016,Female,Breast,3319,97,Female
+Auckland,2016,Female,Breast,297,98,Female
+Bay of Plenty,2016,Female,Breast,162,84.7,Female
+Canterbury,2016,Female,Breast,356,87.9,Female
+Capital & Coast,2016,Female,Breast,207,98.1,Female
+Counties Manukau,2016,Female,Breast,348,104,Female
+Hawke's Bay,2016,Female,Breast,133,102.2,Female
+Hutt Valley,2016,Female,Breast,105,95,Female
+Lakes,2016,Female,Breast,89,113.9,Female
+MidCentral,2016,Female,Breast,118,88.6,Female
+Nelson Marlborough,2016,Female,Breast,124,100.7,Female
+Northland,2016,Female,Breast,157,114.4,Female
+South Canterbury,2016,Female,Breast,48,96.8,Female
+Southern,2016,Female,Breast,260,105.6,Female
+Tairawhiti,2016,Female,Breast,45,128.1,Female
+Taranaki,2016,Female,Breast,84,90,Female
+Waikato,2016,Female,Breast,302,102,Female
+Wairarapa,2016,Female,Breast,39,94.9,Female
+Waitemata,2016,Female,Breast,382,91.2,Female
+West Coast,2016,Female,Breast,23,78.1,Female
+Whanganui,2016,Female,Breast,40,66.5,Female
+All New Zealand,2016,Female,Ovarian,274,7.7,Female
+Auckland,2016,Female,Ovarian,23,7.3,Female
+Bay of Plenty,2016,Female,Ovarian,8,3,Female
+Canterbury,2016,Female,Ovarian,23,4.8,Female
+Capital & Coast,2016,Female,Ovarian,22,9.6,Female
+Counties Manukau,2016,Female,Ovarian,31,9.4,Female
+Hawke's Bay,2016,Female,Ovarian,12,10.1,Female
+Hutt Valley,2016,Female,Ovarian,11,10.5,Female
+Lakes,2016,Female,Ovarian,6,6.8,Female
+MidCentral,2016,Female,Ovarian,12,11.2,Female
+Nelson Marlborough,2016,Female,Ovarian,14,8.5,Female
+Northland,2016,Female,Ovarian,11,7.9,Female
+South Canterbury,2016,Female,Ovarian,2,0,Female
+Southern,2016,Female,Ovarian,21,8,Female
+Tairawhiti,2016,Female,Ovarian,1,0,Female
+Taranaki,2016,Female,Ovarian,9,8.7,Female
+Waikato,2016,Female,Ovarian,23,7.5,Female
+Wairarapa,2016,Female,Ovarian,8,17,Female
+Waitemata,2016,Female,Ovarian,31,6.9,Female
+West Coast,2016,Female,Ovarian,1,0,Female
+Whanganui,2016,Female,Ovarian,5,0,Female
+All New Zealand,2016,Female,Thyroid,261,9.1,Female
+Auckland,2016,Female,Thyroid,44,15.5,Female
+Bay of Plenty,2016,Female,Thyroid,13,7.3,Female
+Canterbury,2016,Female,Thyroid,11,3.5,Female
+Capital & Coast,2016,Female,Thyroid,11,5.8,Female
+Counties Manukau,2016,Female,Thyroid,41,13.6,Female
+Hawke's Bay,2016,Female,Thyroid,7,5.6,Female
+Hutt Valley,2016,Female,Thyroid,13,14.3,Female
+Lakes,2016,Female,Thyroid,6,8.5,Female
+MidCentral,2016,Female,Thyroid,9,8.9,Female
+Nelson Marlborough,2016,Female,Thyroid,6,5.8,Female
+Northland,2016,Female,Thyroid,8,7.4,Female
+South Canterbury,2016,Female,Thyroid,3,0,Female
+Southern,2016,Female,Thyroid,12,5.9,Female
+Tairawhiti,2016,Female,Thyroid,2,0,Female
+Taranaki,2016,Female,Thyroid,2,0,Female
+Waikato,2016,Female,Thyroid,28,10.7,Female
+Wairarapa,2016,Female,Thyroid,3,0,Female
+Waitemata,2016,Female,Thyroid,37,10.3,Female
+West Coast,2016,Female,Thyroid,3,0,Female
+Whanganui,2016,Female,Thyroid,1,0,Female
+All New Zealand,2016,Female,Uterine,592,16.7,Female
+Auckland,2016,Female,Uterine,53,17.3,Female
+Bay of Plenty,2016,Female,Uterine,29,13.2,Female
+Canterbury,2016,Female,Uterine,64,14.7,Female
+Capital & Coast,2016,Female,Uterine,29,13.8,Female
+Counties Manukau,2016,Female,Uterine,97,29.7,Female
+Hawke's Bay,2016,Female,Uterine,22,14.6,Female
+Hutt Valley,2016,Female,Uterine,14,12.9,Female
+Lakes,2016,Female,Uterine,16,19.1,Female
+MidCentral,2016,Female,Uterine,26,18.6,Female
+Nelson Marlborough,2016,Female,Uterine,22,13.7,Female
+Northland,2016,Female,Uterine,21,14.1,Female
+South Canterbury,2016,Female,Uterine,3,0,Female
+Southern,2016,Female,Uterine,37,13.9,Female
+Tairawhiti,2016,Female,Uterine,8,19.7,Female
+Taranaki,2016,Female,Uterine,19,18.5,Female
+Waikato,2016,Female,Uterine,48,15.2,Female
+Wairarapa,2016,Female,Uterine,5,0,Female
+Waitemata,2016,Female,Uterine,69,16.5,Female
+West Coast,2016,Female,Uterine,6,17.4,Female
+Whanganui,2016,Female,Uterine,2,0,Female
+All New Zealand,2017,Female,Breast,3301,94.3,Female
+Auckland,2017,Female,Breast,314,101.8,Female
+Bay of Plenty,2017,Female,Breast,190,96,Female
+Canterbury,2017,Female,Breast,396,100.3,Female
+Capital & Coast,2017,Female,Breast,217,99.6,Female
+Counties Manukau,2017,Female,Breast,319,93.5,Female
+Hawke's Bay,2017,Female,Breast,155,103.7,Female
+Hutt Valley,2017,Female,Breast,88,77.5,Female
+Lakes,2017,Female,Breast,82,102.5,Female
+MidCentral,2017,Female,Breast,116,84.1,Female
+Nelson Marlborough,2017,Female,Breast,105,78.8,Female
+Northland,2017,Female,Breast,167,114.5,Female
+South Canterbury,2017,Female,Breast,40,72.7,Female
+Southern,2017,Female,Breast,228,92.6,Female
+Tairawhiti,2017,Female,Breast,41,107.6,Female
+Taranaki,2017,Female,Breast,88,87.5,Female
+Waikato,2017,Female,Breast,278,91.8,Female
+Wairarapa,2017,Female,Breast,30,70.5,Female
+Waitemata,2017,Female,Breast,390,92.9,Female
+West Coast,2017,Female,Breast,14,53.7,Female
+Whanganui,2017,Female,Breast,39,66.5,Female
+All New Zealand,2017,Female,Ovarian,247,6.7,Female
+Auckland,2017,Female,Ovarian,23,7.2,Female
+Bay of Plenty,2017,Female,Ovarian,12,4.8,Female
+Canterbury,2017,Female,Ovarian,27,5.9,Female
+Capital & Coast,2017,Female,Ovarian,18,8.6,Female
+Counties Manukau,2017,Female,Ovarian,17,5,Female
+Hawke's Bay,2017,Female,Ovarian,14,9.9,Female
+Hutt Valley,2017,Female,Ovarian,8,6.2,Female
+Lakes,2017,Female,Ovarian,4,0,Female
+MidCentral,2017,Female,Ovarian,12,10.4,Female
+Nelson Marlborough,2017,Female,Ovarian,12,7.8,Female
+Northland,2017,Female,Ovarian,9,6.1,Female
+South Canterbury,2017,Female,Ovarian,3,0,Female
+Southern,2017,Female,Ovarian,27,10.2,Female
+Tairawhiti,2017,Female,Ovarian,3,0,Female
+Taranaki,2017,Female,Ovarian,11,8.7,Female
+Waikato,2017,Female,Ovarian,16,6,Female
+Wairarapa,2017,Female,Ovarian,3,0,Female
+Waitemata,2017,Female,Ovarian,22,5.1,Female
+West Coast,2017,Female,Ovarian,1,0,Female
+Whanganui,2017,Female,Ovarian,4,0,Female
+All New Zealand,2017,Female,Thyroid,224,7.8,Female
+Auckland,2017,Female,Thyroid,24,8.5,Female
+Bay of Plenty,2017,Female,Thyroid,15,9.8,Female
+Canterbury,2017,Female,Thyroid,14,4.6,Female
+Capital & Coast,2017,Female,Thyroid,19,10.5,Female
+Counties Manukau,2017,Female,Thyroid,37,11.9,Female
+Hawke's Bay,2017,Female,Thyroid,7,6.4,Female
+Hutt Valley,2017,Female,Thyroid,5,0,Female
+Lakes,2017,Female,Thyroid,6,9.9,Female
+MidCentral,2017,Female,Thyroid,8,7.8,Female
+Nelson Marlborough,2017,Female,Thyroid,6,6.3,Female
+Northland,2017,Female,Thyroid,12,10.6,Female
+South Canterbury,2017,Female,Thyroid,2,0,Female
+Southern,2017,Female,Thyroid,8,3.4,Female
+Tairawhiti,2017,Female,Thyroid,1,0,Female
+Taranaki,2017,Female,Thyroid,2,0,Female
+Waikato,2017,Female,Thyroid,17,6.7,Female
+Wairarapa,2017,Female,Thyroid,2,0,Female
+Waitemata,2017,Female,Thyroid,36,10.4,Female
+Whanganui,2017,Female,Thyroid,2,0,Female
+All New Zealand,2017,Female,Uterine,567,15.6,Female
+Auckland,2017,Female,Uterine,57,18.1,Female
+Bay of Plenty,2017,Female,Uterine,30,12.7,Female
+Canterbury,2017,Female,Uterine,49,11.6,Female
+Capital & Coast,2017,Female,Uterine,39,18.4,Female
+Counties Manukau,2017,Female,Uterine,70,20.6,Female
+Hawke's Bay,2017,Female,Uterine,22,12.7,Female
+Hutt Valley,2017,Female,Uterine,16,14.9,Female
+Lakes,2017,Female,Uterine,7,8,Female
+MidCentral,2017,Female,Uterine,21,13.4,Female
+Nelson Marlborough,2017,Female,Uterine,13,8.4,Female
+Northland,2017,Female,Uterine,29,19.3,Female
+South Canterbury,2017,Female,Uterine,8,13.9,Female
+Southern,2017,Female,Uterine,34,13.2,Female
+Tairawhiti,2017,Female,Uterine,8,24,Female
+Taranaki,2017,Female,Uterine,13,11.8,Female
+Waikato,2017,Female,Uterine,58,17.9,Female
+Wairarapa,2017,Female,Uterine,9,18.7,Female
+Waitemata,2017,Female,Uterine,72,16.8,Female
+West Coast,2017,Female,Uterine,2,0,Female
+Whanganui,2017,Female,Uterine,9,15.3,Female
+All New Zealand,2018,Female,Breast,3558,100.8,Female
+Auckland,2018,Female,Breast,330,105.9,Female
+Bay of Plenty,2018,Female,Breast,213,104.8,Female
+Canterbury,2018,Female,Breast,380,91.9,Female
+Capital & Coast,2018,Female,Breast,224,104.1,Female
+Counties Manukau,2018,Female,Breast,341,97.3,Female
+Hawke's Bay,2018,Female,Breast,156,113.8,Female
+Hutt Valley,2018,Female,Breast,119,107.9,Female
+Lakes,2018,Female,Breast,99,120.5,Female
+MidCentral,2018,Female,Breast,135,98.1,Female
+Nelson Marlborough,2018,Female,Breast,116,86.5,Female
+Northland,2018,Female,Breast,182,122.6,Female
+South Canterbury,2018,Female,Breast,44,87.1,Female
+Southern,2018,Female,Breast,217,86.9,Female
+Tairawhiti,2018,Female,Breast,39,104.5,Female
+Taranaki,2018,Female,Breast,75,79.1,Female
+Waikato,2018,Female,Breast,342,109.1,Female
+Wairarapa,2018,Female,Breast,46,106.3,Female
+Waitemata,2018,Female,Breast,418,99,Female
+West Coast,2018,Female,Breast,15,47.1,Female
+Whanganui,2018,Female,Breast,64,111.9,Female
+All New Zealand,2018,Female,Ovarian,244,6.5,Female
+Auckland,2018,Female,Ovarian,19,6.4,Female
+Bay of Plenty,2018,Female,Ovarian,16,6,Female
+Canterbury,2018,Female,Ovarian,36,8.2,Female
+Capital & Coast,2018,Female,Ovarian,10,4.2,Female
+Counties Manukau,2018,Female,Ovarian,25,7.2,Female
+Hawke's Bay,2018,Female,Ovarian,15,14.9,Female
+Hutt Valley,2018,Female,Ovarian,12,10.7,Female
+Lakes,2018,Female,Ovarian,4,0,Female
+MidCentral,2018,Female,Ovarian,9,4.3,Female
+Nelson Marlborough,2018,Female,Ovarian,7,5.1,Female
+Northland,2018,Female,Ovarian,7,3.8,Female
+South Canterbury,2018,Female,Ovarian,6,9.6,Female
+Southern,2018,Female,Ovarian,15,5.1,Female
+Taranaki,2018,Female,Ovarian,6,5.4,Female
+Waikato,2018,Female,Ovarian,24,6.7,Female
+Wairarapa,2018,Female,Ovarian,3,0,Female
+Waitemata,2018,Female,Ovarian,23,4.9,Female
+West Coast,2018,Female,Ovarian,2,0,Female
+Whanganui,2018,Female,Ovarian,5,0,Female
+All New Zealand,2018,Female,Thyroid,211,7.2,Female
+Auckland,2018,Female,Thyroid,39,13.8,Female
+Bay of Plenty,2018,Female,Thyroid,13,6.6,Female
+Canterbury,2018,Female,Thyroid,22,6.5,Female
+Capital & Coast,2018,Female,Thyroid,10,5.5,Female
+Counties Manukau,2018,Female,Thyroid,30,9.2,Female
+Hawke's Bay,2018,Female,Thyroid,6,5.8,Female
+Hutt Valley,2018,Female,Thyroid,3,0,Female
+Lakes,2018,Female,Thyroid,3,0,Female
+MidCentral,2018,Female,Thyroid,3,0,Female
+Nelson Marlborough,2018,Female,Thyroid,2,0,Female
+Northland,2018,Female,Thyroid,13,12.1,Female
+South Canterbury,2018,Female,Thyroid,1,0,Female
+Southern,2018,Female,Thyroid,11,5.7,Female
+Taranaki,2018,Female,Thyroid,1,0,Female
+Waikato,2018,Female,Thyroid,15,5.6,Female
+Wairarapa,2018,Female,Thyroid,2,0,Female
+Waitemata,2018,Female,Thyroid,31,8.2,Female
+West Coast,2018,Female,Thyroid,1,0,Female
+Whanganui,2018,Female,Thyroid,4,0,Female
+All New Zealand,2018,Female,Uterine,641,17.5,Female
+Auckland,2018,Female,Uterine,67,21.8,Female
+Bay of Plenty,2018,Female,Uterine,34,14.3,Female
+Canterbury,2018,Female,Uterine,54,12.9,Female
+Capital & Coast,2018,Female,Uterine,29,13.2,Female
+Counties Manukau,2018,Female,Uterine,90,26,Female
+Hawke's Bay,2018,Female,Uterine,34,25.7,Female
+Hutt Valley,2018,Female,Uterine,24,20.5,Female
+Lakes,2018,Female,Uterine,13,15.3,Female
+MidCentral,2018,Female,Uterine,30,21.3,Female
+Nelson Marlborough,2018,Female,Uterine,16,10.6,Female
+Northland,2018,Female,Uterine,34,20,Female
+South Canterbury,2018,Female,Uterine,11,21.6,Female
+Southern,2018,Female,Uterine,38,12.6,Female
+Tairawhiti,2018,Female,Uterine,10,32.4,Female
+Taranaki,2018,Female,Uterine,25,22.7,Female
+Waikato,2018,Female,Uterine,53,16.7,Female
+Wairarapa,2018,Female,Uterine,3,0,Female
+Waitemata,2018,Female,Uterine,63,13.7,Female
+West Coast,2018,Female,Uterine,2,0,Female
+Whanganui,2018,Female,Uterine,11,18.5,Female
+All New Zealand,2019,Female,Breast,3460,96,Female
+Auckland,2019,Female,Breast,302,96.4,Female
+Bay of Plenty,2019,Female,Breast,206,96,Female
+Canterbury,2019,Female,Breast,417,99.3,Female
+Capital & Coast,2019,Female,Breast,199,90,Female
+Counties Manukau,2019,Female,Breast,323,91.6,Female
+Hawke's Bay,2019,Female,Breast,139,100,Female
+Hutt Valley,2019,Female,Breast,129,115.9,Female
+Lakes,2019,Female,Breast,83,103.3,Female
+MidCentral,2019,Female,Breast,108,76.8,Female
+Nelson Marlborough,2019,Female,Breast,128,94.6,Female
+Northland,2019,Female,Breast,165,100.9,Female
+South Canterbury,2019,Female,Breast,55,105.6,Female
+Southern,2019,Female,Breast,243,95.6,Female
+Tairawhiti,2019,Female,Breast,36,102.9,Female
+Taranaki,2019,Female,Breast,83,83.9,Female
+Waikato,2019,Female,Breast,311,101,Female
+Wairarapa,2019,Female,Breast,31,78,Female
+Waitemata,2019,Female,Breast,413,92.8,Female
+West Coast,2019,Female,Breast,23,79.7,Female
+Whanganui,2019,Female,Breast,63,105.2,Female
+All New Zealand,2019,Female,Ovarian,260,7.1,Female
+Auckland,2019,Female,Ovarian,17,5.4,Female
+Bay of Plenty,2019,Female,Ovarian,11,5,Female
+Canterbury,2019,Female,Ovarian,31,7.1,Female
+Capital & Coast,2019,Female,Ovarian,16,7.4,Female
+Counties Manukau,2019,Female,Ovarian,19,5.5,Female
+Hawke's Bay,2019,Female,Ovarian,15,9.9,Female
+Hutt Valley,2019,Female,Ovarian,10,7.4,Female
+Lakes,2019,Female,Ovarian,8,8.6,Female
+MidCentral,2019,Female,Ovarian,15,11.4,Female
+Nelson Marlborough,2019,Female,Ovarian,10,11,Female
+Northland,2019,Female,Ovarian,14,7.5,Female
+South Canterbury,2019,Female,Ovarian,7,11,Female
+Southern,2019,Female,Ovarian,22,8.3,Female
+Taranaki,2019,Female,Ovarian,10,12.2,Female
+Waikato,2019,Female,Ovarian,15,4.7,Female
+Wairarapa,2019,Female,Ovarian,4,0,Female
+Waitemata,2019,Female,Ovarian,23,5.3,Female
+West Coast,2019,Female,Ovarian,7,26.4,Female
+Whanganui,2019,Female,Ovarian,6,8.8,Female
+All New Zealand,2019,Female,Thyroid,257,8.6,Female
+Auckland,2019,Female,Thyroid,37,12.9,Female
+Bay of Plenty,2019,Female,Thyroid,14,9.4,Female
+Canterbury,2019,Female,Thyroid,31,9.3,Female
+Capital & Coast,2019,Female,Thyroid,13,6.6,Female
+Counties Manukau,2019,Female,Thyroid,33,10.2,Female
+Hawke's Bay,2019,Female,Thyroid,5,0,Female
+Hutt Valley,2019,Female,Thyroid,8,10.1,Female
+Lakes,2019,Female,Thyroid,7,8.3,Female
+MidCentral,2019,Female,Thyroid,13,11.8,Female
+Nelson Marlborough,2019,Female,Thyroid,2,0,Female
+Northland,2019,Female,Thyroid,10,9.6,Female
+Southern,2019,Female,Thyroid,17,6.9,Female
+Tairawhiti,2019,Female,Thyroid,2,0,Female
+Taranaki,2019,Female,Thyroid,3,0,Female
+Waikato,2019,Female,Thyroid,22,9.5,Female
+Wairarapa,2019,Female,Thyroid,2,0,Female
+Waitemata,2019,Female,Thyroid,33,8.6,Female
+Whanganui,2019,Female,Thyroid,4,0,Female
+All New Zealand,2019,Female,Uterine,688,18.4,Female
+Auckland,2019,Female,Uterine,58,18.6,Female
+Bay of Plenty,2019,Female,Uterine,37,18.1,Female
+Canterbury,2019,Female,Uterine,63,14.2,Female
+Capital & Coast,2019,Female,Uterine,30,13.2,Female
+Counties Manukau,2019,Female,Uterine,98,27.8,Female
+Hawke's Bay,2019,Female,Uterine,25,16.8,Female
+Hutt Valley,2019,Female,Uterine,28,23.7,Female
+Lakes,2019,Female,Uterine,15,16,Female
+MidCentral,2019,Female,Uterine,26,15.9,Female
+Nelson Marlborough,2019,Female,Uterine,21,12.3,Female
+Northland,2019,Female,Uterine,45,27.9,Female
+South Canterbury,2019,Female,Uterine,11,17.9,Female
+Southern,2019,Female,Uterine,48,17.8,Female
+Tairawhiti,2019,Female,Uterine,8,22.1,Female
+Taranaki,2019,Female,Uterine,21,18.4,Female
+Waikato,2019,Female,Uterine,48,14.6,Female
+Wairarapa,2019,Female,Uterine,5,0,Female
+Waitemata,2019,Female,Uterine,73,16,Female
+West Coast,2019,Female,Uterine,11,40.8,Female
+Whanganui,2019,Female,Uterine,15,20.9,Female
+All New Zealand,2020,Female,Breast,3440,93.2,Female
+Auckland,2020,Female,Breast,298,89.1,Female
+Bay of Plenty,2020,Female,Breast,195,91.8,Female
+Canterbury,2020,Female,Breast,383,91.2,Female
+Capital & Coast,2020,Female,Breast,222,97.2,Female
+Counties Manukau,2020,Female,Breast,347,96,Female
+Hawke's Bay,2020,Female,Breast,155,108.6,Female
+Hutt Valley,2020,Female,Breast,104,88.2,Female
+Lakes,2020,Female,Breast,80,99.1,Female
+MidCentral,2020,Female,Breast,136,96.4,Female
+Nelson Marlborough,2020,Female,Breast,126,90.5,Female
+Northland,2020,Female,Breast,171,110,Female
+South Canterbury,2020,Female,Breast,46,79.9,Female
+Southern,2020,Female,Breast,249,95.5,Female
+Tairawhiti,2020,Female,Breast,28,69.2,Female
+Taranaki,2020,Female,Breast,94,97.5,Female
+Waikato,2020,Female,Breast,278,87,Female
+Wairarapa,2020,Female,Breast,38,91.8,Female
+Waitemata,2020,Female,Breast,408,89.4,Female
+West Coast,2020,Female,Breast,19,80.2,Female
+Whanganui,2020,Female,Breast,58,100.5,Female
+All New Zealand,2020,Female,Ovarian,272,7.3,Female
+Auckland,2020,Female,Ovarian,28,8.1,Female
+Bay of Plenty,2020,Female,Ovarian,16,7,Female
+Canterbury,2020,Female,Ovarian,40,10.2,Female
+Capital & Coast,2020,Female,Ovarian,23,10.4,Female
+Counties Manukau,2020,Female,Ovarian,22,6.1,Female
+Hawke's Bay,2020,Female,Ovarian,10,5.9,Female
+Hutt Valley,2020,Female,Ovarian,8,6.7,Female
+Lakes,2020,Female,Ovarian,9,11,Female
+MidCentral,2020,Female,Ovarian,6,4.7,Female
+Nelson Marlborough,2020,Female,Ovarian,10,7.2,Female
+Northland,2020,Female,Ovarian,12,6.3,Female
+South Canterbury,2020,Female,Ovarian,5,0,Female
+Southern,2020,Female,Ovarian,22,7.6,Female
+Tairawhiti,2020,Female,Ovarian,5,0,Female
+Taranaki,2020,Female,Ovarian,16,13.4,Female
+Waikato,2020,Female,Ovarian,12,3.5,Female
+Wairarapa,2020,Female,Ovarian,2,0,Female
+Waitemata,2020,Female,Ovarian,19,4.7,Female
+West Coast,2020,Female,Ovarian,1,0,Female
+Whanganui,2020,Female,Ovarian,5,0,Female
+All New Zealand,2020,Female,Thyroid,262,8.7,Female
+Auckland,2020,Female,Thyroid,37,11.7,Female
+Bay of Plenty,2020,Female,Thyroid,12,6.7,Female
+Canterbury,2020,Female,Thyroid,27,7.6,Female
+Capital & Coast,2020,Female,Thyroid,20,10.7,Female
+Counties Manukau,2020,Female,Thyroid,33,9.9,Female
+Hawke's Bay,2020,Female,Thyroid,9,8.7,Female
+Hutt Valley,2020,Female,Thyroid,6,6.1,Female
+Lakes,2020,Female,Thyroid,13,20.2,Female
+MidCentral,2020,Female,Thyroid,9,9,Female
+Nelson Marlborough,2020,Female,Thyroid,5,0,Female
+Northland,2020,Female,Thyroid,9,6.5,Female
+South Canterbury,2020,Female,Thyroid,2,0,Female
+Southern,2020,Female,Thyroid,8,3.6,Female
+Tairawhiti,2020,Female,Thyroid,1,0,Female
+Taranaki,2020,Female,Thyroid,5,0,Female
+Waikato,2020,Female,Thyroid,20,8.4,Female
+Wairarapa,2020,Female,Thyroid,2,0,Female
+Waitemata,2020,Female,Thyroid,40,10.7,Female
+West Coast,2020,Female,Thyroid,1,0,Female
+Whanganui,2020,Female,Thyroid,2,0,Female
+All New Zealand,2020,Female,Uterine,723,18.8,Female
+Auckland,2020,Female,Uterine,69,20.3,Female
+Bay of Plenty,2020,Female,Uterine,28,11.3,Female
+Canterbury,2020,Female,Uterine,75,16,Female
+Capital & Coast,2020,Female,Uterine,45,19,Female
+Counties Manukau,2020,Female,Uterine,99,27.9,Female
+Hawke's Bay,2020,Female,Uterine,32,18.3,Female
+Hutt Valley,2020,Female,Uterine,27,24.8,Female
+Lakes,2020,Female,Uterine,28,28.9,Female
+MidCentral,2020,Female,Uterine,18,11.4,Female
+Nelson Marlborough,2020,Female,Uterine,19,12.9,Female
+Northland,2020,Female,Uterine,29,16.5,Female
+South Canterbury,2020,Female,Uterine,11,20.4,Female
+Southern,2020,Female,Uterine,48,18.4,Female
+Tairawhiti,2020,Female,Uterine,3,0,Female
+Taranaki,2020,Female,Uterine,20,18.9,Female
+Waikato,2020,Female,Uterine,62,18.1,Female
+Wairarapa,2020,Female,Uterine,5,0,Female
+Waitemata,2020,Female,Uterine,90,19.6,Female
+West Coast,2020,Female,Uterine,3,0,Female
+Whanganui,2020,Female,Uterine,12,18.3,Female
+West Coast,2013,Female,Thyroid,0,0,Female
+South Canterbury,2015,Female,Thyroid,0,0,Female
+Tairawhiti,2015,Female,Ovarian,0,0,Female
+West Coast,2015,Female,Ovarian,0,0,Female
+West Coast,2015,Female,Thyroid,0,0,Female
+West Coast,2017,Female,Thyroid,0,0,Female
+Tairawhiti,2018,Female,Ovarian,0,0,Female
+Tairawhiti,2018,Female,Thyroid,0,0,Female
+South Canterbury,2019,Female,Thyroid,0,0,Female
+Tairawhiti,2019,Female,Ovarian,0,0,Female
+West Coast,2019,Female,Thyroid,0,0,Female
+All New Zealand,2011,AllSex,Colorectal,2990,43.9,AllSex
+Auckland,2011,AllSex,Colorectal,229,39.4,AllSex
+Bay of Plenty,2011,AllSex,Colorectal,171,41.1,AllSex
+Canterbury,2011,AllSex,Colorectal,399,48.3,AllSex
+Capital & Coast,2011,AllSex,Colorectal,140,35.9,AllSex
+Counties Manukau,2011,AllSex,Colorectal,246,42.3,AllSex
+Hawke's Bay,2011,AllSex,Colorectal,119,43,AllSex
+Hutt Valley,2011,AllSex,Colorectal,85,41.8,AllSex
+Lakes,2011,AllSex,Colorectal,72,48.1,AllSex
+MidCentral,2011,AllSex,Colorectal,115,38.6,AllSex
+Nelson Marlborough,2011,AllSex,Colorectal,127,46.5,AllSex
+Northland,2011,AllSex,Colorectal,119,40.5,AllSex
+South Canterbury,2011,AllSex,Colorectal,83,69.3,AllSex
+Southern,2011,AllSex,Colorectal,257,48.9,AllSex
+Tairawhiti,2011,AllSex,Colorectal,21,29.3,AllSex
+Taranaki,2011,AllSex,Colorectal,98,49.6,AllSex
+Waikato,2011,AllSex,Colorectal,266,45.6,AllSex
+Wairarapa,2011,AllSex,Colorectal,31,38.6,AllSex
+Waitemata,2011,AllSex,Colorectal,328,42.8,AllSex
+West Coast,2011,AllSex,Colorectal,30,50.9,AllSex
+Whanganui,2011,AllSex,Colorectal,51,39,AllSex
+All New Zealand,2011,AllSex,Leukaemia,597,10,AllSex
+Auckland,2011,AllSex,Leukaemia,42,8.4,AllSex
+Bay of Plenty,2011,AllSex,Leukaemia,42,12.3,AllSex
+Canterbury,2011,AllSex,Leukaemia,74,10.6,AllSex
+Capital & Coast,2011,AllSex,Leukaemia,35,10.1,AllSex
+Counties Manukau,2011,AllSex,Leukaemia,57,10.4,AllSex
+Hawke's Bay,2011,AllSex,Leukaemia,32,14,AllSex
+Hutt Valley,2011,AllSex,Leukaemia,25,14.2,AllSex
+Lakes,2011,AllSex,Leukaemia,19,13.1,AllSex
+MidCentral,2011,AllSex,Leukaemia,15,5.6,AllSex
+Nelson Marlborough,2011,AllSex,Leukaemia,28,12.7,AllSex
+Northland,2011,AllSex,Leukaemia,28,11.4,AllSex
+South Canterbury,2011,AllSex,Leukaemia,9,7.7,AllSex
+Southern,2011,AllSex,Leukaemia,40,8.4,AllSex
+Tairawhiti,2011,AllSex,Leukaemia,4,0,AllSex
+Taranaki,2011,AllSex,Leukaemia,16,9,AllSex
+Waikato,2011,AllSex,Leukaemia,57,11.5,AllSex
+Wairarapa,2011,AllSex,Leukaemia,6,12.5,AllSex
+Waitemata,2011,AllSex,Leukaemia,53,7.5,AllSex
+West Coast,2011,AllSex,Leukaemia,5,0,AllSex
+Whanganui,2011,AllSex,Leukaemia,7,7.1,AllSex
+All New Zealand,2011,AllSex,Lung,2048,30.4,AllSex
+Auckland,2011,AllSex,Lung,157,27.7,AllSex
+Bay of Plenty,2011,AllSex,Lung,141,36.3,AllSex
+Canterbury,2011,AllSex,Lung,206,25.3,AllSex
+Capital & Coast,2011,AllSex,Lung,97,24.2,AllSex
+Counties Manukau,2011,AllSex,Lung,198,33.9,AllSex
+Hawke's Bay,2011,AllSex,Lung,95,35.7,AllSex
+Hutt Valley,2011,AllSex,Lung,71,35,AllSex
+Lakes,2011,AllSex,Lung,67,42.8,AllSex
+MidCentral,2011,AllSex,Lung,97,32.7,AllSex
+Nelson Marlborough,2011,AllSex,Lung,63,23.7,AllSex
+Northland,2011,AllSex,Lung,98,33.8,AllSex
+South Canterbury,2011,AllSex,Lung,47,38.4,AllSex
+Southern,2011,AllSex,Lung,151,29.9,AllSex
+Tairawhiti,2011,AllSex,Lung,24,34.9,AllSex
+Taranaki,2011,AllSex,Lung,64,33.4,AllSex
+Waikato,2011,AllSex,Lung,184,32.1,AllSex
+Wairarapa,2011,AllSex,Lung,22,27.2,AllSex
+Waitemata,2011,AllSex,Lung,208,26.7,AllSex
+West Coast,2011,AllSex,Lung,15,25.6,AllSex
+Whanganui,2011,AllSex,Lung,35,28.2,AllSex
+All New Zealand,2011,AllSex,Melanoma,2211,36.4,AllSex
+Auckland,2011,AllSex,Melanoma,194,36.2,AllSex
+Bay of Plenty,2011,AllSex,Melanoma,145,43.3,AllSex
+Canterbury,2011,AllSex,Melanoma,291,42.9,AllSex
+Capital & Coast,2011,AllSex,Melanoma,123,33.4,AllSex
+Counties Manukau,2011,AllSex,Melanoma,160,28.1,AllSex
+Hawke's Bay,2011,AllSex,Melanoma,66,28.1,AllSex
+Hutt Valley,2011,AllSex,Melanoma,53,24.7,AllSex
+Lakes,2011,AllSex,Melanoma,64,44.7,AllSex
+MidCentral,2011,AllSex,Melanoma,72,29.4,AllSex
+Nelson Marlborough,2011,AllSex,Melanoma,89,39.1,AllSex
+Northland,2011,AllSex,Melanoma,90,33.3,AllSex
+South Canterbury,2011,AllSex,Melanoma,38,37.4,AllSex
+Southern,2011,AllSex,Melanoma,144,32.4,AllSex
+Tairawhiti,2011,AllSex,Melanoma,21,33.8,AllSex
+Taranaki,2011,AllSex,Melanoma,73,45.1,AllSex
+Waikato,2011,AllSex,Melanoma,221,42.4,AllSex
+Wairarapa,2011,AllSex,Melanoma,17,28,AllSex
+Waitemata,2011,AllSex,Melanoma,300,41.4,AllSex
+West Coast,2011,AllSex,Melanoma,15,29.5,AllSex
+Whanganui,2011,AllSex,Melanoma,34,36,AllSex
+All New Zealand,2011,AllSex,Non-Hodgkin lymphoma,730,11.6,AllSex
+Auckland,2011,AllSex,Non-Hodgkin lymphoma,65,11.8,AllSex
+Bay of Plenty,2011,AllSex,Non-Hodgkin lymphoma,44,13,AllSex
+Canterbury,2011,AllSex,Non-Hodgkin lymphoma,70,9.2,AllSex
+Capital & Coast,2011,AllSex,Non-Hodgkin lymphoma,45,12,AllSex
+Counties Manukau,2011,AllSex,Non-Hodgkin lymphoma,72,12.8,AllSex
+Hawke's Bay,2011,AllSex,Non-Hodgkin lymphoma,25,8.8,AllSex
+Hutt Valley,2011,AllSex,Non-Hodgkin lymphoma,20,9.5,AllSex
+Lakes,2011,AllSex,Non-Hodgkin lymphoma,13,8,AllSex
+MidCentral,2011,AllSex,Non-Hodgkin lymphoma,29,11.7,AllSex
+Nelson Marlborough,2011,AllSex,Non-Hodgkin lymphoma,31,15.6,AllSex
+Northland,2011,AllSex,Non-Hodgkin lymphoma,37,13.7,AllSex
+South Canterbury,2011,AllSex,Non-Hodgkin lymphoma,5,0,AllSex
+Southern,2011,AllSex,Non-Hodgkin lymphoma,54,11.4,AllSex
+Tairawhiti,2011,AllSex,Non-Hodgkin lymphoma,10,15.1,AllSex
+Taranaki,2011,AllSex,Non-Hodgkin lymphoma,33,17.7,AllSex
+Waikato,2011,AllSex,Non-Hodgkin lymphoma,56,10.9,AllSex
+Wairarapa,2011,AllSex,Non-Hodgkin lymphoma,7,10.8,AllSex
+Waitemata,2011,AllSex,Non-Hodgkin lymphoma,86,11.7,AllSex
+West Coast,2011,AllSex,Non-Hodgkin lymphoma,4,0,AllSex
+Whanganui,2011,AllSex,Non-Hodgkin lymphoma,19,17.1,AllSex
+All New Zealand,2011,AllSex,Pancreas,458,6.6,AllSex
+Auckland,2011,AllSex,Pancreas,44,8,AllSex
+Bay of Plenty,2011,AllSex,Pancreas,24,5.4,AllSex
+Canterbury,2011,AllSex,Pancreas,65,7.2,AllSex
+Capital & Coast,2011,AllSex,Pancreas,17,4.1,AllSex
+Counties Manukau,2011,AllSex,Pancreas,38,6.5,AllSex
+Hawke's Bay,2011,AllSex,Pancreas,15,5,AllSex
+Hutt Valley,2011,AllSex,Pancreas,10,4.9,AllSex
+Lakes,2011,AllSex,Pancreas,11,6.9,AllSex
+MidCentral,2011,AllSex,Pancreas,33,10.4,AllSex
+Nelson Marlborough,2011,AllSex,Pancreas,14,5.8,AllSex
+Northland,2011,AllSex,Pancreas,16,5.5,AllSex
+South Canterbury,2011,AllSex,Pancreas,6,4.5,AllSex
+Southern,2011,AllSex,Pancreas,40,7.7,AllSex
+Tairawhiti,2011,AllSex,Pancreas,4,0,AllSex
+Taranaki,2011,AllSex,Pancreas,10,5.1,AllSex
+Waikato,2011,AllSex,Pancreas,43,7,AllSex
+Wairarapa,2011,AllSex,Pancreas,7,10.3,AllSex
+Waitemata,2011,AllSex,Pancreas,48,6.1,AllSex
+West Coast,2011,AllSex,Pancreas,4,0,AllSex
+Whanganui,2011,AllSex,Pancreas,6,5.1,AllSex
+All New Zealand,2012,AllSex,Colorectal,2956,42.6,AllSex
+Auckland,2012,AllSex,Colorectal,193,33.1,AllSex
+Bay of Plenty,2012,AllSex,Colorectal,178,43.1,AllSex
+Canterbury,2012,AllSex,Colorectal,362,43.4,AllSex
+Capital & Coast,2012,AllSex,Colorectal,143,36.4,AllSex
+Counties Manukau,2012,AllSex,Colorectal,203,33.8,AllSex
+Hawke's Bay,2012,AllSex,Colorectal,131,45.4,AllSex
+Hutt Valley,2012,AllSex,Colorectal,85,40.6,AllSex
+Lakes,2012,AllSex,Colorectal,67,40.7,AllSex
+MidCentral,2012,AllSex,Colorectal,145,49.2,AllSex
+Nelson Marlborough,2012,AllSex,Colorectal,123,45,AllSex
+Northland,2012,AllSex,Colorectal,118,36.9,AllSex
+South Canterbury,2012,AllSex,Colorectal,66,50.3,AllSex
+Southern,2012,AllSex,Colorectal,290,55.5,AllSex
+Tairawhiti,2012,AllSex,Colorectal,30,42.2,AllSex
+Taranaki,2012,AllSex,Colorectal,94,44.4,AllSex
+Waikato,2012,AllSex,Colorectal,256,41.9,AllSex
+Wairarapa,2012,AllSex,Colorectal,37,44.4,AllSex
+Waitemata,2012,AllSex,Colorectal,353,45.7,AllSex
+West Coast,2012,AllSex,Colorectal,26,41.2,AllSex
+Whanganui,2012,AllSex,Colorectal,51,40.9,AllSex
+All New Zealand,2012,AllSex,Leukaemia,617,10.1,AllSex
+Auckland,2012,AllSex,Leukaemia,43,8.5,AllSex
+Bay of Plenty,2012,AllSex,Leukaemia,35,10.7,AllSex
+Canterbury,2012,AllSex,Leukaemia,74,10.1,AllSex
+Capital & Coast,2012,AllSex,Leukaemia,39,10.9,AllSex
+Counties Manukau,2012,AllSex,Leukaemia,48,9.1,AllSex
+Hawke's Bay,2012,AllSex,Leukaemia,28,9.8,AllSex
+Hutt Valley,2012,AllSex,Leukaemia,29,14.6,AllSex
+Lakes,2012,AllSex,Leukaemia,15,9.1,AllSex
+MidCentral,2012,AllSex,Leukaemia,21,8.1,AllSex
+Nelson Marlborough,2012,AllSex,Leukaemia,30,11.6,AllSex
+Northland,2012,AllSex,Leukaemia,28,10.2,AllSex
+South Canterbury,2012,AllSex,Leukaemia,10,9.5,AllSex
+Southern,2012,AllSex,Leukaemia,57,13.9,AllSex
+Tairawhiti,2012,AllSex,Leukaemia,10,13.7,AllSex
+Taranaki,2012,AllSex,Leukaemia,7,3.5,AllSex
+Waikato,2012,AllSex,Leukaemia,56,9.8,AllSex
+Wairarapa,2012,AllSex,Leukaemia,8,11.1,AllSex
+Waitemata,2012,AllSex,Leukaemia,58,8.2,AllSex
+West Coast,2012,AllSex,Leukaemia,7,11.7,AllSex
+Whanganui,2012,AllSex,Leukaemia,13,13.2,AllSex
+All New Zealand,2012,AllSex,Lung,2072,30,AllSex
+Auckland,2012,AllSex,Lung,161,28.5,AllSex
+Bay of Plenty,2012,AllSex,Lung,127,30.8,AllSex
+Canterbury,2012,AllSex,Lung,235,28.7,AllSex
+Capital & Coast,2012,AllSex,Lung,105,25.9,AllSex
+Counties Manukau,2012,AllSex,Lung,188,31.4,AllSex
+Hawke's Bay,2012,AllSex,Lung,89,31.5,AllSex
+Hutt Valley,2012,AllSex,Lung,59,27,AllSex
+Lakes,2012,AllSex,Lung,59,37,AllSex
+MidCentral,2012,AllSex,Lung,75,24.1,AllSex
+Nelson Marlborough,2012,AllSex,Lung,58,20.7,AllSex
+Northland,2012,AllSex,Lung,103,34.3,AllSex
+South Canterbury,2012,AllSex,Lung,42,32,AllSex
+Southern,2012,AllSex,Lung,161,31.3,AllSex
+Tairawhiti,2012,AllSex,Lung,29,42.5,AllSex
+Taranaki,2012,AllSex,Lung,55,28.6,AllSex
+Waikato,2012,AllSex,Lung,196,32.8,AllSex
+Wairarapa,2012,AllSex,Lung,27,30.5,AllSex
+Waitemata,2012,AllSex,Lung,230,28.5,AllSex
+West Coast,2012,AllSex,Lung,21,37.5,AllSex
+Whanganui,2012,AllSex,Lung,47,41.5,AllSex
+All New Zealand,2012,AllSex,Melanoma,2335,37.1,AllSex
+Auckland,2012,AllSex,Melanoma,223,40,AllSex
+Bay of Plenty,2012,AllSex,Melanoma,166,45.9,AllSex
+Canterbury,2012,AllSex,Melanoma,290,40,AllSex
+Capital & Coast,2012,AllSex,Melanoma,129,33.2,AllSex
+Counties Manukau,2012,AllSex,Melanoma,159,27.3,AllSex
+Hawke's Bay,2012,AllSex,Melanoma,54,20.4,AllSex
+Hutt Valley,2012,AllSex,Melanoma,50,24.9,AllSex
+Lakes,2012,AllSex,Melanoma,66,43.7,AllSex
+MidCentral,2012,AllSex,Melanoma,112,48.1,AllSex
+Nelson Marlborough,2012,AllSex,Melanoma,85,37,AllSex
+Northland,2012,AllSex,Melanoma,75,27.8,AllSex
+South Canterbury,2012,AllSex,Melanoma,35,33.4,AllSex
+Southern,2012,AllSex,Melanoma,152,33,AllSex
+Tairawhiti,2012,AllSex,Melanoma,20,37.8,AllSex
+Taranaki,2012,AllSex,Melanoma,80,48.7,AllSex
+Waikato,2012,AllSex,Melanoma,202,37.7,AllSex
+Wairarapa,2012,AllSex,Melanoma,34,54.9,AllSex
+Waitemata,2012,AllSex,Melanoma,333,43.8,AllSex
+West Coast,2012,AllSex,Melanoma,24,45.3,AllSex
+Whanganui,2012,AllSex,Melanoma,44,45.9,AllSex
+All New Zealand,2012,AllSex,Non-Hodgkin lymphoma,757,11.8,AllSex
+Auckland,2012,AllSex,Non-Hodgkin lymphoma,72,12.8,AllSex
+Bay of Plenty,2012,AllSex,Non-Hodgkin lymphoma,45,12.6,AllSex
+Canterbury,2012,AllSex,Non-Hodgkin lymphoma,95,12.8,AllSex
+Capital & Coast,2012,AllSex,Non-Hodgkin lymphoma,42,11,AllSex
+Counties Manukau,2012,AllSex,Non-Hodgkin lymphoma,57,9.9,AllSex
+Hawke's Bay,2012,AllSex,Non-Hodgkin lymphoma,33,12.1,AllSex
+Hutt Valley,2012,AllSex,Non-Hodgkin lymphoma,28,14,AllSex
+Lakes,2012,AllSex,Non-Hodgkin lymphoma,13,9,AllSex
+MidCentral,2012,AllSex,Non-Hodgkin lymphoma,28,10.8,AllSex
+Nelson Marlborough,2012,AllSex,Non-Hodgkin lymphoma,34,15.1,AllSex
+Northland,2012,AllSex,Non-Hodgkin lymphoma,29,11.4,AllSex
+South Canterbury,2012,AllSex,Non-Hodgkin lymphoma,15,12.1,AllSex
+Southern,2012,AllSex,Non-Hodgkin lymphoma,55,11.2,AllSex
+Tairawhiti,2012,AllSex,Non-Hodgkin lymphoma,9,13.4,AllSex
+Taranaki,2012,AllSex,Non-Hodgkin lymphoma,23,12.1,AllSex
+Waikato,2012,AllSex,Non-Hodgkin lymphoma,51,8.7,AllSex
+Wairarapa,2012,AllSex,Non-Hodgkin lymphoma,13,15.9,AllSex
+Waitemata,2012,AllSex,Non-Hodgkin lymphoma,91,12.1,AllSex
+West Coast,2012,AllSex,Non-Hodgkin lymphoma,10,16.6,AllSex
+Whanganui,2012,AllSex,Non-Hodgkin lymphoma,12,10.7,AllSex
+All New Zealand,2012,AllSex,Pancreas,554,7.8,AllSex
+Auckland,2012,AllSex,Pancreas,43,6.8,AllSex
+Bay of Plenty,2012,AllSex,Pancreas,30,6.9,AllSex
+Canterbury,2012,AllSex,Pancreas,65,7.6,AllSex
+Capital & Coast,2012,AllSex,Pancreas,44,10.5,AllSex
+Counties Manukau,2012,AllSex,Pancreas,54,9,AllSex
+Hawke's Bay,2012,AllSex,Pancreas,21,7,AllSex
+Hutt Valley,2012,AllSex,Pancreas,17,7.6,AllSex
+Lakes,2012,AllSex,Pancreas,11,6.7,AllSex
+MidCentral,2012,AllSex,Pancreas,19,7.1,AllSex
+Nelson Marlborough,2012,AllSex,Pancreas,15,5.1,AllSex
+Northland,2012,AllSex,Pancreas,29,9.1,AllSex
+South Canterbury,2012,AllSex,Pancreas,8,7,AllSex
+Southern,2012,AllSex,Pancreas,43,8,AllSex
+Tairawhiti,2012,AllSex,Pancreas,11,15,AllSex
+Taranaki,2012,AllSex,Pancreas,15,7.7,AllSex
+Waikato,2012,AllSex,Pancreas,44,6.9,AllSex
+Wairarapa,2012,AllSex,Pancreas,5,0,AllSex
+Waitemata,2012,AllSex,Pancreas,62,7.5,AllSex
+West Coast,2012,AllSex,Pancreas,7,11.5,AllSex
+Whanganui,2012,AllSex,Pancreas,10,7.7,AllSex
+All New Zealand,2013,AllSex,Colorectal,3022,42.2,AllSex
+Auckland,2013,AllSex,Colorectal,230,39.4,AllSex
+Bay of Plenty,2013,AllSex,Colorectal,157,37.3,AllSex
+Canterbury,2013,AllSex,Colorectal,361,42.5,AllSex
+Capital & Coast,2013,AllSex,Colorectal,143,34.6,AllSex
+Counties Manukau,2013,AllSex,Colorectal,201,32.1,AllSex
+Hawke's Bay,2013,AllSex,Colorectal,123,42.6,AllSex
+Hutt Valley,2013,AllSex,Colorectal,80,35.5,AllSex
+Lakes,2013,AllSex,Colorectal,66,40.4,AllSex
+MidCentral,2013,AllSex,Colorectal,120,39.1,AllSex
+Nelson Marlborough,2013,AllSex,Colorectal,112,38.6,AllSex
+Northland,2013,AllSex,Colorectal,139,43.6,AllSex
+South Canterbury,2013,AllSex,Colorectal,69,59.7,AllSex
+Southern,2013,AllSex,Colorectal,294,53.6,AllSex
+Tairawhiti,2013,AllSex,Colorectal,24,32.1,AllSex
+Taranaki,2013,AllSex,Colorectal,102,49.7,AllSex
+Waikato,2013,AllSex,Colorectal,267,42.2,AllSex
+Wairarapa,2013,AllSex,Colorectal,33,36.1,AllSex
+Waitemata,2013,AllSex,Colorectal,417,50.9,AllSex
+West Coast,2013,AllSex,Colorectal,22,34.9,AllSex
+Whanganui,2013,AllSex,Colorectal,53,42.2,AllSex
+All New Zealand,2013,AllSex,Leukaemia,674,10.8,AllSex
+Auckland,2013,AllSex,Leukaemia,55,10.5,AllSex
+Bay of Plenty,2013,AllSex,Leukaemia,43,11.7,AllSex
+Canterbury,2013,AllSex,Leukaemia,89,11.9,AllSex
+Capital & Coast,2013,AllSex,Leukaemia,37,10.1,AllSex
+Counties Manukau,2013,AllSex,Leukaemia,62,10.5,AllSex
+Hawke's Bay,2013,AllSex,Leukaemia,36,14,AllSex
+Hutt Valley,2013,AllSex,Leukaemia,26,14.3,AllSex
+Lakes,2013,AllSex,Leukaemia,9,7.2,AllSex
+MidCentral,2013,AllSex,Leukaemia,27,10.1,AllSex
+Nelson Marlborough,2013,AllSex,Leukaemia,24,10.7,AllSex
+Northland,2013,AllSex,Leukaemia,33,11.2,AllSex
+South Canterbury,2013,AllSex,Leukaemia,11,10.2,AllSex
+Southern,2013,AllSex,Leukaemia,52,11.9,AllSex
+Tairawhiti,2013,AllSex,Leukaemia,5,0,AllSex
+Taranaki,2013,AllSex,Leukaemia,15,7.7,AllSex
+Waikato,2013,AllSex,Leukaemia,53,9.9,AllSex
+Wairarapa,2013,AllSex,Leukaemia,6,9.4,AllSex
+Waitemata,2013,AllSex,Leukaemia,75,10.4,AllSex
+West Coast,2013,AllSex,Leukaemia,3,0,AllSex
+Whanganui,2013,AllSex,Leukaemia,10,6.9,AllSex
+All New Zealand,2013,AllSex,Lung,2085,29.1,AllSex
+Auckland,2013,AllSex,Lung,144,24.6,AllSex
+Bay of Plenty,2013,AllSex,Lung,126,29.7,AllSex
+Canterbury,2013,AllSex,Lung,215,25.7,AllSex
+Capital & Coast,2013,AllSex,Lung,98,22.7,AllSex
+Counties Manukau,2013,AllSex,Lung,228,36.9,AllSex
+Hawke's Bay,2013,AllSex,Lung,97,34.2,AllSex
+Hutt Valley,2013,AllSex,Lung,74,33.5,AllSex
+Lakes,2013,AllSex,Lung,54,32.4,AllSex
+MidCentral,2013,AllSex,Lung,101,32,AllSex
+Nelson Marlborough,2013,AllSex,Lung,69,23.5,AllSex
+Northland,2013,AllSex,Lung,102,32.3,AllSex
+South Canterbury,2013,AllSex,Lung,34,27.5,AllSex
+Southern,2013,AllSex,Lung,169,30.5,AllSex
+Tairawhiti,2013,AllSex,Lung,29,36.8,AllSex
+Taranaki,2013,AllSex,Lung,54,27.1,AllSex
+Waikato,2013,AllSex,Lung,186,30.2,AllSex
+Wairarapa,2013,AllSex,Lung,25,30.6,AllSex
+Waitemata,2013,AllSex,Lung,211,25.8,AllSex
+West Coast,2013,AllSex,Lung,29,47.7,AllSex
+Whanganui,2013,AllSex,Lung,34,26,AllSex
+All New Zealand,2013,AllSex,Melanoma,2368,37.4,AllSex
+Auckland,2013,AllSex,Melanoma,197,35.5,AllSex
+Bay of Plenty,2013,AllSex,Melanoma,128,36.9,AllSex
+Canterbury,2013,AllSex,Melanoma,284,38.5,AllSex
+Capital & Coast,2013,AllSex,Melanoma,119,29.7,AllSex
+Counties Manukau,2013,AllSex,Melanoma,192,32.1,AllSex
+Hawke's Bay,2013,AllSex,Melanoma,58,23.1,AllSex
+Hutt Valley,2013,AllSex,Melanoma,75,37.3,AllSex
+Lakes,2013,AllSex,Melanoma,54,33.5,AllSex
+MidCentral,2013,AllSex,Melanoma,108,43.1,AllSex
+Nelson Marlborough,2013,AllSex,Melanoma,87,31.3,AllSex
+Northland,2013,AllSex,Melanoma,101,38.7,AllSex
+South Canterbury,2013,AllSex,Melanoma,38,46.2,AllSex
+Southern,2013,AllSex,Melanoma,181,41.7,AllSex
+Tairawhiti,2013,AllSex,Melanoma,23,40.4,AllSex
+Taranaki,2013,AllSex,Melanoma,104,59.9,AllSex
+Waikato,2013,AllSex,Melanoma,210,38.6,AllSex
+Wairarapa,2013,AllSex,Melanoma,32,55.2,AllSex
+Waitemata,2013,AllSex,Melanoma,299,38.4,AllSex
+West Coast,2013,AllSex,Melanoma,24,57.3,AllSex
+Whanganui,2013,AllSex,Melanoma,51,54.8,AllSex
+All New Zealand,2013,AllSex,Non-Hodgkin lymphoma,788,11.8,AllSex
+Auckland,2013,AllSex,Non-Hodgkin lymphoma,67,11.6,AllSex
+Bay of Plenty,2013,AllSex,Non-Hodgkin lymphoma,41,10.5,AllSex
+Canterbury,2013,AllSex,Non-Hodgkin lymphoma,101,12.7,AllSex
+Capital & Coast,2013,AllSex,Non-Hodgkin lymphoma,38,9.8,AllSex
+Counties Manukau,2013,AllSex,Non-Hodgkin lymphoma,76,12.3,AllSex
+Hawke's Bay,2013,AllSex,Non-Hodgkin lymphoma,36,13.6,AllSex
+Hutt Valley,2013,AllSex,Non-Hodgkin lymphoma,26,12.3,AllSex
+Lakes,2013,AllSex,Non-Hodgkin lymphoma,18,13.1,AllSex
+MidCentral,2013,AllSex,Non-Hodgkin lymphoma,30,9.8,AllSex
+Nelson Marlborough,2013,AllSex,Non-Hodgkin lymphoma,42,16.1,AllSex
+Northland,2013,AllSex,Non-Hodgkin lymphoma,31,11.3,AllSex
+South Canterbury,2013,AllSex,Non-Hodgkin lymphoma,11,12.3,AllSex
+Southern,2013,AllSex,Non-Hodgkin lymphoma,57,11.7,AllSex
+Tairawhiti,2013,AllSex,Non-Hodgkin lymphoma,5,0,AllSex
+Taranaki,2013,AllSex,Non-Hodgkin lymphoma,18,9.2,AllSex
+Waikato,2013,AllSex,Non-Hodgkin lymphoma,53,9.1,AllSex
+Wairarapa,2013,AllSex,Non-Hodgkin lymphoma,11,16.5,AllSex
+Waitemata,2013,AllSex,Non-Hodgkin lymphoma,104,13.3,AllSex
+West Coast,2013,AllSex,Non-Hodgkin lymphoma,9,19.4,AllSex
+Whanganui,2013,AllSex,Non-Hodgkin lymphoma,12,11,AllSex
+All New Zealand,2013,AllSex,Pancreas,514,7.1,AllSex
+Auckland,2013,AllSex,Pancreas,46,7.8,AllSex
+Bay of Plenty,2013,AllSex,Pancreas,39,9.1,AllSex
+Canterbury,2013,AllSex,Pancreas,51,5.9,AllSex
+Capital & Coast,2013,AllSex,Pancreas,27,6.2,AllSex
+Counties Manukau,2013,AllSex,Pancreas,41,6.7,AllSex
+Hawke's Bay,2013,AllSex,Pancreas,14,4.7,AllSex
+Hutt Valley,2013,AllSex,Pancreas,21,9.2,AllSex
+Lakes,2013,AllSex,Pancreas,13,7.5,AllSex
+MidCentral,2013,AllSex,Pancreas,17,5.5,AllSex
+Nelson Marlborough,2013,AllSex,Pancreas,19,6.3,AllSex
+Northland,2013,AllSex,Pancreas,28,8.1,AllSex
+South Canterbury,2013,AllSex,Pancreas,13,10.5,AllSex
+Southern,2013,AllSex,Pancreas,32,5.7,AllSex
+Tairawhiti,2013,AllSex,Pancreas,6,7.7,AllSex
+Taranaki,2013,AllSex,Pancreas,11,5.3,AllSex
+Waikato,2013,AllSex,Pancreas,43,6.8,AllSex
+Wairarapa,2013,AllSex,Pancreas,8,9.3,AllSex
+Waitemata,2013,AllSex,Pancreas,59,7,AllSex
+West Coast,2013,AllSex,Pancreas,5,0,AllSex
+Whanganui,2013,AllSex,Pancreas,16,13.5,AllSex
+All New Zealand,2014,AllSex,Colorectal,3209,44.4,AllSex
+Auckland,2014,AllSex,Colorectal,222,37.1,AllSex
+Bay of Plenty,2014,AllSex,Colorectal,181,43.6,AllSex
+Canterbury,2014,AllSex,Colorectal,402,46.7,AllSex
+Capital & Coast,2014,AllSex,Colorectal,190,45.6,AllSex
+Counties Manukau,2014,AllSex,Colorectal,238,37.5,AllSex
+Hawke's Bay,2014,AllSex,Colorectal,120,41.2,AllSex
+Hutt Valley,2014,AllSex,Colorectal,109,49.4,AllSex
+Lakes,2014,AllSex,Colorectal,58,34.2,AllSex
+MidCentral,2014,AllSex,Colorectal,144,47.9,AllSex
+Nelson Marlborough,2014,AllSex,Colorectal,122,41.5,AllSex
+Northland,2014,AllSex,Colorectal,115,34.9,AllSex
+South Canterbury,2014,AllSex,Colorectal,65,49.5,AllSex
+Southern,2014,AllSex,Colorectal,312,56.9,AllSex
+Tairawhiti,2014,AllSex,Colorectal,29,38.6,AllSex
+Taranaki,2014,AllSex,Colorectal,103,47.8,AllSex
+Waikato,2014,AllSex,Colorectal,305,48.9,AllSex
+Wairarapa,2014,AllSex,Colorectal,42,46.2,AllSex
+Waitemata,2014,AllSex,Colorectal,350,41.7,AllSex
+West Coast,2014,AllSex,Colorectal,37,63.2,AllSex
+Whanganui,2014,AllSex,Colorectal,58,47.1,AllSex
+All New Zealand,2014,AllSex,Leukaemia,663,10.4,AllSex
+Auckland,2014,AllSex,Leukaemia,47,8.6,AllSex
+Bay of Plenty,2014,AllSex,Leukaemia,36,10.5,AllSex
+Canterbury,2014,AllSex,Leukaemia,76,9.9,AllSex
+Capital & Coast,2014,AllSex,Leukaemia,43,11.6,AllSex
+Counties Manukau,2014,AllSex,Leukaemia,59,10,AllSex
+Hawke's Bay,2014,AllSex,Leukaemia,28,10.7,AllSex
+Hutt Valley,2014,AllSex,Leukaemia,20,10.8,AllSex
+Lakes,2014,AllSex,Leukaemia,18,13.1,AllSex
+MidCentral,2014,AllSex,Leukaemia,23,9.1,AllSex
+Nelson Marlborough,2014,AllSex,Leukaemia,26,9.9,AllSex
+Northland,2014,AllSex,Leukaemia,33,12.7,AllSex
+South Canterbury,2014,AllSex,Leukaemia,12,10,AllSex
+Southern,2014,AllSex,Leukaemia,46,9.6,AllSex
+Tairawhiti,2014,AllSex,Leukaemia,4,0,AllSex
+Taranaki,2014,AllSex,Leukaemia,19,11.9,AllSex
+Waikato,2014,AllSex,Leukaemia,63,10.9,AllSex
+Wairarapa,2014,AllSex,Leukaemia,7,7.7,AllSex
+Waitemata,2014,AllSex,Leukaemia,76,9.9,AllSex
+West Coast,2014,AllSex,Leukaemia,7,14.1,AllSex
+Whanganui,2014,AllSex,Leukaemia,16,19,AllSex
+All New Zealand,2014,AllSex,Lung,2284,31.1,AllSex
+Auckland,2014,AllSex,Lung,160,26.6,AllSex
+Bay of Plenty,2014,AllSex,Lung,144,33.9,AllSex
+Canterbury,2014,AllSex,Lung,244,27.7,AllSex
+Capital & Coast,2014,AllSex,Lung,118,27.8,AllSex
+Counties Manukau,2014,AllSex,Lung,222,34.3,AllSex
+Hawke's Bay,2014,AllSex,Lung,116,40.2,AllSex
+Hutt Valley,2014,AllSex,Lung,76,33.7,AllSex
+Lakes,2014,AllSex,Lung,63,38.4,AllSex
+MidCentral,2014,AllSex,Lung,101,32.4,AllSex
+Nelson Marlborough,2014,AllSex,Lung,70,22.9,AllSex
+Northland,2014,AllSex,Lung,127,40.2,AllSex
+South Canterbury,2014,AllSex,Lung,31,22.9,AllSex
+Southern,2014,AllSex,Lung,164,29.7,AllSex
+Tairawhiti,2014,AllSex,Lung,31,41.3,AllSex
+Taranaki,2014,AllSex,Lung,65,31.9,AllSex
+Waikato,2014,AllSex,Lung,201,31.2,AllSex
+Wairarapa,2014,AllSex,Lung,24,23.6,AllSex
+Waitemata,2014,AllSex,Lung,248,28.9,AllSex
+West Coast,2014,AllSex,Lung,25,39.4,AllSex
+Whanganui,2014,AllSex,Lung,47,38.6,AllSex
+All New Zealand,2014,AllSex,Melanoma,2299,34.9,AllSex
+Auckland,2014,AllSex,Melanoma,164,28.1,AllSex
+Bay of Plenty,2014,AllSex,Melanoma,157,43.9,AllSex
+Canterbury,2014,AllSex,Melanoma,304,40.6,AllSex
+Capital & Coast,2014,AllSex,Melanoma,120,30.5,AllSex
+Counties Manukau,2014,AllSex,Melanoma,158,25.3,AllSex
+Hawke's Bay,2014,AllSex,Melanoma,63,23.7,AllSex
+Hutt Valley,2014,AllSex,Melanoma,68,32.6,AllSex
+Lakes,2014,AllSex,Melanoma,47,30.1,AllSex
+MidCentral,2014,AllSex,Melanoma,106,41.2,AllSex
+Nelson Marlborough,2014,AllSex,Melanoma,78,31.7,AllSex
+Northland,2014,AllSex,Melanoma,107,37.7,AllSex
+South Canterbury,2014,AllSex,Melanoma,45,37.3,AllSex
+Southern,2014,AllSex,Melanoma,178,39,AllSex
+Tairawhiti,2014,AllSex,Melanoma,18,31.8,AllSex
+Taranaki,2014,AllSex,Melanoma,92,52.8,AllSex
+Waikato,2014,AllSex,Melanoma,199,35.4,AllSex
+Wairarapa,2014,AllSex,Melanoma,39,47.7,AllSex
+Waitemata,2014,AllSex,Melanoma,297,37.1,AllSex
+West Coast,2014,AllSex,Melanoma,21,43.5,AllSex
+Whanganui,2014,AllSex,Melanoma,36,34.8,AllSex
+All New Zealand,2014,AllSex,Non-Hodgkin lymphoma,778,11.7,AllSex
+Auckland,2014,AllSex,Non-Hodgkin lymphoma,66,11.7,AllSex
+Bay of Plenty,2014,AllSex,Non-Hodgkin lymphoma,47,14.1,AllSex
+Canterbury,2014,AllSex,Non-Hodgkin lymphoma,104,13.4,AllSex
+Capital & Coast,2014,AllSex,Non-Hodgkin lymphoma,33,8.4,AllSex
+Counties Manukau,2014,AllSex,Non-Hodgkin lymphoma,70,11.3,AllSex
+Hawke's Bay,2014,AllSex,Non-Hodgkin lymphoma,29,9.9,AllSex
+Hutt Valley,2014,AllSex,Non-Hodgkin lymphoma,20,9,AllSex
+Lakes,2014,AllSex,Non-Hodgkin lymphoma,17,10.4,AllSex
+MidCentral,2014,AllSex,Non-Hodgkin lymphoma,37,13.5,AllSex
+Nelson Marlborough,2014,AllSex,Non-Hodgkin lymphoma,29,10.2,AllSex
+Northland,2014,AllSex,Non-Hodgkin lymphoma,39,13.8,AllSex
+South Canterbury,2014,AllSex,Non-Hodgkin lymphoma,11,8.3,AllSex
+Southern,2014,AllSex,Non-Hodgkin lymphoma,52,10.9,AllSex
+Tairawhiti,2014,AllSex,Non-Hodgkin lymphoma,11,16.4,AllSex
+Taranaki,2014,AllSex,Non-Hodgkin lymphoma,19,9.7,AllSex
+Waikato,2014,AllSex,Non-Hodgkin lymphoma,80,14.3,AllSex
+Wairarapa,2014,AllSex,Non-Hodgkin lymphoma,9,12.2,AllSex
+Waitemata,2014,AllSex,Non-Hodgkin lymphoma,83,10.6,AllSex
+West Coast,2014,AllSex,Non-Hodgkin lymphoma,5,0,AllSex
+Whanganui,2014,AllSex,Non-Hodgkin lymphoma,14,11.7,AllSex
+All New Zealand,2014,AllSex,Pancreas,576,7.7,AllSex
+Auckland,2014,AllSex,Pancreas,48,8.1,AllSex
+Bay of Plenty,2014,AllSex,Pancreas,30,6.8,AllSex
+Canterbury,2014,AllSex,Pancreas,67,7.4,AllSex
+Capital & Coast,2014,AllSex,Pancreas,35,7.5,AllSex
+Counties Manukau,2014,AllSex,Pancreas,53,8.3,AllSex
+Hawke's Bay,2014,AllSex,Pancreas,25,7,AllSex
+Hutt Valley,2014,AllSex,Pancreas,21,9.2,AllSex
+Lakes,2014,AllSex,Pancreas,9,5.7,AllSex
+MidCentral,2014,AllSex,Pancreas,17,5.6,AllSex
+Nelson Marlborough,2014,AllSex,Pancreas,26,9,AllSex
+Northland,2014,AllSex,Pancreas,28,8.1,AllSex
+South Canterbury,2014,AllSex,Pancreas,18,13.5,AllSex
+Southern,2014,AllSex,Pancreas,49,8.9,AllSex
+Tairawhiti,2014,AllSex,Pancreas,12,15.9,AllSex
+Taranaki,2014,AllSex,Pancreas,8,4,AllSex
+Waikato,2014,AllSex,Pancreas,35,5.5,AllSex
+Wairarapa,2014,AllSex,Pancreas,6,7.2,AllSex
+Waitemata,2014,AllSex,Pancreas,68,7.4,AllSex
+West Coast,2014,AllSex,Pancreas,8,13.4,AllSex
+Whanganui,2014,AllSex,Pancreas,10,7.7,AllSex
+All New Zealand,2015,AllSex,Colorectal,3101,41.5,AllSex
+Auckland,2015,AllSex,Colorectal,250,40.4,AllSex
+Bay of Plenty,2015,AllSex,Colorectal,174,38.4,AllSex
+Canterbury,2015,AllSex,Colorectal,356,41.2,AllSex
+Capital & Coast,2015,AllSex,Colorectal,147,33.7,AllSex
+Counties Manukau,2015,AllSex,Colorectal,259,38.7,AllSex
+Hawke's Bay,2015,AllSex,Colorectal,148,47.4,AllSex
+Hutt Valley,2015,AllSex,Colorectal,96,40.4,AllSex
+Lakes,2015,AllSex,Colorectal,65,36.2,AllSex
+MidCentral,2015,AllSex,Colorectal,140,44.4,AllSex
+Nelson Marlborough,2015,AllSex,Colorectal,123,39.7,AllSex
+Northland,2015,AllSex,Colorectal,124,38.2,AllSex
+South Canterbury,2015,AllSex,Colorectal,54,39.9,AllSex
+Southern,2015,AllSex,Colorectal,325,59.2,AllSex
+Tairawhiti,2015,AllSex,Colorectal,40,51.9,AllSex
+Taranaki,2015,AllSex,Colorectal,88,41.7,AllSex
+Waikato,2015,AllSex,Colorectal,243,38.3,AllSex
+Wairarapa,2015,AllSex,Colorectal,40,43.8,AllSex
+Waitemata,2015,AllSex,Colorectal,338,39.1,AllSex
+West Coast,2015,AllSex,Colorectal,32,47.3,AllSex
+Whanganui,2015,AllSex,Colorectal,52,43.3,AllSex
+All New Zealand,2015,AllSex,Leukaemia,719,11,AllSex
+Auckland,2015,AllSex,Leukaemia,62,11.6,AllSex
+Bay of Plenty,2015,AllSex,Leukaemia,35,7.8,AllSex
+Canterbury,2015,AllSex,Leukaemia,77,10.2,AllSex
+Capital & Coast,2015,AllSex,Leukaemia,52,13.7,AllSex
+Counties Manukau,2015,AllSex,Leukaemia,70,11.6,AllSex
+Hawke's Bay,2015,AllSex,Leukaemia,31,11.1,AllSex
+Hutt Valley,2015,AllSex,Leukaemia,19,9.4,AllSex
+Lakes,2015,AllSex,Leukaemia,12,7.6,AllSex
+MidCentral,2015,AllSex,Leukaemia,19,7.1,AllSex
+Nelson Marlborough,2015,AllSex,Leukaemia,31,12.8,AllSex
+Northland,2015,AllSex,Leukaemia,27,9.3,AllSex
+South Canterbury,2015,AllSex,Leukaemia,15,11.2,AllSex
+Southern,2015,AllSex,Leukaemia,42,9.1,AllSex
+Tairawhiti,2015,AllSex,Leukaemia,9,12.8,AllSex
+Taranaki,2015,AllSex,Leukaemia,26,13.1,AllSex
+Waikato,2015,AllSex,Leukaemia,58,9.5,AllSex
+Wairarapa,2015,AllSex,Leukaemia,12,14.5,AllSex
+Waitemata,2015,AllSex,Leukaemia,101,13.4,AllSex
+West Coast,2015,AllSex,Leukaemia,10,15.5,AllSex
+Whanganui,2015,AllSex,Leukaemia,10,8.6,AllSex
+All New Zealand,2015,AllSex,Lung,2275,30.3,AllSex
+Auckland,2015,AllSex,Lung,156,25,AllSex
+Bay of Plenty,2015,AllSex,Lung,146,33.6,AllSex
+Canterbury,2015,AllSex,Lung,242,27.2,AllSex
+Capital & Coast,2015,AllSex,Lung,109,25.1,AllSex
+Counties Manukau,2015,AllSex,Lung,250,37.5,AllSex
+Hawke's Bay,2015,AllSex,Lung,94,30,AllSex
+Hutt Valley,2015,AllSex,Lung,57,25.6,AllSex
+Lakes,2015,AllSex,Lung,65,35.8,AllSex
+MidCentral,2015,AllSex,Lung,92,28.3,AllSex
+Nelson Marlborough,2015,AllSex,Lung,78,24.5,AllSex
+Northland,2015,AllSex,Lung,134,39.9,AllSex
+South Canterbury,2015,AllSex,Lung,25,21,AllSex
+Southern,2015,AllSex,Lung,156,28.1,AllSex
+Tairawhiti,2015,AllSex,Lung,27,36.9,AllSex
+Taranaki,2015,AllSex,Lung,67,32.5,AllSex
+Waikato,2015,AllSex,Lung,241,37.5,AllSex
+Wairarapa,2015,AllSex,Lung,27,31.4,AllSex
+Waitemata,2015,AllSex,Lung,239,27.2,AllSex
+West Coast,2015,AllSex,Lung,16,24.6,AllSex
+Whanganui,2015,AllSex,Lung,45,33.4,AllSex
+All New Zealand,2015,AllSex,Melanoma,2429,35.4,AllSex
+Auckland,2015,AllSex,Melanoma,209,35,AllSex
+Bay of Plenty,2015,AllSex,Melanoma,188,46.9,AllSex
+Canterbury,2015,AllSex,Melanoma,309,39.7,AllSex
+Capital & Coast,2015,AllSex,Melanoma,138,33.5,AllSex
+Counties Manukau,2015,AllSex,Melanoma,185,28.6,AllSex
+Hawke's Bay,2015,AllSex,Melanoma,78,29.2,AllSex
+Hutt Valley,2015,AllSex,Melanoma,52,23.4,AllSex
+Lakes,2015,AllSex,Melanoma,54,32.9,AllSex
+MidCentral,2015,AllSex,Melanoma,90,34.1,AllSex
+Nelson Marlborough,2015,AllSex,Melanoma,89,32.9,AllSex
+Northland,2015,AllSex,Melanoma,91,31.2,AllSex
+South Canterbury,2015,AllSex,Melanoma,31,27.1,AllSex
+Southern,2015,AllSex,Melanoma,167,34.4,AllSex
+Tairawhiti,2015,AllSex,Melanoma,28,38.2,AllSex
+Taranaki,2015,AllSex,Melanoma,91,50.2,AllSex
+Waikato,2015,AllSex,Melanoma,203,33.9,AllSex
+Wairarapa,2015,AllSex,Melanoma,27,33.6,AllSex
+Waitemata,2015,AllSex,Melanoma,329,40.1,AllSex
+West Coast,2015,AllSex,Melanoma,24,45.9,AllSex
+Whanganui,2015,AllSex,Melanoma,45,42.2,AllSex
+All New Zealand,2015,AllSex,Non-Hodgkin lymphoma,851,12.1,AllSex
+Auckland,2015,AllSex,Non-Hodgkin lymphoma,86,14.4,AllSex
+Bay of Plenty,2015,AllSex,Non-Hodgkin lymphoma,47,11.6,AllSex
+Canterbury,2015,AllSex,Non-Hodgkin lymphoma,93,11.2,AllSex
+Capital & Coast,2015,AllSex,Non-Hodgkin lymphoma,69,16.1,AllSex
+Counties Manukau,2015,AllSex,Non-Hodgkin lymphoma,69,10.5,AllSex
+Hawke's Bay,2015,AllSex,Non-Hodgkin lymphoma,26,9.3,AllSex
+Hutt Valley,2015,AllSex,Non-Hodgkin lymphoma,26,11.5,AllSex
+Lakes,2015,AllSex,Non-Hodgkin lymphoma,22,11.1,AllSex
+MidCentral,2015,AllSex,Non-Hodgkin lymphoma,36,13.6,AllSex
+Nelson Marlborough,2015,AllSex,Non-Hodgkin lymphoma,34,11.5,AllSex
+Northland,2015,AllSex,Non-Hodgkin lymphoma,35,10.6,AllSex
+South Canterbury,2015,AllSex,Non-Hodgkin lymphoma,12,11.9,AllSex
+Southern,2015,AllSex,Non-Hodgkin lymphoma,66,13.1,AllSex
+Tairawhiti,2015,AllSex,Non-Hodgkin lymphoma,5,0,AllSex
+Taranaki,2015,AllSex,Non-Hodgkin lymphoma,18,9.2,AllSex
+Waikato,2015,AllSex,Non-Hodgkin lymphoma,67,11.9,AllSex
+Wairarapa,2015,AllSex,Non-Hodgkin lymphoma,13,12.4,AllSex
+Waitemata,2015,AllSex,Non-Hodgkin lymphoma,100,12.5,AllSex
+West Coast,2015,AllSex,Non-Hodgkin lymphoma,6,9.8,AllSex
+Whanganui,2015,AllSex,Non-Hodgkin lymphoma,18,16,AllSex
+All New Zealand,2015,AllSex,Pancreas,595,7.8,AllSex
+Auckland,2015,AllSex,Pancreas,39,6.3,AllSex
+Bay of Plenty,2015,AllSex,Pancreas,47,10.2,AllSex
+Canterbury,2015,AllSex,Pancreas,55,5.8,AllSex
+Capital & Coast,2015,AllSex,Pancreas,26,6.3,AllSex
+Counties Manukau,2015,AllSex,Pancreas,51,7.7,AllSex
+Hawke's Bay,2015,AllSex,Pancreas,28,9.3,AllSex
+Hutt Valley,2015,AllSex,Pancreas,13,5.4,AllSex
+Lakes,2015,AllSex,Pancreas,11,5.7,AllSex
+MidCentral,2015,AllSex,Pancreas,33,10.1,AllSex
+Nelson Marlborough,2015,AllSex,Pancreas,28,8.7,AllSex
+Northland,2015,AllSex,Pancreas,31,9.2,AllSex
+South Canterbury,2015,AllSex,Pancreas,13,9.5,AllSex
+Southern,2015,AllSex,Pancreas,48,8.1,AllSex
+Tairawhiti,2015,AllSex,Pancreas,7,10,AllSex
+Taranaki,2015,AllSex,Pancreas,20,10,AllSex
+Waikato,2015,AllSex,Pancreas,49,7.4,AllSex
+Wairarapa,2015,AllSex,Pancreas,6,6.6,AllSex
+Waitemata,2015,AllSex,Pancreas,70,7.9,AllSex
+West Coast,2015,AllSex,Pancreas,4,0,AllSex
+Whanganui,2015,AllSex,Pancreas,14,12.1,AllSex
+All New Zealand,2016,AllSex,Colorectal,3166,41.2,AllSex
+Auckland,2016,AllSex,Colorectal,223,35.6,AllSex
+Bay of Plenty,2016,AllSex,Colorectal,204,43.2,AllSex
+Canterbury,2016,AllSex,Colorectal,376,41.7,AllSex
+Capital & Coast,2016,AllSex,Colorectal,172,38.9,AllSex
+Counties Manukau,2016,AllSex,Colorectal,272,40,AllSex
+Hawke's Bay,2016,AllSex,Colorectal,161,50,AllSex
+Hutt Valley,2016,AllSex,Colorectal,88,39,AllSex
+Lakes,2016,AllSex,Colorectal,80,43.6,AllSex
+MidCentral,2016,AllSex,Colorectal,123,37.3,AllSex
+Nelson Marlborough,2016,AllSex,Colorectal,111,34.6,AllSex
+Northland,2016,AllSex,Colorectal,138,39.9,AllSex
+South Canterbury,2016,AllSex,Colorectal,61,44.3,AllSex
+Southern,2016,AllSex,Colorectal,261,44.1,AllSex
+Tairawhiti,2016,AllSex,Colorectal,26,34.3,AllSex
+Taranaki,2016,AllSex,Colorectal,104,48.8,AllSex
+Waikato,2016,AllSex,Colorectal,291,44.3,AllSex
+Wairarapa,2016,AllSex,Colorectal,42,43.1,AllSex
+Waitemata,2016,AllSex,Colorectal,342,38.7,AllSex
+West Coast,2016,AllSex,Colorectal,26,39.7,AllSex
+Whanganui,2016,AllSex,Colorectal,61,47,AllSex
+All New Zealand,2016,AllSex,Leukaemia,702,10.4,AllSex
+Auckland,2016,AllSex,Leukaemia,60,10.5,AllSex
+Bay of Plenty,2016,AllSex,Leukaemia,33,8.1,AllSex
+Canterbury,2016,AllSex,Leukaemia,99,12.7,AllSex
+Capital & Coast,2016,AllSex,Leukaemia,44,11.2,AllSex
+Counties Manukau,2016,AllSex,Leukaemia,66,10.5,AllSex
+Hawke's Bay,2016,AllSex,Leukaemia,23,7.8,AllSex
+Hutt Valley,2016,AllSex,Leukaemia,16,7.1,AllSex
+Lakes,2016,AllSex,Leukaemia,19,12.9,AllSex
+MidCentral,2016,AllSex,Leukaemia,33,11.9,AllSex
+Nelson Marlborough,2016,AllSex,Leukaemia,18,7.3,AllSex
+Northland,2016,AllSex,Leukaemia,37,13.5,AllSex
+South Canterbury,2016,AllSex,Leukaemia,14,18.2,AllSex
+Southern,2016,AllSex,Leukaemia,41,8.9,AllSex
+Tairawhiti,2016,AllSex,Leukaemia,8,9.8,AllSex
+Taranaki,2016,AllSex,Leukaemia,21,12.1,AllSex
+Waikato,2016,AllSex,Leukaemia,50,8,AllSex
+Wairarapa,2016,AllSex,Leukaemia,5,0,AllSex
+Waitemata,2016,AllSex,Leukaemia,93,11,AllSex
+West Coast,2016,AllSex,Leukaemia,6,11.9,AllSex
+Whanganui,2016,AllSex,Leukaemia,13,11.3,AllSex
+All New Zealand,2016,AllSex,Lung,2309,29.6,AllSex
+Auckland,2016,AllSex,Lung,169,26.7,AllSex
+Bay of Plenty,2016,AllSex,Lung,129,27.9,AllSex
+Canterbury,2016,AllSex,Lung,241,26,AllSex
+Capital & Coast,2016,AllSex,Lung,112,24.6,AllSex
+Counties Manukau,2016,AllSex,Lung,248,36.1,AllSex
+Hawke's Bay,2016,AllSex,Lung,94,29.8,AllSex
+Hutt Valley,2016,AllSex,Lung,72,30.4,AllSex
+Lakes,2016,AllSex,Lung,60,32.4,AllSex
+MidCentral,2016,AllSex,Lung,101,29.9,AllSex
+Nelson Marlborough,2016,AllSex,Lung,87,26.3,AllSex
+Northland,2016,AllSex,Lung,161,45.4,AllSex
+South Canterbury,2016,AllSex,Lung,41,30,AllSex
+Southern,2016,AllSex,Lung,161,27.3,AllSex
+Tairawhiti,2016,AllSex,Lung,30,39.7,AllSex
+Taranaki,2016,AllSex,Lung,72,31.9,AllSex
+Waikato,2016,AllSex,Lung,202,29.9,AllSex
+Wairarapa,2016,AllSex,Lung,23,22.7,AllSex
+Waitemata,2016,AllSex,Lung,231,26.1,AllSex
+West Coast,2016,AllSex,Lung,25,36,AllSex
+Whanganui,2016,AllSex,Lung,42,33.5,AllSex
+All New Zealand,2016,AllSex,Melanoma,2575,36.3,AllSex
+Auckland,2016,AllSex,Melanoma,216,35.7,AllSex
+Bay of Plenty,2016,AllSex,Melanoma,157,38.7,AllSex
+Canterbury,2016,AllSex,Melanoma,305,37,AllSex
+Capital & Coast,2016,AllSex,Melanoma,131,31.2,AllSex
+Counties Manukau,2016,AllSex,Melanoma,203,30.2,AllSex
+Hawke's Bay,2016,AllSex,Melanoma,72,23.6,AllSex
+Hutt Valley,2016,AllSex,Melanoma,76,34.2,AllSex
+Lakes,2016,AllSex,Melanoma,63,37.3,AllSex
+MidCentral,2016,AllSex,Melanoma,108,35.9,AllSex
+Nelson Marlborough,2016,AllSex,Melanoma,111,42.9,AllSex
+Northland,2016,AllSex,Melanoma,120,38.3,AllSex
+South Canterbury,2016,AllSex,Melanoma,37,33.4,AllSex
+Southern,2016,AllSex,Melanoma,181,35.4,AllSex
+Tairawhiti,2016,AllSex,Melanoma,25,35,AllSex
+Taranaki,2016,AllSex,Melanoma,96,53.5,AllSex
+Waikato,2016,AllSex,Melanoma,217,35.3,AllSex
+Wairarapa,2016,AllSex,Melanoma,29,36.7,AllSex
+Waitemata,2016,AllSex,Melanoma,354,42.8,AllSex
+West Coast,2016,AllSex,Melanoma,18,28.1,AllSex
+Whanganui,2016,AllSex,Melanoma,54,45.1,AllSex
+All New Zealand,2016,AllSex,Non-Hodgkin lymphoma,931,13.3,AllSex
+Auckland,2016,AllSex,Non-Hodgkin lymphoma,61,9.9,AllSex
+Bay of Plenty,2016,AllSex,Non-Hodgkin lymphoma,36,8,AllSex
+Canterbury,2016,AllSex,Non-Hodgkin lymphoma,120,14.3,AllSex
+Capital & Coast,2016,AllSex,Non-Hodgkin lymphoma,60,14.5,AllSex
+Counties Manukau,2016,AllSex,Non-Hodgkin lymphoma,92,14.1,AllSex
+Hawke's Bay,2016,AllSex,Non-Hodgkin lymphoma,41,15.3,AllSex
+Hutt Valley,2016,AllSex,Non-Hodgkin lymphoma,40,18.9,AllSex
+Lakes,2016,AllSex,Non-Hodgkin lymphoma,28,17.9,AllSex
+MidCentral,2016,AllSex,Non-Hodgkin lymphoma,40,14.4,AllSex
+Nelson Marlborough,2016,AllSex,Non-Hodgkin lymphoma,35,14.8,AllSex
+Northland,2016,AllSex,Non-Hodgkin lymphoma,44,15.9,AllSex
+South Canterbury,2016,AllSex,Non-Hodgkin lymphoma,13,10.9,AllSex
+Southern,2016,AllSex,Non-Hodgkin lymphoma,64,12.5,AllSex
+Tairawhiti,2016,AllSex,Non-Hodgkin lymphoma,8,11.9,AllSex
+Taranaki,2016,AllSex,Non-Hodgkin lymphoma,22,10.5,AllSex
+Waikato,2016,AllSex,Non-Hodgkin lymphoma,67,11.1,AllSex
+Wairarapa,2016,AllSex,Non-Hodgkin lymphoma,10,15.1,AllSex
+Waitemata,2016,AllSex,Non-Hodgkin lymphoma,125,14.9,AllSex
+West Coast,2016,AllSex,Non-Hodgkin lymphoma,6,8.3,AllSex
+Whanganui,2016,AllSex,Non-Hodgkin lymphoma,16,12.6,AllSex
+All New Zealand,2016,AllSex,Pancreas,597,7.7,AllSex
+Auckland,2016,AllSex,Pancreas,45,7,AllSex
+Bay of Plenty,2016,AllSex,Pancreas,26,5.5,AllSex
+Canterbury,2016,AllSex,Pancreas,58,6.4,AllSex
+Capital & Coast,2016,AllSex,Pancreas,28,5.9,AllSex
+Counties Manukau,2016,AllSex,Pancreas,56,8.2,AllSex
+Hawke's Bay,2016,AllSex,Pancreas,31,9,AllSex
+Hutt Valley,2016,AllSex,Pancreas,20,7.6,AllSex
+Lakes,2016,AllSex,Pancreas,16,9.1,AllSex
+MidCentral,2016,AllSex,Pancreas,38,11.8,AllSex
+Nelson Marlborough,2016,AllSex,Pancreas,30,8.9,AllSex
+Northland,2016,AllSex,Pancreas,36,10.5,AllSex
+South Canterbury,2016,AllSex,Pancreas,5,0,AllSex
+Southern,2016,AllSex,Pancreas,43,7.3,AllSex
+Tairawhiti,2016,AllSex,Pancreas,6,7,AllSex
+Taranaki,2016,AllSex,Pancreas,18,8.7,AllSex
+Waikato,2016,AllSex,Pancreas,47,7.2,AllSex
+Wairarapa,2016,AllSex,Pancreas,6,5.6,AllSex
+Waitemata,2016,AllSex,Pancreas,66,7.4,AllSex
+West Coast,2016,AllSex,Pancreas,6,8.5,AllSex
+Whanganui,2016,AllSex,Pancreas,12,10.3,AllSex
+All New Zealand,2017,AllSex,Colorectal,3031,39.2,AllSex
+Auckland,2017,AllSex,Colorectal,208,32.5,AllSex
+Bay of Plenty,2017,AllSex,Colorectal,182,39.5,AllSex
+Canterbury,2017,AllSex,Colorectal,403,43.8,AllSex
+Capital & Coast,2017,AllSex,Colorectal,159,36.1,AllSex
+Counties Manukau,2017,AllSex,Colorectal,232,33.3,AllSex
+Hawke's Bay,2017,AllSex,Colorectal,104,33.9,AllSex
+Hutt Valley,2017,AllSex,Colorectal,81,35.2,AllSex
+Lakes,2017,AllSex,Colorectal,65,34,AllSex
+MidCentral,2017,AllSex,Colorectal,143,43.1,AllSex
+Nelson Marlborough,2017,AllSex,Colorectal,137,42.7,AllSex
+Northland,2017,AllSex,Colorectal,135,39,AllSex
+South Canterbury,2017,AllSex,Colorectal,52,41.5,AllSex
+Southern,2017,AllSex,Colorectal,256,43.5,AllSex
+Tairawhiti,2017,AllSex,Colorectal,29,40,AllSex
+Taranaki,2017,AllSex,Colorectal,87,40,AllSex
+Waikato,2017,AllSex,Colorectal,288,41.7,AllSex
+Wairarapa,2017,AllSex,Colorectal,34,40.9,AllSex
+Waitemata,2017,AllSex,Colorectal,355,40.5,AllSex
+West Coast,2017,AllSex,Colorectal,28,46.8,AllSex
+Whanganui,2017,AllSex,Colorectal,48,39.4,AllSex
+All New Zealand,2017,AllSex,Leukaemia,743,10.4,AllSex
+Auckland,2017,AllSex,Leukaemia,51,7.8,AllSex
+Bay of Plenty,2017,AllSex,Leukaemia,38,8.8,AllSex
+Canterbury,2017,AllSex,Leukaemia,84,10.3,AllSex
+Capital & Coast,2017,AllSex,Leukaemia,55,12.3,AllSex
+Counties Manukau,2017,AllSex,Leukaemia,62,9.4,AllSex
+Hawke's Bay,2017,AllSex,Leukaemia,27,12.3,AllSex
+Hutt Valley,2017,AllSex,Leukaemia,26,11.8,AllSex
+Lakes,2017,AllSex,Leukaemia,15,8.6,AllSex
+MidCentral,2017,AllSex,Leukaemia,32,10.6,AllSex
+Nelson Marlborough,2017,AllSex,Leukaemia,20,7.2,AllSex
+Northland,2017,AllSex,Leukaemia,37,11.6,AllSex
+South Canterbury,2017,AllSex,Leukaemia,9,8.7,AllSex
+Southern,2017,AllSex,Leukaemia,46,8.8,AllSex
+Tairawhiti,2017,AllSex,Leukaemia,6,10.5,AllSex
+Taranaki,2017,AllSex,Leukaemia,20,11.2,AllSex
+Waikato,2017,AllSex,Leukaemia,74,11.2,AllSex
+Wairarapa,2017,AllSex,Leukaemia,17,22.1,AllSex
+Waitemata,2017,AllSex,Leukaemia,99,11.7,AllSex
+West Coast,2017,AllSex,Leukaemia,5,0,AllSex
+Whanganui,2017,AllSex,Leukaemia,17,11.5,AllSex
+All New Zealand,2017,AllSex,Lung,2289,28.6,AllSex
+Auckland,2017,AllSex,Lung,158,24.2,AllSex
+Bay of Plenty,2017,AllSex,Lung,152,31.5,AllSex
+Canterbury,2017,AllSex,Lung,250,26.6,AllSex
+Capital & Coast,2017,AllSex,Lung,87,18.4,AllSex
+Counties Manukau,2017,AllSex,Lung,256,36.6,AllSex
+Hawke's Bay,2017,AllSex,Lung,116,36.4,AllSex
+Hutt Valley,2017,AllSex,Lung,71,29.6,AllSex
+Lakes,2017,AllSex,Lung,55,28.9,AllSex
+MidCentral,2017,AllSex,Lung,109,31.8,AllSex
+Nelson Marlborough,2017,AllSex,Lung,79,23.7,AllSex
+Northland,2017,AllSex,Lung,137,37.6,AllSex
+South Canterbury,2017,AllSex,Lung,34,24.7,AllSex
+Southern,2017,AllSex,Lung,142,22.5,AllSex
+Tairawhiti,2017,AllSex,Lung,31,39.9,AllSex
+Taranaki,2017,AllSex,Lung,59,26.2,AllSex
+Waikato,2017,AllSex,Lung,224,31.8,AllSex
+Wairarapa,2017,AllSex,Lung,29,32.5,AllSex
+Waitemata,2017,AllSex,Lung,215,22.9,AllSex
+West Coast,2017,AllSex,Lung,26,39.6,AllSex
+Whanganui,2017,AllSex,Lung,55,41.1,AllSex
+All New Zealand,2017,AllSex,Melanoma,2560,35.1,AllSex
+Auckland,2017,AllSex,Melanoma,211,34.1,AllSex
+Bay of Plenty,2017,AllSex,Melanoma,170,38.7,AllSex
+Canterbury,2017,AllSex,Melanoma,332,39.1,AllSex
+Capital & Coast,2017,AllSex,Melanoma,135,30.9,AllSex
+Counties Manukau,2017,AllSex,Melanoma,174,25,AllSex
+Hawke's Bay,2017,AllSex,Melanoma,67,24,AllSex
+Hutt Valley,2017,AllSex,Melanoma,65,28.8,AllSex
+Lakes,2017,AllSex,Melanoma,53,30.3,AllSex
+MidCentral,2017,AllSex,Melanoma,107,35.9,AllSex
+Nelson Marlborough,2017,AllSex,Melanoma,138,50.1,AllSex
+Northland,2017,AllSex,Melanoma,104,31.3,AllSex
+South Canterbury,2017,AllSex,Melanoma,37,30.3,AllSex
+Southern,2017,AllSex,Melanoma,175,33.5,AllSex
+Tairawhiti,2017,AllSex,Melanoma,27,40.4,AllSex
+Taranaki,2017,AllSex,Melanoma,96,54,AllSex
+Waikato,2017,AllSex,Melanoma,260,41.3,AllSex
+Wairarapa,2017,AllSex,Melanoma,44,52.6,AllSex
+Waitemata,2017,AllSex,Melanoma,301,35.5,AllSex
+West Coast,2017,AllSex,Melanoma,21,44.7,AllSex
+Whanganui,2017,AllSex,Melanoma,42,30.7,AllSex
+All New Zealand,2017,AllSex,Non-Hodgkin lymphoma,916,12.3,AllSex
+Auckland,2017,AllSex,Non-Hodgkin lymphoma,82,13.6,AllSex
+Bay of Plenty,2017,AllSex,Non-Hodgkin lymphoma,60,12.5,AllSex
+Canterbury,2017,AllSex,Non-Hodgkin lymphoma,88,10.6,AllSex
+Capital & Coast,2017,AllSex,Non-Hodgkin lymphoma,56,13.5,AllSex
+Counties Manukau,2017,AllSex,Non-Hodgkin lymphoma,83,11.9,AllSex
+Hawke's Bay,2017,AllSex,Non-Hodgkin lymphoma,34,12.5,AllSex
+Hutt Valley,2017,AllSex,Non-Hodgkin lymphoma,36,16.5,AllSex
+Lakes,2017,AllSex,Non-Hodgkin lymphoma,25,13.9,AllSex
+MidCentral,2017,AllSex,Non-Hodgkin lymphoma,29,9.1,AllSex
+Nelson Marlborough,2017,AllSex,Non-Hodgkin lymphoma,38,14.1,AllSex
+Northland,2017,AllSex,Non-Hodgkin lymphoma,46,13.5,AllSex
+South Canterbury,2017,AllSex,Non-Hodgkin lymphoma,14,9.8,AllSex
+Southern,2017,AllSex,Non-Hodgkin lymphoma,64,10.7,AllSex
+Tairawhiti,2017,AllSex,Non-Hodgkin lymphoma,16,22,AllSex
+Taranaki,2017,AllSex,Non-Hodgkin lymphoma,24,11.2,AllSex
+Waikato,2017,AllSex,Non-Hodgkin lymphoma,83,12.5,AllSex
+Wairarapa,2017,AllSex,Non-Hodgkin lymphoma,10,9.4,AllSex
+Waitemata,2017,AllSex,Non-Hodgkin lymphoma,103,12.2,AllSex
+West Coast,2017,AllSex,Non-Hodgkin lymphoma,7,9.2,AllSex
+Whanganui,2017,AllSex,Non-Hodgkin lymphoma,16,11.7,AllSex
+All New Zealand,2017,AllSex,Pancreas,572,7.2,AllSex
+Auckland,2017,AllSex,Pancreas,56,8.9,AllSex
+Bay of Plenty,2017,AllSex,Pancreas,41,8.3,AllSex
+Canterbury,2017,AllSex,Pancreas,59,6.6,AllSex
+Capital & Coast,2017,AllSex,Pancreas,24,5.6,AllSex
+Counties Manukau,2017,AllSex,Pancreas,50,7.1,AllSex
+Hawke's Bay,2017,AllSex,Pancreas,19,5.4,AllSex
+Hutt Valley,2017,AllSex,Pancreas,17,6.5,AllSex
+Lakes,2017,AllSex,Pancreas,10,5.3,AllSex
+MidCentral,2017,AllSex,Pancreas,25,7.2,AllSex
+Nelson Marlborough,2017,AllSex,Pancreas,23,6.3,AllSex
+Northland,2017,AllSex,Pancreas,19,6.2,AllSex
+South Canterbury,2017,AllSex,Pancreas,12,8.3,AllSex
+Southern,2017,AllSex,Pancreas,42,7.2,AllSex
+Tairawhiti,2017,AllSex,Pancreas,5,0,AllSex
+Taranaki,2017,AllSex,Pancreas,15,6.9,AllSex
+Waikato,2017,AllSex,Pancreas,61,8.6,AllSex
+Wairarapa,2017,AllSex,Pancreas,5,0,AllSex
+Waitemata,2017,AllSex,Pancreas,68,7.2,AllSex
+West Coast,2017,AllSex,Pancreas,10,17.4,AllSex
+Whanganui,2017,AllSex,Pancreas,7,4.4,AllSex
+All New Zealand,2018,AllSex,Colorectal,3206,40.4,AllSex
+Auckland,2018,AllSex,Colorectal,227,34.7,AllSex
+Bay of Plenty,2018,AllSex,Colorectal,193,37.4,AllSex
+Canterbury,2018,AllSex,Colorectal,353,38.1,AllSex
+Capital & Coast,2018,AllSex,Colorectal,175,39.5,AllSex
+Counties Manukau,2018,AllSex,Colorectal,262,36.9,AllSex
+Hawke's Bay,2018,AllSex,Colorectal,136,42,AllSex
+Hutt Valley,2018,AllSex,Colorectal,111,47.4,AllSex
+Lakes,2018,AllSex,Colorectal,69,37.9,AllSex
+MidCentral,2018,AllSex,Colorectal,176,53.9,AllSex
+Nelson Marlborough,2018,AllSex,Colorectal,123,37.4,AllSex
+Northland,2018,AllSex,Colorectal,154,41.3,AllSex
+South Canterbury,2018,AllSex,Colorectal,70,52.7,AllSex
+Southern,2018,AllSex,Colorectal,327,56.2,AllSex
+Tairawhiti,2018,AllSex,Colorectal,23,26,AllSex
+Taranaki,2018,AllSex,Colorectal,104,47.2,AllSex
+Waikato,2018,AllSex,Colorectal,272,38.8,AllSex
+Wairarapa,2018,AllSex,Colorectal,45,46.7,AllSex
+Waitemata,2018,AllSex,Colorectal,291,31.8,AllSex
+West Coast,2018,AllSex,Colorectal,33,52.4,AllSex
+Whanganui,2018,AllSex,Colorectal,59,46.4,AllSex
+All New Zealand,2018,AllSex,Leukaemia,781,10.7,AllSex
+Auckland,2018,AllSex,Leukaemia,53,8.5,AllSex
+Bay of Plenty,2018,AllSex,Leukaemia,47,11,AllSex
+Canterbury,2018,AllSex,Leukaemia,95,12.1,AllSex
+Capital & Coast,2018,AllSex,Leukaemia,55,12.8,AllSex
+Counties Manukau,2018,AllSex,Leukaemia,62,8.8,AllSex
+Hawke's Bay,2018,AllSex,Leukaemia,35,10.2,AllSex
+Hutt Valley,2018,AllSex,Leukaemia,26,11.4,AllSex
+Lakes,2018,AllSex,Leukaemia,20,13.4,AllSex
+MidCentral,2018,AllSex,Leukaemia,29,10.4,AllSex
+Nelson Marlborough,2018,AllSex,Leukaemia,26,7.8,AllSex
+Northland,2018,AllSex,Leukaemia,34,10.4,AllSex
+South Canterbury,2018,AllSex,Leukaemia,10,6.5,AllSex
+Southern,2018,AllSex,Leukaemia,46,9.1,AllSex
+Tairawhiti,2018,AllSex,Leukaemia,5,0,AllSex
+Taranaki,2018,AllSex,Leukaemia,24,11,AllSex
+Waikato,2018,AllSex,Leukaemia,86,13,AllSex
+Wairarapa,2018,AllSex,Leukaemia,10,8.8,AllSex
+Waitemata,2018,AllSex,Leukaemia,91,10.6,AllSex
+West Coast,2018,AllSex,Leukaemia,9,20.4,AllSex
+Whanganui,2018,AllSex,Leukaemia,15,16.3,AllSex
+All New Zealand,2018,AllSex,Lung,2418,29.2,AllSex
+Auckland,2018,AllSex,Lung,137,20.4,AllSex
+Bay of Plenty,2018,AllSex,Lung,150,29.1,AllSex
+Canterbury,2018,AllSex,Lung,267,27.9,AllSex
+Capital & Coast,2018,AllSex,Lung,119,24.9,AllSex
+Counties Manukau,2018,AllSex,Lung,262,35.6,AllSex
+Hawke's Bay,2018,AllSex,Lung,120,37.3,AllSex
+Hutt Valley,2018,AllSex,Lung,65,26.7,AllSex
+Lakes,2018,AllSex,Lung,49,24.1,AllSex
+MidCentral,2018,AllSex,Lung,118,35.5,AllSex
+Nelson Marlborough,2018,AllSex,Lung,85,24.4,AllSex
+Northland,2018,AllSex,Lung,152,40.1,AllSex
+South Canterbury,2018,AllSex,Lung,35,24.9,AllSex
+Southern,2018,AllSex,Lung,156,25,AllSex
+Tairawhiti,2018,AllSex,Lung,26,34,AllSex
+Taranaki,2018,AllSex,Lung,77,33.2,AllSex
+Waikato,2018,AllSex,Lung,241,32.7,AllSex
+Wairarapa,2018,AllSex,Lung,32,29.2,AllSex
+Waitemata,2018,AllSex,Lung,243,25.7,AllSex
+West Coast,2018,AllSex,Lung,22,29.5,AllSex
+Whanganui,2018,AllSex,Lung,55,37.9,AllSex
+All New Zealand,2018,AllSex,Melanoma,2742,36.6,AllSex
+Auckland,2018,AllSex,Melanoma,255,40.2,AllSex
+Bay of Plenty,2018,AllSex,Melanoma,178,36.5,AllSex
+Canterbury,2018,AllSex,Melanoma,309,35.5,AllSex
+Capital & Coast,2018,AllSex,Melanoma,161,35.7,AllSex
+Counties Manukau,2018,AllSex,Melanoma,205,28.4,AllSex
+Hawke's Bay,2018,AllSex,Melanoma,90,32.1,AllSex
+Hutt Valley,2018,AllSex,Melanoma,63,25.7,AllSex
+Lakes,2018,AllSex,Melanoma,55,29.5,AllSex
+MidCentral,2018,AllSex,Melanoma,86,28.6,AllSex
+Nelson Marlborough,2018,AllSex,Melanoma,118,42.5,AllSex
+Northland,2018,AllSex,Melanoma,97,29,AllSex
+South Canterbury,2018,AllSex,Melanoma,40,36.7,AllSex
+Southern,2018,AllSex,Melanoma,206,40.2,AllSex
+Tairawhiti,2018,AllSex,Melanoma,26,37.4,AllSex
+Taranaki,2018,AllSex,Melanoma,126,69.7,AllSex
+Waikato,2018,AllSex,Melanoma,247,38.3,AllSex
+Wairarapa,2018,AllSex,Melanoma,29,31.7,AllSex
+Waitemata,2018,AllSex,Melanoma,398,44.6,AllSex
+West Coast,2018,AllSex,Melanoma,12,19.6,AllSex
+Whanganui,2018,AllSex,Melanoma,38,32.6,AllSex
+All New Zealand,2018,AllSex,Non-Hodgkin lymphoma,981,13,AllSex
+Auckland,2018,AllSex,Non-Hodgkin lymphoma,70,11.1,AllSex
+Bay of Plenty,2018,AllSex,Non-Hodgkin lymphoma,64,13.9,AllSex
+Canterbury,2018,AllSex,Non-Hodgkin lymphoma,115,13.5,AllSex
+Capital & Coast,2018,AllSex,Non-Hodgkin lymphoma,67,14.8,AllSex
+Counties Manukau,2018,AllSex,Non-Hodgkin lymphoma,86,12.2,AllSex
+Hawke's Bay,2018,AllSex,Non-Hodgkin lymphoma,42,13.5,AllSex
+Hutt Valley,2018,AllSex,Non-Hodgkin lymphoma,27,12.2,AllSex
+Lakes,2018,AllSex,Non-Hodgkin lymphoma,15,8.1,AllSex
+MidCentral,2018,AllSex,Non-Hodgkin lymphoma,45,16,AllSex
+Nelson Marlborough,2018,AllSex,Non-Hodgkin lymphoma,52,15.8,AllSex
+Northland,2018,AllSex,Non-Hodgkin lymphoma,36,11,AllSex
+South Canterbury,2018,AllSex,Non-Hodgkin lymphoma,13,11.8,AllSex
+Southern,2018,AllSex,Non-Hodgkin lymphoma,67,12.7,AllSex
+Tairawhiti,2018,AllSex,Non-Hodgkin lymphoma,5,0,AllSex
+Taranaki,2018,AllSex,Non-Hodgkin lymphoma,23,10.4,AllSex
+Waikato,2018,AllSex,Non-Hodgkin lymphoma,96,14.6,AllSex
+Wairarapa,2018,AllSex,Non-Hodgkin lymphoma,9,9.1,AllSex
+Waitemata,2018,AllSex,Non-Hodgkin lymphoma,117,13.2,AllSex
+West Coast,2018,AllSex,Non-Hodgkin lymphoma,15,23.3,AllSex
+Whanganui,2018,AllSex,Non-Hodgkin lymphoma,15,11.1,AllSex
+All New Zealand,2018,AllSex,Pancreas,639,7.7,AllSex
+Auckland,2018,AllSex,Pancreas,61,9,AllSex
+Bay of Plenty,2018,AllSex,Pancreas,37,7.2,AllSex
+Canterbury,2018,AllSex,Pancreas,83,8.7,AllSex
+Capital & Coast,2018,AllSex,Pancreas,30,5.9,AllSex
+Counties Manukau,2018,AllSex,Pancreas,58,7.9,AllSex
+Hawke's Bay,2018,AllSex,Pancreas,21,6.4,AllSex
+Hutt Valley,2018,AllSex,Pancreas,28,11.5,AllSex
+Lakes,2018,AllSex,Pancreas,11,5.5,AllSex
+MidCentral,2018,AllSex,Pancreas,19,5.5,AllSex
+Nelson Marlborough,2018,AllSex,Pancreas,15,5,AllSex
+Northland,2018,AllSex,Pancreas,45,12.1,AllSex
+South Canterbury,2018,AllSex,Pancreas,10,7.5,AllSex
+Southern,2018,AllSex,Pancreas,42,6.7,AllSex
+Tairawhiti,2018,AllSex,Pancreas,5,0,AllSex
+Taranaki,2018,AllSex,Pancreas,19,7.3,AllSex
+Waikato,2018,AllSex,Pancreas,56,7.3,AllSex
+Wairarapa,2018,AllSex,Pancreas,3,0,AllSex
+Waitemata,2018,AllSex,Pancreas,77,8.4,AllSex
+West Coast,2018,AllSex,Pancreas,8,9.7,AllSex
+Whanganui,2018,AllSex,Pancreas,10,7,AllSex
+All New Zealand,2019,AllSex,Colorectal,3327,40.6,AllSex
+Auckland,2019,AllSex,Colorectal,200,30,AllSex
+Bay of Plenty,2019,AllSex,Colorectal,166,34.2,AllSex
+Canterbury,2019,AllSex,Colorectal,396,41.3,AllSex
+Capital & Coast,2019,AllSex,Colorectal,174,36,AllSex
+Counties Manukau,2019,AllSex,Colorectal,310,41.4,AllSex
+Hawke's Bay,2019,AllSex,Colorectal,161,48.4,AllSex
+Hutt Valley,2019,AllSex,Colorectal,111,45.4,AllSex
+Lakes,2019,AllSex,Colorectal,82,45.6,AllSex
+MidCentral,2019,AllSex,Colorectal,150,42.7,AllSex
+Nelson Marlborough,2019,AllSex,Colorectal,148,42.9,AllSex
+Northland,2019,AllSex,Colorectal,142,39.1,AllSex
+South Canterbury,2019,AllSex,Colorectal,66,49.4,AllSex
+Southern,2019,AllSex,Colorectal,377,62.7,AllSex
+Tairawhiti,2019,AllSex,Colorectal,23,29.2,AllSex
+Taranaki,2019,AllSex,Colorectal,90,38.8,AllSex
+Waikato,2019,AllSex,Colorectal,271,35.9,AllSex
+Wairarapa,2019,AllSex,Colorectal,52,56.6,AllSex
+Waitemata,2019,AllSex,Colorectal,313,33.2,AllSex
+West Coast,2019,AllSex,Colorectal,29,50.5,AllSex
+Whanganui,2019,AllSex,Colorectal,59,45.2,AllSex
+All New Zealand,2019,AllSex,Leukaemia,780,10.6,AllSex
+Auckland,2019,AllSex,Leukaemia,56,9.6,AllSex
+Bay of Plenty,2019,AllSex,Leukaemia,47,10.3,AllSex
+Canterbury,2019,AllSex,Leukaemia,101,13.2,AllSex
+Capital & Coast,2019,AllSex,Leukaemia,75,18.3,AllSex
+Counties Manukau,2019,AllSex,Leukaemia,62,8.9,AllSex
+Hawke's Bay,2019,AllSex,Leukaemia,23,7.6,AllSex
+Hutt Valley,2019,AllSex,Leukaemia,16,6.5,AllSex
+Lakes,2019,AllSex,Leukaemia,27,15.2,AllSex
+MidCentral,2019,AllSex,Leukaemia,28,9,AllSex
+Nelson Marlborough,2019,AllSex,Leukaemia,32,10,AllSex
+Northland,2019,AllSex,Leukaemia,33,8.5,AllSex
+South Canterbury,2019,AllSex,Leukaemia,11,9.8,AllSex
+Southern,2019,AllSex,Leukaemia,60,9.8,AllSex
+Tairawhiti,2019,AllSex,Leukaemia,3,0,AllSex
+Taranaki,2019,AllSex,Leukaemia,14,6.5,AllSex
+Waikato,2019,AllSex,Leukaemia,78,12,AllSex
+Wairarapa,2019,AllSex,Leukaemia,9,10.4,AllSex
+Waitemata,2019,AllSex,Leukaemia,78,8.8,AllSex
+West Coast,2019,AllSex,Leukaemia,7,15.5,AllSex
+Whanganui,2019,AllSex,Leukaemia,14,12.2,AllSex
+All New Zealand,2019,AllSex,Lung,2374,27.9,AllSex
+Auckland,2019,AllSex,Lung,179,26.1,AllSex
+Bay of Plenty,2019,AllSex,Lung,168,31.5,AllSex
+Canterbury,2019,AllSex,Lung,246,24.1,AllSex
+Capital & Coast,2019,AllSex,Lung,100,20.5,AllSex
+Counties Manukau,2019,AllSex,Lung,259,34.2,AllSex
+Hawke's Bay,2019,AllSex,Lung,93,28.1,AllSex
+Hutt Valley,2019,AllSex,Lung,64,26.4,AllSex
+Lakes,2019,AllSex,Lung,64,32.9,AllSex
+MidCentral,2019,AllSex,Lung,115,34.1,AllSex
+Nelson Marlborough,2019,AllSex,Lung,71,20,AllSex
+Northland,2019,AllSex,Lung,125,30.5,AllSex
+South Canterbury,2019,AllSex,Lung,47,32.9,AllSex
+Southern,2019,AllSex,Lung,167,26.1,AllSex
+Tairawhiti,2019,AllSex,Lung,29,36.8,AllSex
+Taranaki,2019,AllSex,Lung,72,29.1,AllSex
+Waikato,2019,AllSex,Lung,240,32.2,AllSex
+Wairarapa,2019,AllSex,Lung,27,24.9,AllSex
+Waitemata,2019,AllSex,Lung,226,23.1,AllSex
+West Coast,2019,AllSex,Lung,26,34.8,AllSex
+Whanganui,2019,AllSex,Lung,43,28.2,AllSex
+All New Zealand,2019,AllSex,Melanoma,2732,35.5,AllSex
+Auckland,2019,AllSex,Melanoma,222,34.4,AllSex
+Bay of Plenty,2019,AllSex,Melanoma,161,33.1,AllSex
+Canterbury,2019,AllSex,Melanoma,348,39.3,AllSex
+Capital & Coast,2019,AllSex,Melanoma,133,30,AllSex
+Counties Manukau,2019,AllSex,Melanoma,198,27,AllSex
+Hawke's Bay,2019,AllSex,Melanoma,68,22.6,AllSex
+Hutt Valley,2019,AllSex,Melanoma,70,30.1,AllSex
+Lakes,2019,AllSex,Melanoma,64,33.3,AllSex
+MidCentral,2019,AllSex,Melanoma,92,29.5,AllSex
+Nelson Marlborough,2019,AllSex,Melanoma,104,34.8,AllSex
+Northland,2019,AllSex,Melanoma,123,34.2,AllSex
+South Canterbury,2019,AllSex,Melanoma,38,32.6,AllSex
+Southern,2019,AllSex,Melanoma,241,45.5,AllSex
+Tairawhiti,2019,AllSex,Melanoma,26,38.2,AllSex
+Taranaki,2019,AllSex,Melanoma,133,67.5,AllSex
+Waikato,2019,AllSex,Melanoma,226,33.1,AllSex
+Wairarapa,2019,AllSex,Melanoma,35,41.6,AllSex
+Waitemata,2019,AllSex,Melanoma,387,42.6,AllSex
+West Coast,2019,AllSex,Melanoma,29,47.2,AllSex
+Whanganui,2019,AllSex,Melanoma,34,23.8,AllSex
+All New Zealand,2019,AllSex,Non-Hodgkin lymphoma,985,12.8,AllSex
+Auckland,2019,AllSex,Non-Hodgkin lymphoma,90,13.5,AllSex
+Bay of Plenty,2019,AllSex,Non-Hodgkin lymphoma,50,11,AllSex
+Canterbury,2019,AllSex,Non-Hodgkin lymphoma,122,13.2,AllSex
+Capital & Coast,2019,AllSex,Non-Hodgkin lymphoma,54,11.9,AllSex
+Counties Manukau,2019,AllSex,Non-Hodgkin lymphoma,81,11.4,AllSex
+Hawke's Bay,2019,AllSex,Non-Hodgkin lymphoma,36,11.7,AllSex
+Hutt Valley,2019,AllSex,Non-Hodgkin lymphoma,35,15.2,AllSex
+Lakes,2019,AllSex,Non-Hodgkin lymphoma,28,14.1,AllSex
+MidCentral,2019,AllSex,Non-Hodgkin lymphoma,36,12.3,AllSex
+Nelson Marlborough,2019,AllSex,Non-Hodgkin lymphoma,30,8.7,AllSex
+Northland,2019,AllSex,Non-Hodgkin lymphoma,43,11.6,AllSex
+South Canterbury,2019,AllSex,Non-Hodgkin lymphoma,19,13.9,AllSex
+Southern,2019,AllSex,Non-Hodgkin lymphoma,94,16.7,AllSex
+Tairawhiti,2019,AllSex,Non-Hodgkin lymphoma,8,11.5,AllSex
+Taranaki,2019,AllSex,Non-Hodgkin lymphoma,30,14.3,AllSex
+Waikato,2019,AllSex,Non-Hodgkin lymphoma,82,12.4,AllSex
+Wairarapa,2019,AllSex,Non-Hodgkin lymphoma,11,14.7,AllSex
+Waitemata,2019,AllSex,Non-Hodgkin lymphoma,113,12.7,AllSex
+West Coast,2019,AllSex,Non-Hodgkin lymphoma,10,18.9,AllSex
+Whanganui,2019,AllSex,Non-Hodgkin lymphoma,11,9.8,AllSex
+All New Zealand,2019,AllSex,Pancreas,731,8.6,AllSex
+Auckland,2019,AllSex,Pancreas,52,7.3,AllSex
+Bay of Plenty,2019,AllSex,Pancreas,44,8.2,AllSex
+Canterbury,2019,AllSex,Pancreas,84,8.7,AllSex
+Capital & Coast,2019,AllSex,Pancreas,48,9.6,AllSex
+Counties Manukau,2019,AllSex,Pancreas,70,9.7,AllSex
+Hawke's Bay,2019,AllSex,Pancreas,34,9,AllSex
+Hutt Valley,2019,AllSex,Pancreas,23,8.6,AllSex
+Lakes,2019,AllSex,Pancreas,18,8.5,AllSex
+MidCentral,2019,AllSex,Pancreas,33,9.3,AllSex
+Nelson Marlborough,2019,AllSex,Pancreas,30,8.5,AllSex
+Northland,2019,AllSex,Pancreas,35,8.8,AllSex
+South Canterbury,2019,AllSex,Pancreas,8,5.8,AllSex
+Southern,2019,AllSex,Pancreas,61,10.3,AllSex
+Tairawhiti,2019,AllSex,Pancreas,10,10.6,AllSex
+Taranaki,2019,AllSex,Pancreas,18,7.8,AllSex
+Waikato,2019,AllSex,Pancreas,63,8,AllSex
+Wairarapa,2019,AllSex,Pancreas,6,6.1,AllSex
+Waitemata,2019,AllSex,Pancreas,75,7.8,AllSex
+West Coast,2019,AllSex,Pancreas,9,12.4,AllSex
+Whanganui,2019,AllSex,Pancreas,9,6.6,AllSex
+All New Zealand,2020,AllSex,Colorectal,3414,40.6,AllSex
+Auckland,2020,AllSex,Colorectal,235,33.7,AllSex
+Bay of Plenty,2020,AllSex,Colorectal,196,37.1,AllSex
+Canterbury,2020,AllSex,Colorectal,402,42.3,AllSex
+Capital & Coast,2020,AllSex,Colorectal,137,29.2,AllSex
+Counties Manukau,2020,AllSex,Colorectal,294,38.5,AllSex
+Hawke's Bay,2020,AllSex,Colorectal,150,45,AllSex
+Hutt Valley,2020,AllSex,Colorectal,95,38.4,AllSex
+Lakes,2020,AllSex,Colorectal,93,45.3,AllSex
+MidCentral,2020,AllSex,Colorectal,158,42.4,AllSex
+Nelson Marlborough,2020,AllSex,Colorectal,126,36.7,AllSex
+Northland,2020,AllSex,Colorectal,152,37,AllSex
+South Canterbury,2020,AllSex,Colorectal,59,45,AllSex
+Southern,2020,AllSex,Colorectal,361,57.6,AllSex
+Tairawhiti,2020,AllSex,Colorectal,44,51.7,AllSex
+Taranaki,2020,AllSex,Colorectal,106,46.3,AllSex
+Waikato,2020,AllSex,Colorectal,344,47.2,AllSex
+Wairarapa,2020,AllSex,Colorectal,39,38.3,AllSex
+Waitemata,2020,AllSex,Colorectal,309,31,AllSex
+West Coast,2020,AllSex,Colorectal,33,46.5,AllSex
+Whanganui,2020,AllSex,Colorectal,73,55.1,AllSex
+All New Zealand,2020,AllSex,Leukaemia,759,10.1,AllSex
+Auckland,2020,AllSex,Leukaemia,41,6.8,AllSex
+Bay of Plenty,2020,AllSex,Leukaemia,42,11.7,AllSex
+Canterbury,2020,AllSex,Leukaemia,97,10.5,AllSex
+Capital & Coast,2020,AllSex,Leukaemia,44,9.9,AllSex
+Counties Manukau,2020,AllSex,Leukaemia,62,9,AllSex
+Hawke's Bay,2020,AllSex,Leukaemia,34,11.5,AllSex
+Hutt Valley,2020,AllSex,Leukaemia,28,12.4,AllSex
+Lakes,2020,AllSex,Leukaemia,16,8.3,AllSex
+MidCentral,2020,AllSex,Leukaemia,29,9.6,AllSex
+Nelson Marlborough,2020,AllSex,Leukaemia,31,8.7,AllSex
+Northland,2020,AllSex,Leukaemia,41,12,AllSex
+South Canterbury,2020,AllSex,Leukaemia,13,8.6,AllSex
+Southern,2020,AllSex,Leukaemia,64,11.1,AllSex
+Tairawhiti,2020,AllSex,Leukaemia,3,0,AllSex
+Taranaki,2020,AllSex,Leukaemia,18,8.5,AllSex
+Waikato,2020,AllSex,Leukaemia,78,12.2,AllSex
+Wairarapa,2020,AllSex,Leukaemia,17,22.7,AllSex
+Waitemata,2020,AllSex,Leukaemia,80,9,AllSex
+West Coast,2020,AllSex,Leukaemia,4,0,AllSex
+Whanganui,2020,AllSex,Leukaemia,14,13.2,AllSex
+All New Zealand,2020,AllSex,Lung,2532,28.7,AllSex
+Auckland,2020,AllSex,Lung,168,23.6,AllSex
+Bay of Plenty,2020,AllSex,Lung,146,26.8,AllSex
+Canterbury,2020,AllSex,Lung,298,28.6,AllSex
+Capital & Coast,2020,AllSex,Lung,98,19.3,AllSex
+Counties Manukau,2020,AllSex,Lung,274,34.4,AllSex
+Hawke's Bay,2020,AllSex,Lung,126,35.6,AllSex
+Hutt Valley,2020,AllSex,Lung,65,24.7,AllSex
+Lakes,2020,AllSex,Lung,85,43.4,AllSex
+MidCentral,2020,AllSex,Lung,111,30,AllSex
+Nelson Marlborough,2020,AllSex,Lung,80,22,AllSex
+Northland,2020,AllSex,Lung,156,37.5,AllSex
+South Canterbury,2020,AllSex,Lung,43,34.2,AllSex
+Southern,2020,AllSex,Lung,164,24.2,AllSex
+Tairawhiti,2020,AllSex,Lung,33,36.6,AllSex
+Taranaki,2020,AllSex,Lung,61,25.6,AllSex
+Waikato,2020,AllSex,Lung,245,31.3,AllSex
+Wairarapa,2020,AllSex,Lung,29,25.8,AllSex
+Waitemata,2020,AllSex,Lung,271,27.1,AllSex
+West Coast,2020,AllSex,Lung,30,40.7,AllSex
+Whanganui,2020,AllSex,Lung,44,27.6,AllSex
+All New Zealand,2020,AllSex,Melanoma,2633,33.1,AllSex
+Auckland,2020,AllSex,Melanoma,223,33.6,AllSex
+Bay of Plenty,2020,AllSex,Melanoma,179,39.4,AllSex
+Canterbury,2020,AllSex,Melanoma,312,34.1,AllSex
+Capital & Coast,2020,AllSex,Melanoma,138,29.6,AllSex
+Counties Manukau,2020,AllSex,Melanoma,162,21.2,AllSex
+Hawke's Bay,2020,AllSex,Melanoma,72,23.2,AllSex
+Hutt Valley,2020,AllSex,Melanoma,88,35,AllSex
+Lakes,2020,AllSex,Melanoma,58,30.7,AllSex
+MidCentral,2020,AllSex,Melanoma,103,32.5,AllSex
+Nelson Marlborough,2020,AllSex,Melanoma,127,41.7,AllSex
+Northland,2020,AllSex,Melanoma,127,32.4,AllSex
+South Canterbury,2020,AllSex,Melanoma,50,44.2,AllSex
+Southern,2020,AllSex,Melanoma,174,30.4,AllSex
+Tairawhiti,2020,AllSex,Melanoma,22,26.5,AllSex
+Taranaki,2020,AllSex,Melanoma,84,46,AllSex
+Waikato,2020,AllSex,Melanoma,239,33.8,AllSex
+Wairarapa,2020,AllSex,Melanoma,43,43.6,AllSex
+Waitemata,2020,AllSex,Melanoma,363,37.9,AllSex
+West Coast,2020,AllSex,Melanoma,24,37,AllSex
+Whanganui,2020,AllSex,Melanoma,43,35,AllSex
+All New Zealand,2020,AllSex,Non-Hodgkin lymphoma,1056,13.1,AllSex
+Auckland,2020,AllSex,Non-Hodgkin lymphoma,79,11.3,AllSex
+Bay of Plenty,2020,AllSex,Non-Hodgkin lymphoma,53,10.3,AllSex
+Canterbury,2020,AllSex,Non-Hodgkin lymphoma,141,15.5,AllSex
+Capital & Coast,2020,AllSex,Non-Hodgkin lymphoma,54,12.2,AllSex
+Counties Manukau,2020,AllSex,Non-Hodgkin lymphoma,93,12.5,AllSex
+Hawke's Bay,2020,AllSex,Non-Hodgkin lymphoma,35,10.7,AllSex
+Hutt Valley,2020,AllSex,Non-Hodgkin lymphoma,51,19.9,AllSex
+Lakes,2020,AllSex,Non-Hodgkin lymphoma,29,15.6,AllSex
+MidCentral,2020,AllSex,Non-Hodgkin lymphoma,30,9.4,AllSex
+Nelson Marlborough,2020,AllSex,Non-Hodgkin lymphoma,42,12.2,AllSex
+Northland,2020,AllSex,Non-Hodgkin lymphoma,51,13,AllSex
+South Canterbury,2020,AllSex,Non-Hodgkin lymphoma,14,10.5,AllSex
+Southern,2020,AllSex,Non-Hodgkin lymphoma,83,13.9,AllSex
+Tairawhiti,2020,AllSex,Non-Hodgkin lymphoma,14,17.3,AllSex
+Taranaki,2020,AllSex,Non-Hodgkin lymphoma,24,11,AllSex
+Waikato,2020,AllSex,Non-Hodgkin lymphoma,91,12.5,AllSex
+Wairarapa,2020,AllSex,Non-Hodgkin lymphoma,19,19,AllSex
+Waitemata,2020,AllSex,Non-Hodgkin lymphoma,130,14.1,AllSex
+West Coast,2020,AllSex,Non-Hodgkin lymphoma,7,7.9,AllSex
+Whanganui,2020,AllSex,Non-Hodgkin lymphoma,13,9.7,AllSex
+All New Zealand,2020,AllSex,Pancreas,763,8.5,AllSex
+Auckland,2020,AllSex,Pancreas,57,7.6,AllSex
+Bay of Plenty,2020,AllSex,Pancreas,41,7.8,AllSex
+Canterbury,2020,AllSex,Pancreas,95,9.3,AllSex
+Capital & Coast,2020,AllSex,Pancreas,41,8.5,AllSex
+Counties Manukau,2020,AllSex,Pancreas,60,7.7,AllSex
+Hawke's Bay,2020,AllSex,Pancreas,23,6.1,AllSex
+Hutt Valley,2020,AllSex,Pancreas,13,4.8,AllSex
+Lakes,2020,AllSex,Pancreas,18,8.2,AllSex
+MidCentral,2020,AllSex,Pancreas,31,8.1,AllSex
+Nelson Marlborough,2020,AllSex,Pancreas,22,6.1,AllSex
+Northland,2020,AllSex,Pancreas,33,7.9,AllSex
+South Canterbury,2020,AllSex,Pancreas,11,8,AllSex
+Southern,2020,AllSex,Pancreas,70,10.3,AllSex
+Tairawhiti,2020,AllSex,Pancreas,7,7.6,AllSex
+Taranaki,2020,AllSex,Pancreas,27,11.3,AllSex
+Waikato,2020,AllSex,Pancreas,95,11.8,AllSex
+Wairarapa,2020,AllSex,Pancreas,16,16,AllSex
+Waitemata,2020,AllSex,Pancreas,77,7.2,AllSex
+West Coast,2020,AllSex,Pancreas,7,8,AllSex
+Whanganui,2020,AllSex,Pancreas,17,11.2,AllSex

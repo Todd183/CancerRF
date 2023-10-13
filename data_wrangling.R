@@ -18,8 +18,10 @@ incidence %>%
   mutate(incidence_rate = as.numeric(incidence_rate)) ->
   incidence
 
+write_csv(incidence,"data/clean/incidence.csv")
+
 #filter incidence based on sex
-cancer_sex <- incidence %>%
+incidence_cancer_sex <- incidence %>%
   filter(DHB == "All New Zealand") %>%
   group_by(year,cancer,sex) %>%
   summarise(rate_mean = mean(incidence_rate,na.rm=T)) %>%
@@ -32,10 +34,10 @@ cancer_sex <- incidence %>%
   filter(!duplicated(cancer))
 
 incidence %>% 
-  left_join(.,cancer_sex) %>%
-  filter(sex == group) -> incidence
+  left_join(.,incidence_cancer_sex) %>%
+  filter(sex == group) -> incidence_sexfiltered
 
-write_csv(incidence,"data/clean/incidence.csv")
+write_csv(incidence_sexfiltered,"data/clean/incidence_sexfiltered.csv")
 
 
 #### 2.1.2 Mordality ####
@@ -49,9 +51,9 @@ mortality %>%
   mutate(mortality_rate = as.numeric(mortality_rate)) ->
   mortality
 
-
+write_csv(mortality,"data/clean/mortality.csv")
 #filter mortality based on sex
-cancer_sex <- mortality %>%
+mortality_cancer_sex <- mortality %>%
   filter(DHB == "All New Zealand") %>%
   group_by(year,cancer,sex) %>%
   summarise(rate_mean = mean(mortality_rate,na.rm=T)) %>%
@@ -64,10 +66,10 @@ cancer_sex <- mortality %>%
   filter(!duplicated(cancer))
 
 mortality %>% 
-  left_join(.,cancer_sex) %>%
-  filter(sex == group) -> mortality
+  left_join(.,mortality_cancer_sex) %>%
+  filter(sex == group) -> mortality_sexfiltered
 
-write_csv(mortality,"data/clean/mortality.csv")
+write_csv(mortality_sexfiltered,"data/clean/mortality_sexfiltered.csv")
 
 #### 2.2. DHB Map data ####
 
@@ -427,8 +429,9 @@ children = read_csv("data/clean/number_of_children.csv")
 workhours = read_csv("data/clean/work_hours.csv")
 nzhs =  read_csv("data/clean/nzhs_wide.csv")
 
-incidence = read_csv("data/clean/incidence.csv")
-mortality = read_csv("data/clean/mortality.csv")
+#use sex filtered incidence and mortality data for analysis, e.g., for breast cancer only include female data and exlcuded allsex data.
+incidence = read_csv("data/clean/incidence_sexfiltered.csv")
+mortality = read_csv("data/clean/mortality_sexfiltered.csv")
 
 rf <- list("water" = water, 
            "air" = air,
