@@ -497,21 +497,3 @@ save(incidence_rf,file = 'data/clean/incidence_rf.Rdata')
 save(mortality_rf, file = 'data/clean/mortality_rf.Rdata')
 
 
-
-mortality %>% 
-  filter(DHB != "All New Zealand") %>%
-  split(., .[,"cancer"])%>% #split by cancer
-  lapply(., function(df){
-    ls = split(df, df$sex) #split by sex
-    lapply(ls, function(sub_df){
-      sub_df1 = sub_df[, c('year','DHB',"mortality_rate")]
-      sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and mortality
-      names(sub_ls1) = names(rf)
-      
-      sub_df2 = sub_df[, c('year','DHB',"sex","mortality_rate")]
-      sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
-      return(c(sub_ls1,sub_ls2))
-    })
-  } ) -> mortality_ls
-
-
