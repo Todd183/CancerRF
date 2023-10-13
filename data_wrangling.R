@@ -92,6 +92,7 @@ write_sf(DHB_map,"data/clean/mapdata/DHB_map.shp")
 #### 2.3. New Zealand Health Survey data ####
 nzhs <- read_csv('data/nz-health-survey-2017-20-regional-update-dhb-prevalences.csv')
 nzhs %>% 
+  filter(population == "adults") %>%
   filter(!grepl("-",year) & type == "STD") %>%
   # filter(!grepl("-",year)) %>%
   mutate(DHB = case_when(region == 'Tairāwhiti' ~ "Tairawhiti", #modify DHB names in DHB_mapto match cancer
@@ -103,9 +104,13 @@ nzhs %>%
          sex = case_when(sex == 'All' ~ "AllSex",
                          TRUE ~ sex)
   ) %>% 
-  select(DHB,year,population,sex,rf,Prevalence) %>%
-  pivot_wider(names_from = c(population,sex,rf), names_sep = '-',values_from = Prevalence) -> nzhs_wide
- 
+  # select(DHB,year,population,sex,rf,Prevalence) %>%
+  select(DHB,year,sex,rf,Prevalence) %>%
+  # pivot_wider(names_from = c(population,sex,rf), names_sep = '-',values_from = Prevalence) -> nzhs_wide
+  pivot_wider(names_from = c(rf), names_sep = '-',values_from = Prevalence) -> nzhs_wide
+
+
+colnames(nzhs_wide)[-c(1,2,3)] <- paste0('NZHS-',colnames(nzhs_wide)[-c(1,2,3)] )
 
 write_csv(nzhs_wide,"data/clean/nzhs_wide.csv")
 
@@ -443,6 +448,15 @@ rf <- list("water" = water,
            "workhours" = workhours,
            "nzhs" = nzhs)
 
+rf <- list("water" = water, 
+           "air" = air,
+           "tmp" = tmp,
+           "earthquake" = earthquake,
+           "income" = income,
+           "education" = education,
+           "children" = children,
+           "workhours" = workhours)
+
 
 # Split the data frame by Col1
 
@@ -452,28 +466,52 @@ incidence %>%
     lapply(., function(df){
       ls = split(df, df$sex) #split by sex
       lapply(ls, function(sub_df){
-        sub_df = sub_df[, c('year','DHB',"incidence_rate")]
-        sub_ls = lapply(rf,inner_join, x=sub_df, by = c("DHB","year")) #join rf and incidence
-        names(sub_ls) = names(rf)
-        return(sub_ls)
+        sub_df1 = sub_df[, c('year','DHB',"incidence_rate")]
+        sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and mortality
+        names(sub_ls1) = names(rf)
+        
+        sub_df2 = sub_df[, c('year','DHB',"sex","incidence_rate")]
+        sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
+        return(c(sub_ls1,sub_ls2))
         })
       } ) -> incidence_ls
 
 
 mortality %>% 
   filter(DHB != "All New Zealand") %>%
-  split(., .[,"cancer"]) %>% #split by cancer
+  split(., .[,"cancer"])%>% #split by cancer
   lapply(., function(df){
     ls = split(df, df$sex) #split by sex
     lapply(ls, function(sub_df){
-      sub_df = sub_df[, c('year','DHB',"mortality_rate")]
-      sub_ls = lapply(rf,inner_join, x=sub_df, by = c("DHB","year")) #join rf and mortality
-      names(sub_ls) = names(rf)
-      return(sub_ls)
+      sub_df1 = sub_df[, c('year','DHB',"mortality_rate")]
+      sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and mortality
+      names(sub_ls1) = names(rf)
+      
+      sub_df2 = sub_df[, c('year','DHB',"sex","mortality_rate")]
+      sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
+      return(c(sub_ls1,sub_ls2))
     })
   } ) -> mortality_ls
 
 save(incidence_ls,file = 'data/clean/incidence_rf.Rdata')
 save(mortality_ls, file = 'data/clean/mortality_rf.Rdata')
+
+
+
+mortality %>% 
+  filter(DHB != "All New Zealand") %>%
+  split(., .[,"cancer"])%>% #split by cancer
+  lapply(., function(df){
+    ls = split(df, df$sex) #split by sex
+    lapply(ls, function(sub_df){
+      sub_df1 = sub_df[, c('year','DHB',"mortality_rate")]
+      sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and mortality
+      names(sub_ls1) = names(rf)
+      
+      sub_df2 = sub_df[, c('year','DHB',"sex","mortality_rate")]
+      sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
+      return(c(sub_ls1,sub_ls2))
+    })
+  } ) -> mortality_ls
 
 
