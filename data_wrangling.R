@@ -29,7 +29,7 @@ mortality %>%
   mutate(mortality_rate = as.numeric(mortality_rate)) ->
   mortality
 
-write_csv(incidence,"data/clean/mortality.csv")
+write_csv(mortality,"data/clean/mortality.csv")
 
 #### 2.2. DHB Map data ####
 
@@ -402,6 +402,45 @@ rf <- list("water" = water,
            "workhours" = workhours,
            "nzhs" = nzhs)
 
+#modified incidence rate and mortality rate based on sex distribution of cancer tyeps
+
+#filter incidence based on sex
+cancer_sex <- incidence %>%
+  filter(DHB == "All New Zealand") %>%
+  group_by(year,cancer,sex) %>%
+  summarise(rate_mean = mean(incidence_rate,na.rm=T)) %>%
+  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
+  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
+                           !is.na(Male) & is.na(Female) ~ "Male",
+                           TRUE ~ "AllSex")) %>%
+  ungroup(.) %>%
+  select(cancer,group) %>%
+  filter(!duplicated(cancer))
+
+incidence %>% 
+  left_join(.,cancer_sex) %>%
+  filter(sex == group) -> incidence
+
+#filter mortality based on sex
+cancer_sex <- mortality %>%
+  filter(DHB == "All New Zealand") %>%
+  group_by(year,cancer,sex) %>%
+  summarise(rate_mean = mean(mortality_rate,na.rm=T)) %>%
+  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
+  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
+                           !is.na(Male) & is.na(Female) ~ "Male",
+                           TRUE ~ "AllSex")) %>%
+  ungroup(.) %>%
+  select(cancer,group) %>%
+  filter(!duplicated(cancer))
+
+mortality %>% 
+  left_join(.,cancer_sex) %>%
+  filter(sex == group) -> mortality
+
+
+
+
 
 # Split the data frame by Col1
 
@@ -425,7 +464,7 @@ mortality %>%
   lapply(., function(df){
     ls = split(df, df$sex) #split by sex
     lapply(ls, function(sub_df){
-      sub_df = sub_df[, c('year','DHB',"incidence_rate")]
+      sub_df = sub_df[, c('year','DHB',"mortality_rate")]
       sub_ls = lapply(rf,inner_join, x=sub_df, by = c("DHB","year")) #join rf and mortality
       names(sub_ls) = names(rf)
       return(sub_ls)
