@@ -474,7 +474,7 @@ incidence %>%
         sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
         return(c(sub_ls1,sub_ls2))
         })
-      } ) -> incidence_ls
+      } ) -> incidence_rf
 
 
 mortality %>% 
@@ -491,10 +491,10 @@ mortality %>%
       sub_ls2 <- list("nzhs" = inner_join(sub_df2,nzhs,by = c("DHB","year","sex")))
       return(c(sub_ls1,sub_ls2))
     })
-  } ) -> mortality_ls
+  } ) -> mortality_rf
 
-save(incidence_ls,file = 'data/clean/incidence_rf.Rdata')
-save(mortality_ls, file = 'data/clean/mortality_rf.Rdata')
+save(incidence_rf,file = 'data/clean/incidence_rf.Rdata')
+save(mortality_rf, file = 'data/clean/mortality_rf.Rdata')
 
 
 
