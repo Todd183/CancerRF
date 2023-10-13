@@ -7,6 +7,7 @@ library(sf)
 
 #### 2.1. Cancer data ####
 
+#### 2.1.1 Incidence ####
 incidence <- read_csv('data/cancer-registrations-by-dhb.csv')
 incidence %>% 
   filter(DHB != "Overseas and undefined") %>% #remove oversea data
@@ -17,8 +18,27 @@ incidence %>%
   mutate(incidence_rate = as.numeric(incidence_rate)) ->
   incidence
 
+#filter incidence based on sex
+cancer_sex <- incidence %>%
+  filter(DHB == "All New Zealand") %>%
+  group_by(year,cancer,sex) %>%
+  summarise(rate_mean = mean(incidence_rate,na.rm=T)) %>%
+  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
+  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
+                           !is.na(Male) & is.na(Female) ~ "Male",
+                           TRUE ~ "AllSex")) %>%
+  ungroup(.) %>%
+  select(cancer,group) %>%
+  filter(!duplicated(cancer))
+
+incidence %>% 
+  left_join(.,cancer_sex) %>%
+  filter(sex == group) -> incidence
+
 write_csv(incidence,"data/clean/incidence.csv")
 
+
+#### 2.1.2 Mordality ####
 mortality <- read_csv('data/cancer-deaths-by-dhb.csv')
 mortality %>% 
   filter(DHB != "Overseas and undefined" & `Cancer type` != "Unspecified site") %>%  #remove oversea data and undefined cancers
@@ -28,6 +48,24 @@ mortality %>%
   mutate(mortality_rate = str_replace(mortality_rate,"S","0")) %>%
   mutate(mortality_rate = as.numeric(mortality_rate)) ->
   mortality
+
+
+#filter mortality based on sex
+cancer_sex <- mortality %>%
+  filter(DHB == "All New Zealand") %>%
+  group_by(year,cancer,sex) %>%
+  summarise(rate_mean = mean(mortality_rate,na.rm=T)) %>%
+  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
+  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
+                           !is.na(Male) & is.na(Female) ~ "Male",
+                           TRUE ~ "AllSex")) %>%
+  ungroup(.) %>%
+  select(cancer,group) %>%
+  filter(!duplicated(cancer))
+
+mortality %>% 
+  left_join(.,cancer_sex) %>%
+  filter(sex == group) -> mortality
 
 write_csv(mortality,"data/clean/mortality.csv")
 
@@ -401,45 +439,6 @@ rf <- list("water" = water,
            "children" = children,
            "workhours" = workhours,
            "nzhs" = nzhs)
-
-#modified incidence rate and mortality rate based on sex distribution of cancer tyeps
-
-#filter incidence based on sex
-cancer_sex <- incidence %>%
-  filter(DHB == "All New Zealand") %>%
-  group_by(year,cancer,sex) %>%
-  summarise(rate_mean = mean(incidence_rate,na.rm=T)) %>%
-  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
-  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
-                           !is.na(Male) & is.na(Female) ~ "Male",
-                           TRUE ~ "AllSex")) %>%
-  ungroup(.) %>%
-  select(cancer,group) %>%
-  filter(!duplicated(cancer))
-
-incidence %>% 
-  left_join(.,cancer_sex) %>%
-  filter(sex == group) -> incidence
-
-#filter mortality based on sex
-cancer_sex <- mortality %>%
-  filter(DHB == "All New Zealand") %>%
-  group_by(year,cancer,sex) %>%
-  summarise(rate_mean = mean(mortality_rate,na.rm=T)) %>%
-  pivot_wider(names_from = sex, values_from = rate_mean ) %>%
-  mutate(group = case_when(is.na(Male) & !is.na(Female) ~ "Female",
-                           !is.na(Male) & is.na(Female) ~ "Male",
-                           TRUE ~ "AllSex")) %>%
-  ungroup(.) %>%
-  select(cancer,group) %>%
-  filter(!duplicated(cancer))
-
-mortality %>% 
-  left_join(.,cancer_sex) %>%
-  filter(sex == group) -> mortality
-
-
-
 
 
 # Split the data frame by Col1
