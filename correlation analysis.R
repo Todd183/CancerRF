@@ -77,7 +77,7 @@ for(cancer in names(incidence_rf)){
   for(feature in names(incidence_rf[[cancer]][[1]])){
     temp <- incidence_rf[[cancer]][[1]][[feature]]
     # Only use number of children in female cancer
-    if (names(incidence_rf[[cancer]]) == 'Male' & feature == "children") {
+    if(names(incidence_rf[[cancer]]) %in% c('Male','AllSex') & feature == "children") {
       next
     }
     for(value in names(temp)[4:length(temp)]){
@@ -99,7 +99,7 @@ for(cancer in names(mortality_rf)){
   for(feature in names(mortality_rf[[cancer]][[1]])){
     temp <- mortality_rf[[cancer]][[1]][[feature]]
     # Only use number of children in female cancer
-    if (mortality_rf[[cancer]] == 'Male' & feature == "children") {
+    if(names(mortality_rf[[cancer]]) %in% c('Male','AllSex') & feature == "children") {
       next
     }
     for(value in names(temp)[4:length(temp)]){
@@ -147,10 +147,13 @@ write.csv(significant_mortality,'data/correlation_result/significant_mortality.c
 ##################################
 library(ggplot2)
 ggplot(data = cor_incidence) +
-  aes(x=cor , y=-log10(p_adjusted))+
+  aes(x=cor , y=-log10(p_adjusted), color = cancer)+
   geom_point(size=1.5, alpha=0.6) + 
   geom_vline(xintercept = c(-0.2, 0.2), linetype = "dashed", color = "grey",size=0.8) +
   geom_hline(yintercept = 2, linetype = "dashed", color = "grey",size=0.8) 
 
 
+df <- data.frame(x = rnorm(100))
+df$y <- df$x
+aov(y ~ x,data=df) %>% summary()
 
