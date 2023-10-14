@@ -67,34 +67,50 @@ save(p_values_mortality, file = 'data/correlation_result/p_values_mortality.Rdat
 
 
 
- 
-cor_incidence <- data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),feature=character())
+
+
+
+cor_incidence <- data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),
+                            feature=character(),comparisons_across_feature=integer())
 for(cancer in names(incidence_rf)){
+  comparisons_across_feature <- 0
   for(feature in names(incidence_rf[[cancer]][[1]])){
     temp <- incidence_rf[[cancer]][[1]][[feature]]
+    # Only use number of children in female cancer
+    if (names(incidence_rf[[cancer]]) == 'Male' & feature == "children") {
+      next
+    }
     for(value in names(temp)[4:length(temp)]){
       cor <- cor.test(temp[[value]],temp[['incidence_rate']])$estimate  
       p_pearson <- cor.test(temp[[value]],temp[['incidence_rate']])$p.value
-      cor_incidence %<>% rbind(setNames(c(p_pearson,cor,cancer,value) %>% as.list(),names(cor_incidence)))
-    }
+      cor_incidence %<>% rbind(setNames(c(p_pearson,cor,cancer,value,-1) %>% as.list(),names(cor_incidence)))
+      comparisons_across_feature <- comparisons_across_feature + 1
+      }
   }
+  cor_incidence$comparisons_across_feature[cor_incidence$cancer == cancer] <- comparisons_across_feature
 }
 cor_incidence %<>% left_join(p_values_incidence, by = c('cancer','feature'))
 
 
-
-cor_mortality <- data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),feature=character())
+cor_mortality <-data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),
+                           feature=character(),comparisons_across_feature=integer())
 for(cancer in names(mortality_rf)){
+  comparisons_across_feature <- 0
   for(feature in names(mortality_rf[[cancer]][[1]])){
     temp <- mortality_rf[[cancer]][[1]][[feature]]
+    # Only use number of children in female cancer
+    if (mortality_rf[[cancer]] == 'Male' & feature == "children") {
+      next
+    }
     for(value in names(temp)[4:length(temp)]){
       cor <- cor.test(temp[[value]],temp[['mortality_rate']])$estimate  
       p_pearson <- cor.test(temp[[value]],temp[['mortality_rate']])$p.value
-      cor_mortality %<>% rbind(setNames(c(p_pearson,cor,cancer,value) %>% as.list(),names(cor_mortality)))
+      cor_mortality %<>% rbind(setNames(c(p_pearson,cor,cancer,value,-1) %>% as.list(),names(cor_mortality)))
     }
   }
+  cor_mortality$comparisons_across_feature[cor_mortality$cancer == cancer] <- comparisons_across_feature
 }
-cor_mortality %<>% left_join(p_values_incidence, by = c('cancer','feature'))
+cor_mortality %<>% left_join(p_values_mortality, by = c('cancer','feature'))
 
 cor_incidence$cor %<>% as.numeric()
 cor_mortality$cor %<>% as.numeric()
@@ -111,5 +127,4 @@ ggplot(data = cor_incidence) +
   geom_point()
 
 
-class(cor_incidence$cor)
 
