@@ -294,5 +294,95 @@ cancer_region_map <- function(data,type,map){
 }
 
 
-
+time_change_plot = function(data,type,label.size){
+  rate_name = colnames(data)[grepl('rate',colnames(data))]
+  data %>%
+    rename(rate = rate_name) ->data
+  
+  data %>% 
+    mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL')) %>%
+    filter(DHB == "All New Zealand") %>%
+    mutate(year_group = year<=2015) %>%
+    group_by(DHB,cancer,year_group) %>%
+    summarise(rate = mean(rate)) %>%
+    group_by(DHB,cancer) %>%
+    summarise( diff_rate =  lag(rate) - rate ) %>%
+    filter(!is.na(diff_rate)) %>% 
+    mutate(text = ifelse(diff_rate > 0,"↑","↓")) %>%
+    ungroup(.) -> text
+  
+  cols16 = pal_simpsons("springfield")(16)
+  
+  label = data %>%
+    mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL')) %>%
+    # group_by(cancer,DHB) %>%
+    # summarise(rate_sd = sd(incidence_rate)) %>%
+    filter(DHB == "All New Zealand" & year == 2020) %>%
+    # filter(DHB == "All New Zealand" ) %>%
+    left_join(text,by=c("DHB","cancer")) 
+    
+  
+  # label1 = label %>% 
+  #   filter(diff_rate > 0 & year == 2020)
+  # label2 = label %>% 
+  #   filter(diff_rate <= 0 & year == 2011)
+  
+  data %>%
+    mutate(cancer = str_replace(cancer,'Non-Hodgkin lymphoma','NHL')) %>%
+    # group_by(cancer,DHB) %>%
+    # summarise(rate_sd = sd(incidence_rate)) %>%
+    filter(DHB == "All New Zealand") %>%
+    mutate(year = as.integer(year)) %>%
+    ggplot(aes(x = year, y = rate,color = cancer,fill=cancer)) +
+    # geom_hline(aes(yintercept = mean(incidence_rate)),color = 'grey',linetype='dashed') +
+    geom_label_repel(label,
+                     mapping = aes(x = year, y = rate, label= paste(text,cancer,"|",round(diff_rate,2))),
+                     show.legend=FALSE,size = label.size,color='black', direction = "y",
+                     segment.size = 0.1,
+                     xlim = c(2020.5,2022))+
+    # geom_label_repel(label1,
+    #                  mapping = aes(x = year, y = rate, label= paste(text,cancer,"|",round(diff_rate,2))),
+    #                  show.legend=FALSE,size = label.size,color='black', direction = "y",
+    #                  segment.size = 0.1,
+    #                  xlim = c(2020.5,2023))+
+    # geom_label_repel(label2,
+    #                  mapping = aes(x = year, y = rate, label= paste(text,cancer,"|",round(diff_rate,2))),
+    #                  show.legend=FALSE,size = label.size,color='black', direction = "y",
+    #                  segment.size = 0.1,
+    #                  xlim = c(2008,2010.5))+
+    # geom_label_repel(label,
+    #                  mapping = aes(x = year, y = rate, label=text,color = ifelse(diff_rate > 0,"blue",'red'),fill = ifelse(diff_rate > 0,"blue",'red')),
+    #                  show.legend=FALSE,size = label.size,direction = "y",
+    #                  segment.size = 0,
+    #                  xlim = c(2020.4,2021))+
+    # geom_label_repel(label,
+    #                  mapping = aes(x = year, y = rate, label=text,color = ifelse(diff_rate > 0,"blue",'red')),
+    #                  show.legend=FALSE,direction = "y",size = label.size+1, fill = "white",label.size = NA,
+    #                  segment.size = 0,
+    #                  xlim = c(2021.7,2022))+
+    scale_color_manual(values=alpha(cols16, 0.5)) +
+    scale_fill_manual(values=alpha(cols16, 0.5)) +
+    #geom_bar(aes(fill = group),stat = "identity") +
+    #scale_fill_manual(values=cols16) +
+    # geom_label_repel(label,
+    #                  mapping = aes(x = year, y = incidence_rate, label=cancer),
+    #                  show.legend=FALSE,
+    #                  xlim = c(2021,2022))+
+    geom_point(shape = 21) +
+    geom_line() +
+    scale_x_continuous(limits = c(2011,2022),breaks = seq(2011,2020,1)) +
+    scale_y_continuous(trans = "log10",breaks = c(0, 50, 80, 110)) +
+    # scale_x_discrete(name ="Months", 
+    #                  limits=seq(2,12,2))+
+    theme_classic(base_family = "serif") +
+    xlab('Year') +
+    ylab(paste(type,"Rate\n(per 100,000 people)"))+
+    # facet_wrap(.~DHB,scales = "free") +
+    theme(
+      strip.background = element_rect(fill = alpha('grey',0.3),color = "white"),
+      strip.text = element_text(size = 10),
+      legend.position = 'none'
+    ) -> gg
+  return(gg)
+}
 
