@@ -51,10 +51,65 @@ for(cancer in names(mortality_rf)){
   }
 }
 
+p_values_incidence$p_value %<>% as.numeric()
+p_values_mortality$p_value %<>% as.numeric()
+
+#p_values_incidence %<>% arrange(p_adjusted) 
+#p_values_mortality %<>% arrange(p_adjusted) 
+
+#p_values_incidence %<>% filter(p_adjusted <= 0.9)
+#p_values_mortality %<>% filter(p_adjusted <= 0.9)
+
 save(p_values_incidence,file = 'data/correlation_result/p_values_incidence.Rdata')
 save(p_values_mortality, file = 'data/correlation_result/p_values_mortality.Rdata')
 
-write.csv(p_values_incidence,'data/correlation_result/p_values_incidence.csv')
-write.csv(p_values_mortality,'data/correlation_result/p_values_mortality.csv')
 
-           
+
+
+
+ 
+cor_incidence <- data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),feature=character())
+for(cancer in names(incidence_rf)){
+  for(feature in names(incidence_rf[[cancer]][[1]])){
+    temp <- incidence_rf[[cancer]][[1]][[feature]]
+    for(value in names(temp)[4:length(temp)]){
+      cor <- cor.test(temp[[value]],temp[['incidence_rate']])$estimate  
+      p_pearson <- cor.test(temp[[value]],temp[['incidence_rate']])$p.value
+      cor_incidence %<>% rbind(setNames(c(p_pearson,cor,cancer,value) %>% as.list(),names(cor_incidence)))
+    }
+  }
+}
+cor_incidence %<>% left_join(p_values_incidence, by = c('cancer','feature'))
+
+
+
+cor_mortality <- data.frame(p_pearson=numeric(),cor=numeric(),cancer=character(),feature=character())
+for(cancer in names(mortality_rf)){
+  for(feature in names(mortality_rf[[cancer]][[1]])){
+    temp <- mortality_rf[[cancer]][[1]][[feature]]
+    for(value in names(temp)[4:length(temp)]){
+      cor <- cor.test(temp[[value]],temp[['mortality_rate']])$estimate  
+      p_pearson <- cor.test(temp[[value]],temp[['mortality_rate']])$p.value
+      cor_mortality %<>% rbind(setNames(c(p_pearson,cor,cancer,value) %>% as.list(),names(cor_mortality)))
+    }
+  }
+}
+cor_mortality %<>% left_join(p_values_incidence, by = c('cancer','feature'))
+
+cor_incidence$cor %<>% as.numeric()
+cor_mortality$cor %<>% as.numeric()
+
+write.csv(cor_mortality,'data/correlation_result/cor_mortality.csv')
+write.csv(cor_incidence,'data/correlation_result/cor_incidence.csv')
+
+##################################
+#  number of children   female   #
+##################################
+library(ggplot2)
+ggplot(data = cor_incidence) +
+  aes(x=cor , y=-log10(p_adjusted))+
+  geom_point()
+
+
+class(cor_incidence$cor)
+
