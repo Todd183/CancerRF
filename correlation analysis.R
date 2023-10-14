@@ -54,6 +54,7 @@ for(cancer in names(mortality_rf)){
 save(p_values_incidence,file = 'data/correlation_result/p_values_incidence.Rdata')
 save(p_values_mortality, file = 'data/correlation_result/p_values_mortality.Rdata')
 
-
+write.csv(p_values_incidence,'data/correlation_result/p_values_incidence.csv')
+write.csv(p_values_mortality,'data/correlation_result/p_values_mortality.csv')
 
            
