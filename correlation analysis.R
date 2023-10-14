@@ -1,7 +1,7 @@
 library(tidyverse)
 library(magrittr)
 
-
+options(digits = 6) 
 setwd('D:\\data422')
 load(file = 'data/clean/incidence_rf.Rdata')
 load(file = 'data/clean/mortality_rf.Rdata')
@@ -106,17 +106,41 @@ for(cancer in names(mortality_rf)){
       cor <- cor.test(temp[[value]],temp[['mortality_rate']])$estimate  
       p_pearson <- cor.test(temp[[value]],temp[['mortality_rate']])$p.value
       cor_mortality %<>% rbind(setNames(c(p_pearson,cor,cancer,value,-1) %>% as.list(),names(cor_mortality)))
-    }
+      comparisons_across_feature <- comparisons_across_feature + 1 
+      }
   }
   cor_mortality$comparisons_across_feature[cor_mortality$cancer == cancer] <- comparisons_across_feature
 }
 cor_mortality %<>% left_join(p_values_mortality, by = c('cancer','feature'))
+rm(temp)
+gc()
 
 cor_incidence$cor %<>% as.numeric()
 cor_mortality$cor %<>% as.numeric()
 
+for (cancer in cor_mortality$cancer %>% unique()) {
+  cor_mortality$p_adjusted_all_features[cor_mortality$cancer == cancer] <- p.adjust(
+    cor_mortality$p_value[cor_mortality$cancer == cancer] )
+}
+for (cancer in cor_incidence$cancer %>% unique()) {
+  cor_incidence$p_adjusted_all_features[cor_incidence$cancer == cancer] <- p.adjust(
+    cor_incidence$p_value[cor_incidence$cancer == cancer] )
+}
+
+
 write.csv(cor_mortality,'data/correlation_result/cor_mortality.csv')
 write.csv(cor_incidence,'data/correlation_result/cor_incidence.csv')
+
+
+significant_incidence <- cor_incidence %>% 
+  filter(p_adjusted <= 0.05, abs(cor) >= 0.2) %>% 
+  arrange(p_adjusted) 
+significant_mortality <- cor_mortality %>% 
+  filter(p_adjusted <= 0.05, abs(cor) >= 0.2)%>% 
+  arrange(p_adjusted)
+write.csv(significant_incidence,'data/correlation_result/significant_incidence.csv',row.names=F)
+write.csv(significant_mortality,'data/correlation_result/significant_mortality.csv',row.names=F)
+
 
 ##################################
 #  number of children   female   #
@@ -124,7 +148,9 @@ write.csv(cor_incidence,'data/correlation_result/cor_incidence.csv')
 library(ggplot2)
 ggplot(data = cor_incidence) +
   aes(x=cor , y=-log10(p_adjusted))+
-  geom_point()
+  geom_point(size=1.5, alpha=0.6) + 
+  geom_vline(xintercept = c(-0.2, 0.2), linetype = "dashed", color = "grey",size=0.8) +
+  geom_hline(yintercept = 2, linetype = "dashed", color = "grey",size=0.8) 
 
 
 
