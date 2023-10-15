@@ -6,6 +6,8 @@ setwd('D:\\data422')
 load(file = 'data/clean/incidence_rf.Rdata')
 load(file = 'data/clean/mortality_rf.Rdata')
 
+# The program will write data to csv & Rdata if WRITE_FILE is Ture
+WRITE_FILES = F  # T F
 
 # calculate p value of one feature
 get_pvalue <- function(measure,df,value) {
@@ -60,9 +62,10 @@ p_values_mortality$p_value %<>% as.numeric()
 #p_values_incidence %<>% filter(p_adjusted <= 0.9)
 #p_values_mortality %<>% filter(p_adjusted <= 0.9)
 
-save(p_values_incidence,file = 'data/correlation_result/p_values_incidence.Rdata')
-save(p_values_mortality, file = 'data/correlation_result/p_values_mortality.Rdata')
-
+if(WRITE_FILES){
+  save(p_values_incidence,file = 'data/correlation_result/p_values_incidence.Rdata')
+  save(p_values_mortality, file = 'data/correlation_result/p_values_mortality.Rdata')
+}
 
 
 
@@ -80,7 +83,7 @@ for(cancer in names(incidence_rf)){
     if(names(incidence_rf[[cancer]]) %in% c('Male','AllSex') & feature == "children") {
       next
     }
-    for(value in names(temp)[4:length(temp)]){
+    for(value in names(temp)[5:length(temp)]){
       cor <- cor.test(temp[[value]],temp[['incidence_rate']])$estimate  
       p_pearson <- cor.test(temp[[value]],temp[['incidence_rate']])$p.value
       cor_incidence %<>% rbind(setNames(c(p_pearson,cor,cancer,value,-1) %>% as.list(),names(cor_incidence)))
@@ -102,7 +105,7 @@ for(cancer in names(mortality_rf)){
     if(names(mortality_rf[[cancer]]) %in% c('Male','AllSex') & feature == "children") {
       next
     }
-    for(value in names(temp)[4:length(temp)]){
+    for(value in names(temp)[5:length(temp)]){
       cor <- cor.test(temp[[value]],temp[['mortality_rate']])$estimate  
       p_pearson <- cor.test(temp[[value]],temp[['mortality_rate']])$p.value
       cor_mortality %<>% rbind(setNames(c(p_pearson,cor,cancer,value,-1) %>% as.list(),names(cor_mortality)))
@@ -127,10 +130,10 @@ for (cancer in cor_incidence$cancer %>% unique()) {
     cor_incidence$p_value[cor_incidence$cancer == cancer] )
 }
 
-
-write.csv(cor_mortality,'data/correlation_result/cor_mortality.csv')
-write.csv(cor_incidence,'data/correlation_result/cor_incidence.csv')
-
+if(WRITE_FILES){
+  write.csv(cor_mortality,'data/correlation_result/cor_mortality.csv',row.names=F)
+  write.csv(cor_incidence,'data/correlation_result/cor_incidence.csv',row.names=F)
+}
 
 significant_incidence <- cor_incidence %>% 
   filter(p_adjusted <= 0.05, abs(cor) >= 0.2) %>% 
@@ -142,18 +145,69 @@ write.csv(significant_incidence,'data/correlation_result/significant_incidence.c
 write.csv(significant_mortality,'data/correlation_result/significant_mortality.csv',row.names=F)
 
 
-##################################
-#  number of children   female   #
-##################################
-library(ggplot2)
-ggplot(data = cor_incidence) +
-  aes(x=cor , y=-log10(p_adjusted), color = cancer)+
-  geom_point(size=1.5, alpha=0.6) + 
-  geom_vline(xintercept = c(-0.2, 0.2), linetype = "dashed", color = "grey",size=0.8) +
-  geom_hline(yintercept = 2, linetype = "dashed", color = "grey",size=0.8) 
+
+#######################################################
+#  Analysis in number of children and female cancer.  #
+#######################################################
+
+setwd('C:\\Users\\niels\\OneDrive - University of Canterbury\\uc\\data422')
+incidence <- read_csv('cancer-registrations-by-dhb.csv')
+incidence %>% 
+  filter(DHB != "Overseas and undefined") %>% #remove oversea data
+  mutate(cancer =  str_remove(`Cancer type`,"\\s\\(.*\\)")) %>% #remove cancer ICD codes
+  rename(year = Year, sex = Sex, incidence_num = Number, incidence_rate = Rate) %>%
+  select (DHB, year, sex, cancer, incidence_num, incidence_rate ) %>%
+  mutate(incidence_rate = str_replace(incidence_rate,"S","0")) %>%
+  mutate(incidence_rate = as.numeric(incidence_rate)) ->
+  incidence
+
+incidence %<>% filter(sex=="Female")
+
+cor_incidence_tmp <- data.frame(p_pearson=numeric(),p_adjusted=numeric(),cor=numeric(),
+                                cancer=character(), feature=character(),comparisons=integer())
 
 
-df <- data.frame(x = rnorm(100))
-df$y <- df$x
-aov(y ~ x,data=df) %>% summary()
+for (cancer in incidence$cancer %>% unique()){
+  temp <- incidence_rf[[cancer]][[1]]$children
+  t <- left_join(temp[,-3], incidence[incidence$cancer == cancer,], by = c('DHB','year'))
+  comparisons<-0
+  for(value in names(t)[4:15]){
+    cor <- cor.test(t[[value]],t[['incidence_rate']])$estimate  
+    p_pearson <- cor.test(t[[value]],t[['incidence_rate']])$p.value
+    cor_incidence_tmp %<>% rbind(setNames(c(p_pearson,-1,cor,cancer,value,-1) %>% as.list(),names(cor_incidence_tmp)))
+    comparisons<-comparisons+1
+  }
+  cor_incidence_tmp$p_adjusted[cor_incidence_tmp$cancer == cancer] <- p.adjust(
+    cor_incidence_tmp$p_pearson[cor_incidence_tmp$cancer == cancer]) 
+  cor_incidence_tmp[cor_incidence_tmp$cancer == cancer,'comparisons'] <- comparisons
+}
+cor_incidence_tmp$comparisons_across_feature <- nrow(cor_incidence_tmp)
 
+cor_incidence_tmp$cor %<>% as.numeric()
+cor_incidence_children <- cor_incidence_tmp
+cor_incidence_tmp %<>% filter(p_adjusted <= 0.05, abs(cor) >= 0.2) %>% arrange(p_adjusted)
+
+if(WRITE_FILES){
+  setwd('D:\\data422')
+  write.csv(cor_incidence_children,'data/correlation_result/cor_incidence_children.csv',row.names=F)
+}
+
+
+
+if(FALSE){
+  library(ggplot2)
+  ggplot(data = cor_incidence) +
+    aes(x=cor , y=-log10(p_adjusted), color = cancer)+
+    geom_point(size=1.5, alpha=0.6) + 
+    geom_vline(xintercept = c(-0.2, 0.2), linetype = "dashed", color = "grey",size=0.8) +
+    geom_hline(yintercept = 2, linetype = "dashed", color = "grey",size=0.8) 
+  
+  
+  temp <- cor_incidence[grepl("^Child", cor_incidence$feature), ]
+  
+  ggplot(data = temp) +
+    aes(x=cor , y=-log10(p_adjusted), color = cancer)+
+    geom_point(size=1.5, alpha=0.6) + 
+    geom_vline(xintercept = c(-0.2, 0.2), linetype = "dashed", color = "grey",size=0.8) +
+    geom_hline(yintercept = 2, linetype = "dashed", color = "grey",size=0.8) 
+}
