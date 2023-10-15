@@ -105,6 +105,7 @@ for(i in 1:length(CAs)){
       var = str_replace_all(var,'(?<=\\().+?(?=\\))',tolower), #words within () remains lower format
     ) %>%
     select(Cancer,Correlation,Category,group,var,cor,p_adjusted,feature) %>%
+    #modify###########
     arrange(factor(Cancer,levels = c("Lung","Melanoma","Breast","Prostate","Colorectal")),Correlation) %>%
     rename(r = cor, p.adj = p_adjusted, `Risk Factors` = var, Group = group) -> sig.tables[[i]]
   
