@@ -1,0 +1,66 @@
+---
+title: "Cancer risk factors analysis in New Zealand"
+author: "The Health Guardian"
+date: "2023-10-16"
+bibliography: "reference/myref.bib"
+csl: "reference/apa-6th-edition.csl"
+link-citations: true
+output:
+  pdf_document: 
+    fig_width: 7
+    fig_height: 5
+  html_document: default
+  extra_dependencies: ["float"]
+header-includes: 
+  \usepackage{float} \floatplacement{figure}{H} 
+  \newcommand{\beginsupplement}{\setcounter{table}{0}  \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}}}
+---
+
+## Background
+
+In the year 2020, New Zealand recorded a total of 27,072 new cancer registrations, reflecting an overall age-standardized rate of 338.1 registrations per 100,000 individuals.[@CancerWebTool2023] This considerable volume of new cancer cases imposes a substantial socio-economic burden on the nation. However, it is worth noting that cancer is often far more manageable and treatable when detected at an early stage. This underscores the critical importance of cancer screening.
+
+In New Zealand, a comprehensive national screening program is in place, covering breast, cervical, and bowel cancers, and it is accessible to all residents. For instance, the colorectal cancer (CRC) screening program is initiated at the age of 60 for the majority of the population. Nevertheless, an exception is made for Māori and Pasifika communities, who commence screening at 50 years of age.[@BowelCancer] This approach is founded on the fact that ethnicity has been established as a notable risk factor for CRC, with both Māori and Pasifika populations exhibiting a higher incidence of the disease.
+
+The implementation of risk factors-adjusted cancer screening is essential for cost-effective cancer screening. Prior research has illuminated numerous social and environmental risk factors that are linked to cancer incidence. For instance, temperature has emerged as a significant environmental factor associated with the occurrence of cancer.[@Voskarides2023] Also, studies have indicated that individuals with higher levels of education tend to have lower cancer rates.[@Larsen2020]
+
+This report collected and analyzed regional cancer incidence and risk factors, aiming at identifying potential risk factors associated with cancer incidence in New Zealand. By doing so, we aspire to provide valuable insights in refining and optimizing cancer screening strategies.
+
+## **Discussion**
+
+Our analysis delves into the multifaceted landscape of cancer risk factors, including various cancer types in New Zealand. The results we present not only corroborate prior research findings but also introduce new dimensions to our understanding of cancer etiology, underscoring the importance of considering environmental and social factors in cancer prevention strategies.
+
+**Colorectal Cancer Risk Factors**: Our findings affirm well-established associations between PM2.5 [@Ku2021] or cold exposure and increased colorectal cancer risks [@Lehrer2014]. This connection emphasizes the pivotal role of environmental factors, specifically air quality, in shaping colorectal cancer risk. Furthermore, the inclusion earthquakes as a risk factor for colorectal cancer, merits further investigation, especially in earthquake-prone regions like New Zealand. The association between earthquakes and colorectal cancer may be attributed to environmental changes that occur following seismic activity.
+
+**Lung Cancer Risk Factors**: Our analysis reveals risk factors for lung cancer, including overweight [@Vedire2023], lack of physical activity [@Cannioto2018], hypertension [@Lindgren2003], and smoking [@Walser2008], which align with well-documented risk factors for this cancer type. Lifestyle choices and health status are crucial contributors to lung cancer risk. Moreover, the inclusion of low income and education levels underscores the socio-economic determinants of lung cancer, as these factors are closely associated with smoking habits [@Larsen2020]. The surprising link between dental health care visits and lung cancer emphasizes the significance of oral health in cancer prevention. Several studies have demonstrated that poor oral health is linked to an increased risk of lung cancer [@Yoon2019], suggesting the importance of regular dental check-ups for maintaining oral health and potentially reducing lung cancer risk.
+
+**Melanoma Risk Factors**: For melanoma, our analysis highlights risk factors such as PM2.5 concentration and average annual earthquake depth, indicative of the role of environmental factors in this skin cancer. Additionally, teeth loss and mean height are intriguing findings that merit further exploration. Understanding the mechanisms behind these associations is essential to develop effective strategies for melanoma prevention in New Zealand.
+
+**Breast Cancer and Drinking**: The inclusion of heavy episodic drinking as a risk factor for breast cancer, as indicated by previous studies such as [@McDonald2013], underscores the complexity of breast cancer etiology. This finding emphasizes the importance of addressing lifestyle factors, including alcohol consumption, in breast cancer prevention efforts.
+
+**Prostate Cancer and Work Hours**: While our analysis suggests that lower work hours may be a risk factor for prostate cancer, it's important to acknowledge a potential bias. Lower work hours could be associated with older age, a known vulnerability factor for prostate cancer. However, due to the absence of age data in regional cancer incidence, further age-specific analysis is needed to confirm or rule out this bias.
+
+Our analysis has limitations, including the inability to conduct subgroup analyses based on ethnicity or age group due to the lack of relevant data, potentially hindering our understanding of demographic-specific cancer incidence variations. Additionally, our correlation analyses were executed at the regional level, whereas comparing risk factors between cancer and non-cancer individuals at the individual level would have yielded more accurate results, although such data were not publicly available. Furthermore, some data sources lacked comprehensive variable documentation, introducing ambiguity in our interpretation of certain risk factors, such as "heavy episodic drinking" from the New Zealand Health Survey, for which a precise definition was absent.
+
+In summary, our findings expand our knowledge of cancer risk factors for various types of cancer in New Zealand. These results underscore the multifaceted nature of cancer etiology and the importance of considering environmental and social factors in cancer prevention strategies. Our findings can serve as a foundation for the development of targeted prevention and screening strategies tailored to the unique risk factors associated with different cancer types, ultimately contributing to a reduction in the cancer burden in New Zealand. Further research on less-explored risk factors, such as earthquake-related cancer risks, will be crucial in advancing our understanding and improving prevention efforts.
+
+## References
+
+::: {#refs}
+:::
+
+## Answer to questions
+
+#### Q4: What difficulties you had to overcome to wrangle the data sources into the target data model?
+
+**Mapping Coordinates to DHB Regions:** Our research focused on the relationship between cancer occurrences and socio-environmental factors, utilizing "region and year" as a common identifier. While cancer data was available in "DHB regions," other datasets primarily used "council regions." Initially, we aimed to map "DHB regions" to "Council regions," but this proved impractical. For humanities datasets, we filtered out those lacking DHB region information. For environment datasets, with available coordinates information, we overcame the challenge by using geographical coordinates and "R library sf" to map them to DHB geometrics.
+
+**Representing Multiple Data Points for Each Common Identifier:** In the case of environment-related datasets, such as earthquakes, we simplified representation by selecting key statistical measures - maximum, average, minimum, and frequency of events - for each DHB region within a given year. The same approach was applied to datasets concerning air quality, groundwater quality, and temperature.
+
+**Creating Variables for Enhanced Representation of Humanities Factors:** Original humanities datasets expressed counts within various categories, e.g., the number of individuals with a particular qualification level (e.g., number of people with qualification \> level 3). To ensure data comparability, we converted these counts to percentages. We further analyzed the percentage of individuals with qualifications at or above specific levels, generating new variables based on cumulative sums of percentage (e.g., percentage of people with qualification \> level 3). This approach was also applied to income, work hours, and birth numbers datasets.
+
+#### Q6: what you managed to achieve and what you failed to do
+
+**Achievements**: We successfully collected and cleaned comprehensive cancer incidence and mortality data, as well as risk factors data. Our primary goal was to establish a connection between these diverse data sources using the "region + year" as a common identifier. This allowed us to conduct a thorough analysis of cancer incidence patterns across different regions and investigate correlations with various risk factors. The analysis revealed valuable insights and identified significant risk factors associated with the most common cancer types, including Lung, Prostate, Breast, Melanoma, and Colorectal cancers. These findings have practical implications for optimizing cancer prevention strategies.
+
+**Limitations**: One notable limitation was our inability to perform subgroup analyses based on ethnics or age group, despite the potential variations in cancer incidence within different demographic groups. Additionally, our correlation analyses were conducted at the regional level, treating each region as an independent sample. Ideally, comparing risk factors among cancer and non-cancer individual could provide more accurate and robust risk factor results. Unfortunately, such individual-level data are not publicly available.
