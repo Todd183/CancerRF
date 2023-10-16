@@ -1,0 +1,86 @@
+---
+title: "Analysis of cancer status in New Zealand from 2011 to 2020"
+author: "Zheng Zhang, Shubo Feng, Dan Wei, Zichen Zhou"
+output: pdf_document
+date: "16th, October, 2023"
+---
+
+# 1.Background
+
+
+# 2. Methods
+
+## 2.1 Data
+
+
+## 2.2 Analysis pipline
+
+
+### 2.2.1 Cancer Overview
+
+Descriptive Statistics: For the cancer incidence rate data of adults and children, we employ descriptive statistical methods, such as mean and proportion, to describe the distribution and central tendency of the data.
+
+Heatmap Analysis: For the description of cancer incidence rates across different regions, we use a heatmap to visualize the cancer incidence rates in each region. This aids in obtaining a clear understanding of the relative highs and lows of cancer incidence rates in various areas.
+
+Proportion and Percentage: For the section on gender differences in average cancer incidence and mortality rates, we analyze by calculating the proportions of average incidence and mortality rates for various types of cancer in both males and females.
+
+### 2.2.2 Correlation analysis
+
+
+# 3. Results
+
+## 3.1 Cancer Overview
+
+### 3.1.1 Age distribution
+
+![ ](age.png)
+
+The number of adult cancer registrations is over 800 to 1000 times greater than the number of child cancer registrations.
+
+This table presents cancer registration data from 2011 to 2020, categorized into adults and children. While there has been an upward trend in adult cancer registrations, child cancer registrations have remained relatively stable.
+
+Given the low proportion of child cancer registrations in the overall dataset, the small percentage of child data does not significantly impact our analysis. And our analysis primarily focuses on the general cancer situation in New Zealand. Furthermore, the cancer data we've collected from various regions doesn't differentiate between adults and children. As a result, we can't analyze adult data separately in subsequent analyses.
+
+### 3.1.2 Gender variance
+
+![Average Incidence Rate and Average Mortality Rate for each cancer type by sex](gendervariance.png)
+
+Females had the highest average incidence of “Breast cancer” from 2011 to 2020, while males had the highest for “Prostate cancer”. “Colorectal cancer” also showed high average incidence rates for both genders.
+
+For average mortality rates over the same period, both genders exhibited the highest rates from “Lung cancer”. For females, “Breast cancer” was the second-leading cause of mortality, while for males, it was “Colorectal cancer”.
+
+This figure visually represents these average incidence and mortality rates for each cancer type by gender based on data from the website https://tewhatuora.shinyapps.io/cancer-web-tool/. However, some data points were missing: female data for “Kidney cancer” and “Bladder cancer” and male data for “Thyroid cancer”.
+
+Cancers exclusive to one gender, like “Uterine cancer”, “Ovarian cancer”, and “Breast cancer” in females and “Prostate cancer” and “Testicular cancer” in males, were analyzed separately. For other cancer types with data for both genders, separate analyses were conducted. Generally, average incidence and mortality rates were similar between genders, though males had slightly higher incidence rates.
+
+Among cancer types with data for both sexes, the average incidence and mortality rates were generally similar between males and females, with slightly higher average incidence rates among males. In subsequent analyses, cancers with data for both genders were analyzed using "all sex" data, while cancers with data available for only one gender were analyzed using the corresponding gender-specific data.
+
+### 3.1.3 Regional distribution
+
+![Heatmap of the incidence rate of each cancer type in each region](regionaldistribution1.png)
+
+From 2011 to 2020, Whanganui had the highest cancer incidence rate among all New Zealand regions, with the West Coast recording the lowest.
+
+The heatmap uses shades of orange to represent higher cancer incidence rates and shades of blue for lower rates. Whanganui and Northland had notably high rates, whereas the West Coast had the lowest.
+
+The heatmap also shows that “Prostate cancer” and “Breast cancer” had the highest incidence rates in every region, while “Thyroid cancer” and “Testicular cancer” had the lowest rate.
+
+![Heatmap of the incidence rate of each cancer type in each region](regionaldistribution2.png)
+
+This heatmap provides a clearer depiction of regional cancer rates. Whanganui topped the list with an incidence rate of 415.82/100,000, primarily driven by “Kidney cancer”, “Pancreas cancer”, and “Prostate cancer”. The Southern region followed with 408.55/100,000, where “Colorectal cancer” was most prevalent. The West Coast had the lowest incidence rate.
+
+### 3.1.4 Contempory trends
+
+![Trend of incidence rate for each cancer type from 2011 to 2020 year](contemporytrends.png)
+
+Between 2011 and 2022 year, the incidence rates of “Prostate cancer”, “Uterine cancer”, “Non-Hodgkin lymphoma cancer”, “Thyroid cancer”, “Pancreas cancer”, and “Bladder cancers” all increased. In contrast, “Colorectal cancer” showed a significant decline.
+
+The number in this figure's label represent the difference between median cancer incidence rates from 2016 to 2020 and those from 2011 to 2015, indicating growth or decline trends over these five-year periods.
+
+Lastly, the incidence rates for “Thyroid cancer” and “Testicular cancers” fluctuated substantially during this decade, while other cancers had more stable trends.
+
+## 3.2 Correlation analysis
+
+# 4. Discussion
+
+
