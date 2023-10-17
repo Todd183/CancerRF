@@ -30,8 +30,10 @@ age %>%
   mutate(population = ifelse(agegrpid <= 3, "child",'adult')) %>%
   group_by(population,Year) %>%
   summarize(`Incidence number` = as.integer(sum(Number))) %>%
+  mutate(Year = paste(' ',Year," ")) %>%
   pivot_wider(names_from = Year,values_from = `Incidence number`) %>%
-  rempsyc::nice_table(title="Table 1: Number of New Registered Cancers")
+  rempsyc::nice_table(title="Table 1: Number of New Registered Cancers") %>%
+  padding(padding.right = 20, part = "all") -> tab1
   
 
 #### 4. Gender variance of cancer types ####
@@ -44,7 +46,7 @@ g1 =  draw_sex_variance(incidence,type="Incidence",fulltitle=FALSE)
 g2 = draw_sex_variance(mortality,type="Mortality",fulltitle=FALSE)
 
 # Arrange the two plots side by side
-ggarrange(g1,g2)
+# ggarrange(g1,g2)
 
 #### 5. Regional distribution  #####
 # Read incidence and mortality data filtered by sex
@@ -53,10 +55,10 @@ mortality_sexfiltered <- read_csv('data/clean/mortality_sexfiltered.csv')
 
 # Use the custom function 'regional_heatmap' to create heatmaps for incidence and mortality
 ht_incidence = regional_heatmap(incidence_sexfiltered,type='Incidence')
-draw(ht_incidence, heatmap_legend_side = "right",annotation_legend_side="right",legend_grouping = "original")
+# draw(ht_incidence, heatmap_legend_side = "right",annotation_legend_side="right",legend_grouping = "original")
 
 ht_mortality = regional_heatmap(mortality_sexfiltered,type='mortality')
-draw(ht_mortality, heatmap_legend_side = "right",annotation_legend_side="right",legend_grouping = "original")
+# draw(ht_mortality, heatmap_legend_side = "right",annotation_legend_side="right",legend_grouping = "original")
 
 
 #### 6. Most common region for each cancer ####
@@ -68,10 +70,10 @@ DHB_map <- st_read("data/NZ_District_Health_Board_boundaries_-_generalised.kml",
 
 # Use the custom function 'cancer_region_map' to create maps showing the most common regions for each cancer type for incidence and mortality
 ggmap_incidence <- cancer_region_map(data = incidence_sexfiltered , type ="Incidence",map = DHB_map)
-ggmap_incidence
+# ggmap_incidence
 
-ggmap_incidence <- cancer_region_map(data = mortality_sexfiltered , type ="Mortality",map = DHB_map)
-ggmap_incidence
+ggmap_mortality <- cancer_region_map(data = mortality_sexfiltered , type ="Mortality",map = DHB_map)
+# ggmap_mortality
 
 #### 7. Time changes ####
 # Read incidence and mortality data filtered by sex
@@ -81,7 +83,7 @@ mortality_sexfiltered <- read_csv('data/clean/mortality_sexfiltered.csv')
 # Use the custom function 'time_change_plot' to create a plot showing the change in cancer rates over time
 # The label number is calculated as the difference between the mean rates of 2016-2020 and 2011-2015
 gg_time <- time_change_plot(data = incidence_sexfiltered, type = "Incidence",label.size = 2.5)
-gg_time 
+# gg_time 
 
 
 

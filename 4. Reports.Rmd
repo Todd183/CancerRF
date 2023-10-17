@@ -1,6 +1,6 @@
 ---
 title: "Cancer risk factors analysis in New Zealand"
-author: "The Health Guardian"
+author: "Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou"
 date: "2023-10-16"
 bibliography: "reference/myref.bib"
 csl: "reference/apa-6th-edition.csl"
@@ -16,6 +16,12 @@ header-includes:
   \newcommand{\beginsupplement}{\setcounter{table}{0}  \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}}}
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message=FALSE,fig.align='center',fig.pos = "H", out.extra = "")
+source('cancer_overview.R')
+
+```
+
 ## Background
 
 In the year 2020, New Zealand recorded a total of 27,072 new cancer registrations, reflecting an overall age-standardized rate of 338.1 registrations per 100,000 individuals.[@CancerWebTool2023] This considerable volume of new cancer cases imposes a substantial socio-economic burden on the nation. However, it is worth noting that cancer is often far more manageable and treatable when detected at an early stage. This underscores the critical importance of cancer screening.
@@ -26,7 +32,87 @@ The implementation of risk factors-adjusted cancer screening is essential for co
 
 This report collected and analyzed regional cancer incidence and risk factors, aiming at identifying potential risk factors associated with cancer incidence in New Zealand. By doing so, we aspire to provide valuable insights in refining and optimizing cancer screening strategies.
 
-## **Discussion**
+## 2. Methods
+
+### 2.1 Data
+
+### 2.2 Analysis pipline
+
+#### 2.2.1 Cancer Overview
+
+#### 2.2.2 Correlation analysis
+
+## 3. Results
+
+### 3.1 Cancer Overview
+
+#### 3.1.1 Age distribution
+
+```{r Table1}
+tab1 %>% autofit()
+```
+
+The number of adult cancer registrations is over 800 to 1000 times greater than the number of child cancer registrations.
+
+This table presents cancer registration data from 2011 to 2020, categorized into adults and children. While there has been an upward trend in adult cancer registrations, child cancer registrations have remained relatively stable.
+
+Given the low proportion of child cancer registrations in the overall dataset, the small percentage of child data does not significantly impact our analysis. And our analysis primarily focuses on the general cancer situation in New Zealand. Furthermore, the cancer data we've collected from various regions doesn't differentiate between adults and children. As a result, we can't analyze adult data separately in subsequent analyses.
+
+#### 3.1.2 Gender variance
+
+```{r Fig1, fig.width= 7, fig.height=5,fig.cap="Average Incidence Rate and Average Mortality Rate for each cancer type by sex"}
+
+ggarrange(g1,g2)
+
+```
+
+Females had the highest average incidence of "Breast cancer" from 2011 to 2020, while males had the highest for "Prostate cancer". "Colorectal cancer" also showed high average incidence rates for both genders.
+
+For average mortality rates over the same period, both genders exhibited the highest rates from "Lung cancer". For females, "Breast cancer" was the second-leading cause of mortality, while for males, it was "Colorectal cancer".
+
+This figure visually represents these average incidence and mortality rates for each cancer type by gender based on data from the website <https://tewhatuora.shinyapps.io/cancer-web-tool/>. However, some data points were missing: female data for "Kidney cancer" and "Bladder cancer" and male data for "Thyroid cancer".
+
+Cancers exclusive to one gender, like "Uterine cancer", "Ovarian cancer", and "Breast cancer" in females and "Prostate cancer" and "Testicular cancer" in males, were analyzed separately. For other cancer types with data for both genders, separate analyses were conducted. Generally, average incidence and mortality rates were similar between genders, though males had slightly higher incidence rates.
+
+Among cancer types with data for both sexes, the average incidence and mortality rates were generally similar between males and females, with slightly higher average incidence rates among males. In subsequent analyses, cancers with data for both genders were analyzed using "all sex" data, while cancers with data available for only one gender were analyzed using the corresponding gender-specific data.
+
+#### 3.1.3 Regional distribution
+
+```{r Fig2, fig.cap = "Heatmap illustrating the regional distribution of average cancer incidence during 2011 to 2020 in New Zealand. Gradient color indicated the average cancer incidence rate for the corresponding region."}
+
+draw(ht_incidence, heatmap_legend_side = "right",annotation_legend_side="right",legend_grouping = "original")
+```
+
+From 2011 to 2020, Whanganui had the highest cancer incidence rate among all New Zealand regions, with the West Coast recording the lowest.
+
+The heatmap uses shades of orange to represent higher cancer incidence rates and shades of blue for lower rates. Whanganui and Northland had notably high rates, whereas the West Coast had the lowest.
+
+The heatmap also shows that "Prostate cancer" and "Breast cancer" had the highest incidence rates in every region, while "Thyroid cancer" and "Testicular cancer" had the lowest rate.
+
+```{r Fig3, fig.width= 9, fig.height=9, fig.cap = "Regional distribution of overall cancer incidence in New Zealand. Gradient color indicated the average cancer incidence rate (All cancer types) for the corresponding region during 2011 to 2020. Lables highlight the most common region for corresponding cancer type"}
+
+ggmap_incidence
+```
+
+This heatmap provides a clearer depiction of regional cancer rates. Whanganui topped the list with an incidence rate of 415.82/100,000, primarily driven by "Kidney cancer", "Pancreas cancer", and "Prostate cancer". The Southern region followed with 408.55/100,000, where "Colorectal cancer" was most prevalent. The West Coast had the lowest incidence rate.
+
+#### 3.1.4 Tempory trends
+
+```{r Fig4, fig.width = 9, fig.cap = "Temporal trends for cancer incidence of each cancer type during 2011 to 2020. The number in each label indicate the difference between average incidence of 2016-2020 and 2011-2015."}
+gg_time
+```
+
+Between 2011 and 2022 year, the incidence rates of "Prostate cancer", "Uterine cancer", "Non-Hodgkin lymphoma cancer", "Thyroid cancer", "Pancreas cancer", and "Bladder cancers" all increased. In contrast, "Colorectal cancer" showed a significant decline.
+
+The number in this figure's label represent the difference between median cancer incidence rates from 2016 to 2020 and those from 2011 to 2015, indicating growth or decline trends over these five-year periods.
+
+Lastly, the incidence rates for "Thyroid cancer" and "Testicular cancers" fluctuated substantially during this decade, while other cancers had more stable trends.
+
+### 3.2 Correlation analysis
+
+# 4. Discussion
+
+## Discussion
 
 Our analysis delves into the multifaceted landscape of cancer risk factors, including various cancer types in New Zealand. The results we present not only corroborate prior research findings but also introduce new dimensions to our understanding of cancer etiology, underscoring the importance of considering environmental and social factors in cancer prevention strategies.
 
@@ -64,3 +150,6 @@ In summary, our findings expand our knowledge of cancer risk factors for various
 **Achievements**: We successfully collected and cleaned comprehensive cancer incidence and mortality data, as well as risk factors data. Our primary goal was to establish a connection between these diverse data sources using the "region + year" as a common identifier. This allowed us to conduct a thorough analysis of cancer incidence patterns across different regions and investigate correlations with various risk factors. The analysis revealed valuable insights and identified significant risk factors associated with the most common cancer types, including Lung, Prostate, Breast, Melanoma, and Colorectal cancers. These findings have practical implications for optimizing cancer prevention strategies.
 
 **Limitations**: One notable limitation was our inability to perform subgroup analyses based on ethnics or age group, despite the potential variations in cancer incidence within different demographic groups. Additionally, our correlation analyses were conducted at the regional level, treating each region as an independent sample. Ideally, comparing risk factors among cancer and non-cancer individual could provide more accurate and robust risk factor results. Unfortunately, such individual-level data are not publicly available.
+
+
+
