@@ -35,6 +35,38 @@ This report collected and analyzed regional cancer incidence and risk factors, a
 ## 2. Methods
 
 ### 2.1 Data
+We employed two different categories of data for our study: the data related to cancer and risk factors. The data for cancer includes cancer incidences for different types of cancer. The risk factors were classified into environmental and humanity factors. The environmental factors include earthquake occurrences, air quality, groundwater quality, and temperature, while the humanity factors contain income levels, working hours, highest educational qualification, and the number of children born, which is a particular indicator on the female population and can be utilized for the analysis of women-related cancer. All the datasets are categorized by District Health Board (DHB) and year. This means that with 20 DHB regions, there are 20 samples for each year. Therefore, data on cancer incidences from 2011 to 2020 comprises 200 samples. Each environmental dataset, excluding air quality, also offers 200 samples for the same period. Air quality data from 2016 to 2020 provides 100 samples. Humanity factor data is available for 2013 and 2018 with 40 samples for each dataset.
+
+#### 2.1.1 Cancer data
+Cancer data is sourced from the Cancer Web Tool, which gathers the official data from the New Zealand Cancer Registry and New Zealand Mortality Collection. The original data is categorized based on DHB regions and documents cancer incidence for distinct types of cancer with gender information from 2011 to 2020. Due to the incidence rates of certain cancers are notably different between genders, we have grouped cancer types by gender based on the original information. This grouping is intended for subsequent analysis.
+
+#### 2.1.2 Risk factor data
+#### 2.1.2.1 Earthquake occurrences
+The earthquake data was obtained from GeoNet, which offers detailed records of earthquakes that have occurred in New Zealand over the years. Given New Zealand's unique geographical location in a seismic zone, we investigate whether earthquake frequencies have an impact on cancer incidence. We have matched the latitude and longitude information in the original data to the corresponding DHB regions. Our primary focus lies on the annual highest and average values of earthquake magnitudes and depths, spanning from 2011 to 2020.
+
+#### 2.1.2.2 Air quality
+Air quality data was collected from Land, Air, Water Aotearoa (LAWA). The original dataset provides latitude and longitude coordinates, monitoring site names, as well as concentrations of PM10 and PM2.5 from 2016 to 2022. PM10 particles have a diameter of less than 10 micrometers (µm), while PM2.5 particles are under 2.5 µm in diameter (LAWA). We have converted the latitude and longitude coordinates into DHB regions and limited the time frame of our analysis to the years 2016 to 2020. Inhaling clean air is essential for our health (LAWA). It is vital to consider air quality as a factor related to cancer incidence for analysis.
+
+#### 2.1.2.3 Groundwater quality
+The data was also obtained from LAWA and encompasses groundwater quality monitoring in New Zealand from 2004 to 2021. Five indicators are utilized to assess groundwater quality, including the values of Chloride, Dissolved Reactive Phosphorus, Escherichia Coli, Electrical Conductivity, and Nitrate Nitrogen. The latitude and longitude information in the original dataset was converted into DHB regions, covering the period from 2011 to 2020. The LAWA states that the groundwater is commonly utilized as an origin of drinking water. Therefore, we adopt this as an environmental risk factor related to cancer incidence.
+
+#### 2.1.2.4 Temperature
+As one of the most perceptible climatic features to the human body, temperature has also been employed as one of the environmental risk factors. The dataset is derived from Statistics NZ. The original dataset recorded the highest and average temperatures in New Zealand, both seasonally and annually, from 1928 to 2022. We have selected data from the years 2011 to 2020 and converted the latitude and longitude information to corresponding DHB regions. 
+
+#### 2.1.2.5 Working hours
+The duration of working hours often brings varying levels of stress and significantly impacts personal health. Therefore, it has been employed as one of the risk factors in our cancer correlations analysis. The data is sourced from Statistics NZ, based on 2006, 2013, and 2018 Censuses. We selected year 2013 and 2018 and converted the area codes into DHB regions. Population proportions for different levels of working hours have been calculated for each DHB region, aiming to explore the relationship between working hours and cancer incidence.
+
+#### 2.1.2.6 Highest educational qualification
+Educational level is potentially related to an individual’s occupational background. For instance, a lower educational background may lead to a higher likelihood of engaging in physically demanding labour, which can impact physical health. The data is obtained from Statistics NZ based on the Censuses conducted in the years 2006, 2013, and 2018. We have transformed area codes into DHB regions and calculated the population proportions for each educational qualification level, with year 2013 and 2018. Cleaned dataset will be used for subsequent analysis to explore the influence of educational levels on cancer.
+
+#### 2.1.2.7 Income level
+Income data is also sourced form Statistics NZ. Similarly, we have chosen data from the years 2013 and 2018, converted area codes into DHB region, and calculated the population proportions for each income level within each region. Income levels reflects the quality of life to some extent. We seek to investigate the relationship between income levels and cancer incidence.
+
+#### 2.1.2.8 Number of children born
+The data is acquired from Statistics NZ, which presents the number of children women aged 15 and above have. We have computed the proportion of female population with different numbers of children for year 2013 and 2018. The cleaned data is utilized for conducting correlation analysis related to female-specific cancers, such as ‘Breast’, ‘Ovarian’, and ‘Uterine’ cancer.
+
+#### 2.1.2.9 New Zealand health survey
+This is a survey conducted by the Ministry of Health from 2011 to 2019, focusing on individuals' health habits and health status. We utilized the relevant indicators from this survey to conduct a correlation analysis of cancer incidences. These indicators may include smoking and drinking habits, dental health, BMI, and health insurance, etc. A limitation of this data is that in the original data, some variables only provide descriptions of the degree, such as ‘heavy smokers’, which are based on scores obtained from the survey. This means that we do not have specific value to describe how many cigarettes are smoked per day would be categorized as ‘heavy smokers’. However, it is worth noting that the adjective can effectively convey the degree of health habits.
 
 ### 2.2 Analysis pipline
 
@@ -136,6 +168,24 @@ In summary, our findings expand our knowledge of cancer risk factors for various
 :::
 
 ## Answer to questions
+
+#### Q1：What data source you used?
+
+**Cancer incidence data:** This data presents cancer incidence with different cancer types and gender information, and was obtained from Cancer Web Tool, which presents the official cancer data from the New Zealand Cancer Registry and New Zealand Mortality Collection.
+
+**Cancer risk factors data:** This data includes environmental factors and humanity factors. Environmental factors contain earthquake occurrences, air quality, groundwater quality, and temperature, while humanity factors encompass income level, educational qualification level, working hours, and the number of children born, as well as survey data on individual health status. These data originate from various sources. The Earth quake data was sourced from GeoNet, which offers earthquake details in New Zealand. The air quality and groundwater quality data were acquired from Land, Air, Water Aotearoa (LAWA), while the data of temperature, working hours, educational level, and number of children born were all sourced from Statistic NZ. The NZ health survey was obtained from Ministry of Health. 
+
+#### Q2: Why you chose those data sources?
+
+**Authenticity and reliability:** All data comes from official and authoritative sources to ensure the authenticity and reliability of our study.
+
+**Valuable for our study:** On the one hand, the data of cancer incidences can be used to analyze main trends of different types of cancer. On the other hand, we focused on two key directions of risk factors: environmental and humanity factors. Regarding environmental factors, we have selected representative factors such as earthquake occurrences, air quality, groundwater quality, and temperature. These factors are all crucial to our environment and can impact human health. As for humanity factors, the factors that exhibit potential influences on human health are taken into account. More specifically, the number of children born, as a unique indicator specific to women, can be employed to analyze cancers that primarily affect females. The working hour and highest qualification reflect the occupational background, which is closely related to individual’s health, while income reflects the economic status and their quality of life, which may have an impact on health.
+
+#### Q3: What target you chose?
+
+**Examine the trends in the incidence of various cancer types:** By utilizing our data and conducting the overview analysis, we examined the differences in cancer incidences among adults and children, as well as between males and females, and distinct features of cancers across different regions. 
+
+**Cancer correlation analysis:** We intended to subsequently conduct correlation analysis to identify the environmental and humanity factors that exhibit a strong associations with the incidence of cancer in each region over the years.
 
 #### Q4: What difficulties you had to overcome to wrangle the data sources into the target data model?
 
