@@ -122,7 +122,7 @@ regional_heatmap <- function(data, type){
   cancer_to_sex <- sort(cancer_to_sex)
   hdata = hdata[,names(cancer_to_sex)]
   
-  mat = as.matrix(hdata[,-1])
+  mat = as.matrix(hdata)
   
   
   column_ha = HeatmapAnnotation(
