@@ -24,6 +24,8 @@ Heatmap Analysis: For the description of cancer incidence rates across different
 
 Proportion and Percentage: For the section on gender differences in average cancer incidence and mortality rates, we analyze by calculating the proportions of average incidence and mortality rates for various types of cancer in both males and females.
 
+We conduct an overview analysis of cancer from four different perspectives: Age distribution, Gender variance, Regional distribution, and Contemporary trends.
+
 ### 2.2.2 Correlation analysis
 
 
