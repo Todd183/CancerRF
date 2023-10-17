@@ -48,7 +48,7 @@ draw_color_strip <- function(gg,colors){
     g$grobs[[i]]$grobs[[1]]$children[[j]]$gp$fill <- fills[k]
     k <- k+1
   }
-  grid::grid.draw(g)
+  # grid::grid.draw(g)
   return(g)
 }
 
@@ -308,7 +308,9 @@ time_change_plot = function(data,type,label.size){
     group_by(DHB,cancer) %>%
     summarise( diff_rate =  lag(rate) - rate ) %>%
     filter(!is.na(diff_rate)) %>% 
-    mutate(text = ifelse(diff_rate > 0,"↑","↓")) %>%
+    # mutate(text = ifelse(diff_rate > 0,"Up","Down")) %>%
+    # mutate(text = ifelse(diff_rate > 0,'\u2191','\u2193')) %>% 
+    mutate(text = "") %>% 
     ungroup(.) -> text
   
   cols16 = pal_simpsons("springfield")(16)
