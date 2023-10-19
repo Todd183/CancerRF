@@ -50,11 +50,11 @@ The earthquake data was obtained from GeoNet, which offers detailed records of e
 
 #### 2.1.2.2 Air quality
 
-Air quality data was collected from Land, Air, Water Aotearoa (LAWA). The original dataset provides latitude and longitude coordinates, monitoring site names, as well as concentrations of PM10 and PM2.5 from 2016 to 2022. PM10 particles have a diameter of less than 10 micrometers (µm), while PM2.5 particles are under 2.5 µm in diameter (LAWA). We have converted the latitude and longitude coordinates into DHB regions and limited the time frame of our analysis to the years 2016 to 2020. Inhaling clean air is essential for our health (LAWA). It is vital to consider air quality as a factor related to cancer incidence for analysis.
+Air quality data was collected from Land, Air, Water Aotearoa (LAWA). The original dataset provides latitude and longitude coordinates, monitoring site names, as well as concentrations of PM10 and PM2.5 from 2016 to 2022. PM10 particles have a diameter of less than 10 micrometers (µm), while PM2.5 particles are under 2.5 µm in diameter [@LAWA1-2023]. We have converted the latitude and longitude coordinates into DHB regions and limited the time frame of our analysis to the years 2016 to 2020. Inhaling clean air is essential for our health [@LAWA1-2023]. It is vital to consider air quality as a factor related to cancer incidence for analysis.
 
 #### 2.1.2.3 Groundwater quality
 
-The data was also obtained from LAWA and encompasses groundwater quality monitoring in New Zealand from 2004 to 2021. Five indicators are utilized to assess groundwater quality, including the values of Chloride, Dissolved Reactive Phosphorus, Escherichia Coli, Electrical Conductivity, and Nitrate Nitrogen. The latitude and longitude information in the original dataset was converted into DHB regions, covering the period from 2011 to 2020. The LAWA states that the groundwater is commonly utilized as an origin of drinking water. Therefore, we adopt this as an environmental risk factor related to cancer incidence.
+The data was also obtained from LAWA and encompasses groundwater quality monitoring in New Zealand from 2004 to 2021. Five indicators are utilized to assess groundwater quality, including the values of Chloride, Dissolved Reactive Phosphorus, Escherichia Coli, Electrical Conductivity, and Nitrate Nitrogen. The latitude and longitude information in the original dataset was converted into DHB regions, covering the period from 2011 to 2020. The groundwater is commonly utilized as an origin of drinking water [@LAWA2-2023]. Therefore, we adopt this as an environmental risk factor related to cancer incidence.
 
 #### 2.1.2.4 Temperature
 
@@ -174,7 +174,7 @@ Lastly, the incidence rates for "Thyroid cancer" and "Testicular cancers" fluctu
 
 ### 3.2 Correlation analysis
 
-#### 3.1.1 Correlation Overview
+#### 3.2.1 Correlation Overview
 
 ```{r Fig5, fig.width = 9,fig.height=6, fig.cap = "Risk Factor Revelations: Correlation and Significance of Risk Factors Across Five Types of Cancers"}
 load('cor_plots.Rdata')
@@ -187,7 +187,7 @@ The y-axis represents the logarithmically transformed p-value, where higher valu
 
 The plot reveals intriguing findings, such as a positive correlation between earthquakes and air quality with 'Melanoma Cancer.' Additionally, there is a significant negative correlation between temperature and 'Colorectal'. These findings not only enrich our understanding of specific risk factor relationships but also present opportunities for timely interventions in cancer screening and prevention.
 
-#### 3.1.2 Risk Factors of Cancers
+#### 3.2.2 Risk Factors of Cancers
 
 ```{r Table2}
 tabs[[1]]
@@ -213,7 +213,7 @@ tabs[[3]]
 
 Table 4 shows the risk factors linked to Melanoma. Within environmental considerations, Melanoma exhibits a positive correlation with the average concentration of PM2.5 and the average depth of earthquakes. In the realm of humanities factors, the incidence of Melanoma is positively linked to 'All Teeth Removed Due to Decay.' Furthermore, factors like 'Self-Rated Health - Very Good' and 'Mean Height' also display positive correlations with Melanoma incidence.
 
-#### 3.1.3 Distribution in Detailed Observations
+#### 3.2.3 Distribution in Detailed Observations
 
 ```{r Fig6, fig.width = 9,fig.height=4, fig.cap = "."}
 plot_6
@@ -233,7 +233,7 @@ Notably, for both cancers, the graphs reveal discernible correlations with risk 
 
 Our analysis delves into the multifaceted landscape of cancer risk factors, including various cancer types in New Zealand. The results we present not only corroborate prior research findings but also introduce new dimensions to our understanding of cancer etiology, underscoring the importance of considering environmental and social factors in cancer prevention strategies.
 
-**Colorectal Cancer Risk Factors**: Our findings affirm well-established associations between PM2.5 [@Ku2021] or cold exposure and increased colorectal cancer risks [@Lehrer2014]. This connection emphasizes the pivotal role of environmental factors, specifically air quality, in shaping colorectal cancer risk. Furthermore, the inclusion earthquakes as a risk factor for colorectal cancer, merits further investigation, especially in earthquake-prone regions like New Zealand. The association between earthquakes and colorectal cancer may be attributed to environmental changes that occur following seismic activity.
+**Colorectal Cancer Risk Factors**: Our findings affirm well-established associations between PM2.5 [@Ku2021], cold exposure[@Voskarides2023], or alcohol drinking [@Rossi2018] and increased colorectal cancer risks. This connection emphasizes the pivotal role of environmental factors, specifically air quality, in shaping colorectal cancer risk. Furthermore, the inclusion earthquakes as a risk factor for colorectal cancer, merits further investigation, especially in earthquake-prone regions like New Zealand. The association between earthquakes and colorectal cancer may be attributed to environmental changes that occur following seismic activity.
 
 **Lung Cancer Risk Factors**: Our analysis reveals risk factors for lung cancer, including overweight [@Vedire2023], lack of physical activity [@Cannioto2018], hypertension [@Lindgren2003], and smoking [@Walser2008], which align with well-documented risk factors for this cancer type. Lifestyle choices and health status are crucial contributors to lung cancer risk. Moreover, the inclusion of low income and education levels underscores the socio-economic determinants of lung cancer, as these factors are closely associated with smoking habits [@Larsen2020]. The surprising link between dental health care visits and lung cancer emphasizes the significance of oral health in cancer prevention. Several studies have demonstrated that poor oral health is linked to an increased risk of lung cancer [@Yoon2019], suggesting the importance of regular dental check-ups for maintaining oral health and potentially reducing lung cancer risk.
 
@@ -254,7 +254,7 @@ In summary, our findings expand our knowledge of cancer risk factors for various
 
 ## Answer to questions
 
-#### Q1：What data source you used?
+#### Q1: What data source you used?
 
 **Cancer incidence data:** This data presents cancer incidence with different cancer types and gender information, and was obtained from Cancer Web Tool, which presents the official cancer data from the New Zealand Cancer Registry and New Zealand Mortality Collection.
 
@@ -279,19 +279,6 @@ In summary, our findings expand our knowledge of cancer risk factors for various
 **Representing Multiple Data Points for Each Common Identifier:** In the case of environment-related datasets, such as earthquakes, we simplified representation by selecting key statistical measures - maximum, average, minimum, and frequency of events - for each DHB region within a given year. The same approach was applied to datasets concerning air quality, groundwater quality, and temperature.
 
 **Creating Variables for Enhanced Representation of Humanities Factors:** Original humanities datasets expressed counts within various categories, e.g., the number of individuals with a particular qualification level (e.g., number of people with qualification \> level 3). To ensure data comparability, we converted these counts to percentages. We further analyzed the percentage of individuals with qualifications at or above specific levels, generating new variables based on cumulative sums of percentage (e.g., percentage of people with qualification \> level 3). This approach was also applied to income, work hours, and birth numbers datasets.
-
-#### Q5: what techniques you did use
-
-**Data Preprocessing**: We chose suitable techniques to address and manage missing data, ensuring data completeness, reencode region names for consistency and comparability across the datasets, Merge environmental data to derive aggregated statistical features for enhanced analysis support.
-
-**Geospatial Data Handling**: We converted geographical coordinates into DHB (District Health Board) regions with GIS data, providing a more accurate representation of the geographic impact on the study.
-
-**Statistical Analysis**: We quantified the strength and direction of relationships between variables by calculating Pearson correlation coefficients. Simultaneously, significance testing was conducted using ANOVA to assess the significance of relationships. To account for multiple comparisons across various feature types and ensure the reliability of our findings, we implemented the 'Holm' method to adjust p-values. 
-
-**Visualization Techniques**: Visualizations such as volcano plots and scatter plots were developed to effectively communicate the relationships identified during the study.
-
-**Leveraging Data Processing Tools**: We used various packages, including 'tidyverse,' 'sf,' 'tools,' and 'ComplexHeatmap,' to facilitate data processing and visualization tasks, improving the efficiency of our processes and enhancing the clarity of our results.
-
 
 #### Q6: what you managed to achieve and what you failed to do
 
