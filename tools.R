@@ -122,7 +122,7 @@ regional_heatmap <- function(data, type){
   cancer_to_sex <- sort(cancer_to_sex)
   hdata = hdata[,names(cancer_to_sex)]
   
-  mat = as.matrix(hdata[,-1])
+  mat = as.matrix(hdata)
   
   
   column_ha = HeatmapAnnotation(
@@ -373,7 +373,7 @@ time_change_plot = function(data,type,label.size){
     geom_point(shape = 21) +
     geom_line() +
     scale_x_continuous(limits = c(2011,2022),breaks = seq(2011,2020,1)) +
-    scale_y_continuous(trans = "log10",breaks = c(0, 50, 80, 110)) +
+    scale_y_continuous(trans = "log10",breaks = c(0, 10,20,30,40, 50, 80, 110)) +
     # scale_x_discrete(name ="Months", 
     #                  limits=seq(2,12,2))+
     theme_classic(base_family = "serif") +

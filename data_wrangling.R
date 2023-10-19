@@ -438,15 +438,7 @@ nzhs =  read_csv("data/clean/nzhs_wide.csv")
 incidence = read_csv("data/clean/incidence_sexfiltered.csv")
 mortality = read_csv("data/clean/mortality_sexfiltered.csv")
 
-rf <- list("water" = water, 
-           "air" = air,
-           "tmp" = tmp,
-           "earthquake" = earthquake,
-           "income" = income,
-           "education" = education,
-           "children" = children,
-           "workhours" = workhours,
-           "nzhs" = nzhs)
+
 
 rf <- list("water" = water, 
            "air" = air,
@@ -457,9 +449,6 @@ rf <- list("water" = water,
            "children" = children,
            "workhours" = workhours)
 
-
-# Split the data frame by Col1
-
 incidence %>% 
   filter(DHB != "All New Zealand") %>%
   split(., .[,"cancer"]) %>% #split by cancer
@@ -467,7 +456,7 @@ incidence %>%
       ls = split(df, df$sex) #split by sex
       lapply(ls, function(sub_df){
         sub_df1 = sub_df[, c('year','DHB',"incidence_rate")]
-        sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and mortality
+        sub_ls1 = lapply(rf,inner_join, x=sub_df1, by = c("DHB","year")) #join rf and incidence
         names(sub_ls1) = names(rf)
         
         sub_df2 = sub_df[, c('year','DHB',"sex","incidence_rate")]

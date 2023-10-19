@@ -8,3 +8,4 @@ data/clean/mapdata/
 .DS_Store
 .Rprofile
 Assignments.ipynb
+.ipynb_checkpoints/

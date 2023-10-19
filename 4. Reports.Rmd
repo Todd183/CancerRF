@@ -84,6 +84,7 @@ This is a survey conducted by the Ministry of Health from 2011 to 2019, focusing
 
 #### 2.2.1 Cancer Overview
 
+
 #### 2.2.2 Data Pre-processing
 
 #### 2.2.2.1 Cancer Datasets processing
@@ -105,6 +106,7 @@ In the Methods section, we focus on conducting linear regression analysis on can
 In our correlation analysis, we use the Pearson correlation coefficient and calculate p-values based on ANOVA. While we have chosen multiple features for each type of characteristic, they are not mutually independent. For example, we consider both annual and seasonal average temperatures, as well as the highest and lowest temperatures. We have applied the Holm method to adjust p-values for multiple comparisons. Additionally, we retained the total number of comparisons for each cancer type as a reference. We assume that different factors within the same category can be considered independent variables, so when adjusting p-values, we use the number of comparisons within the same feature category.
 
 For visualization purposes, we use a volcano plot to represent the data. Significance is indicated by the negative logarithm of the p-value, and the correlation degree is directly represented by the Pearson correlation coefficient.
+
 
 ## 3. Results
 
