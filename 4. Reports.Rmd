@@ -84,7 +84,29 @@ This is a survey conducted by the Ministry of Health from 2011 to 2019, focusing
 
 #### 2.2.1 Cancer Overview
 
-#### 2.2.2 Correlation analysis
+
+#### 2.2.2 Data Pre-processing
+
+#### 2.2.2.1 Cancer Datasets processing
+
+The primary objective of data processing is to transform the dataset into a format with "Year" and "DHB" as the primary keys for ease of subsequent data joins. To achieve this, a systematic approach was applied to the datasets, encompassing cancer incidence and mortality data. The DHB text was standardized using regular expressions to ensure consistency. Simultaneously, we handled missing values by filling them with 0. This is primarily because the data pertains to incidence rates, and the low number of cases for certain diseases renders these missing values statistically insignificant.  
+
+After that, we narrowed down our focus to the specific types of cancer we were interested in by choosing the rates at which they occur based on whether the person is male or female. This helps us analyze cancer incidence in a way that's directly relevant to what we're studying. The data is now organized by "Year" and "DHB," making it ready for easy combination and detailed analysis.
+
+#### 2.2.2.2 Risk Factors processing
+
+In the Risk Factors datasets, we handled geographical data, addressed missing and duplicate entries, and extracted features through data grouping. Specifically, for datasets containing geographical information, a key step involved converting latitude and longitude data into their corresponding DHB regions.  
+
+Additionally, addressing instances of multiple entries in a single year, like recurring surveys, we opted for averaging to streamline the information. Moreover, comprehensive processing of weather data involved extracting quarterly averages, maximum, and minimum values. Similarly, factors such as education levels and income were synthesized by aggregating data, providing a more consolidated and useful representation of these variables.   
+
+#### 2.2.3 Correlation analysis
+
+In the Methods section, we focus on conducting linear regression analysis on cancer incidence rates in various regions of New Zealand over the past decade. We treat different DHBs and years as individual observations. Consequently, we have approximately 40-200 data points for each type of cancer, with a total of 20 DHBs. When we have complete data for 10 years, we obtain 20\*10 observations. Our datasets contain a minimum of 2 years of data.
+
+In our correlation analysis, we use the Pearson correlation coefficient and calculate p-values based on ANOVA. While we have chosen multiple features for each type of characteristic, they are not mutually independent. For example, we consider both annual and seasonal average temperatures, as well as the highest and lowest temperatures. We have applied the Holm method to adjust p-values for multiple comparisons. Additionally, we retained the total number of comparisons for each cancer type as a reference. We assume that different factors within the same category can be considered independent variables, so when adjusting p-values, we use the number of comparisons within the same feature category.
+
+For visualization purposes, we use a volcano plot to represent the data. Significance is indicated by the negative logarithm of the p-value, and the correlation degree is directly represented by the Pearson correlation coefficient.
+
 
 ## 3. Results
 
@@ -153,6 +175,59 @@ The number in this figure's label represent the difference between median cancer
 Lastly, the incidence rates for "Thyroid cancer" and "Testicular cancers" fluctuated substantially during this decade, while other cancers had more stable trends.
 
 ### 3.2 Correlation analysis
+
+#### 3.2.1 Correlation Overview
+
+```{r Fig5, fig.width = 9,fig.height=6, fig.cap = "Risk Factor Revelations: Correlation and Significance of Risk Factors Across Five Types of Cancers"}
+load('cor_plots.Rdata')
+plot_5
+```
+
+For the purpose of presentation and analysis, we have chosen to showcase the top 5 cancer types based on their incidence rates. This volcano plot illustrates the correlation and significance of various risk factors with these cancers.
+
+The y-axis represents the logarithmically transformed p-value, where higher values indicate greater significance, while the x-axis corresponds to the Pearson correlation coefficient. The plot distinctly highlights numerous risk factors strongly associated with specific cancers. For instance, there is a significant and positive correlation between current smokers and "Lung Cancer," aligning with our expectations. This serves as evidence that our sampling and analysis methods are, to a certain extent, reasonable.
+
+The plot reveals intriguing findings, such as a positive correlation between earthquakes and air quality with 'Melanoma Cancer.' Additionally, there is a significant negative correlation between temperature and 'Colorectal'. These findings not only enrich our understanding of specific risk factor relationships but also present opportunities for timely interventions in cancer screening and prevention.
+
+#### 3.2.2 Risk Factors of Cancers
+
+```{r Table2}
+tabs[[1]]
+```
+
+Table 2 describes the risk factors associated with 'Breast Cancer,' 'Prostate Cancer,' and 'Colorectal Cancer'.
+
+Notably, a significant positive correlation is observed between 'Breast Cancer' and Heavy Episodic Drinking, emphasizing the potential influence of alcohol consumption on breast cancer risk. Conversely, 'Prostate Cancer' demonstrates a strong negative correlation with extended work hours (weekly work hours ≥ 10), suggesting a potential protective effect associated with shorter work durations.
+
+'Colorectal Cancer' shows positive correlations with three factors: maximum PM2.5 concentration, average earthquake magnitude, and being a 'Past-year drinker.' These findings illuminate the diverse factors influencing colorectal cancer risk, including environmental pollutants, seismic activity, and past-year drinking behavior.
+
+```{r Table3}
+tabs[[2]]
+```
+
+Table 3 shows factors associated with 'Lung Cancer'. Firstly, it is evident that being a Current Smoker significantly increases the risk of lung cancer. Additionally, weight-related factors such as being Obese and having a higher Mean BMI (kg/m²) are correlated with an elevated incidence of lung cancer. Similarly, engaging in Little or No Physical Activity and having High Blood Pressure (medicated) are positively associated with lung cancer.
+
+Three factors related to Dental Health show correlations with lung cancer. 'Dental Health Care Worker Visit' exhibits a negative correlation, indicating a potential protective effect, while 'Only Visit Dental Health Care Worker for Problems' and 'Teeth Removed Due to Decay in Lifetime' are positively correlated with lung cancer. Furthermore, income-related factors are linked to lung cancer, with higher income, higher education levels, and having Private Health Insurance showing negative correlations with lung cancer incidence.
+
+```{r Table4}
+tabs[[3]]
+```
+
+Table 4 shows the risk factors linked to Melanoma. Within environmental considerations, Melanoma exhibits a positive correlation with the average concentration of PM2.5 and the average depth of earthquakes. In the realm of humanities factors, the incidence of Melanoma is positively linked to 'All Teeth Removed Due to Decay.' Furthermore, factors like 'Self-Rated Health - Very Good' and 'Mean Height' also display positive correlations with Melanoma incidence.
+
+#### 3.2.3 Distribution in Detailed Observations
+
+```{r Fig6, fig.width = 9,fig.height=4, fig.cap = "."}
+plot_6
+```
+
+```{r Fig7, fig.width = 9, fig.cap = "."}
+plot_7
+```
+
+Figures 6 and 7 illustrate the relationship between incidence rates and key risk factors for 'Colorectal' and 'Lung Cancer', providing a detailed analysis.
+
+Notably, for both cancers, the graphs reveal discernible correlations with risk factors. While the seismic factor appears more scattered on the left side due to regions with no seismic activity, other distributions demonstrate pronounced correlations, with concentrated patterns across the graphs. Significantly, the distribution of Lung Cancer in relation to weight exhibits a conspicuous linear pattern, indicating a noteworthy correlation between these variables.
 
 # 4. Discussion
 
