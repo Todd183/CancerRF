@@ -1,11 +1,14 @@
 ---
 title: "Cancer risk factors analysis in New Zealand"
-author: "Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou"
+author: | 
+  | Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou
+  | 
+  | GitHub: https://github.com/Todd183/CancerRF
 date: "2023-10-16"
 bibliography: "reference/myref.bib"
 csl: "reference/apa-6th-edition.csl"
 link-citations: true
-output:
+output: 
   pdf_document: 
     latex_engine: xelatex
     fig_width: 7
@@ -22,6 +25,7 @@ knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message=FALSE,fig.align='cent
 source('tools/cancer_overview.R')
 source('tools/correlation_analysis.R')
 ```
+
 
 # 1. Background
 
