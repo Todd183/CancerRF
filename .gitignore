@@ -6,7 +6,6 @@ data/*
 !data/clean
 data/clean/mapdata/
 .DS_Store
-.Rprofile
 Assignments.ipynb
 .ipynb_checkpoints/
 6. CancerRF.pptx
