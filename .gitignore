@@ -4,6 +4,7 @@
 .Ruserdata
 data/*
 !data/clean
+!data/correlation_result
 data/clean/mapdata/
 .DS_Store
 Assignments.ipynb
