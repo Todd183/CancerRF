@@ -124,13 +124,13 @@ Income data is also sourced form Statistics NZ. Similarly, we have chosen data f
 
 \hspace{-2.5em}
 
-The data is acquired from Statistics NZ, which presents the number of children women aged 15 and above have. We have computed the proportion of female population with different numbers of children for year 2013 and 2018. The cleaned data is utilized for conducting correlation analysis related to female-specific cancers, such as 'Breast', 'Ovarian', and 'Uterine' cancer.
+The data is acquired from Statistics NZ, which presents the number of children women aged 15 and above have. We have computed the proportion of female population with different numbers of children for year 2013 and 2018. The cleaned data is utilized for conducting correlation analysis related to female-specific cancers, such as "Breast", "Ovarian", and "Uterine" cancer.
 
 #### 2.1.2.9 New Zealand health survey
 
 \hspace{-2.5em}
 
-This is a survey conducted by the Ministry of Health from 2011 to 2019, focusing on individuals' health habits and health status. We utilized the relevant indicators from this survey to conduct a correlation analysis of cancer incidences. These indicators include smoking and drinking habits, dental health, BMI, and health insurance, etc. A limitation of this data is that in the original data, some variables only provide descriptions of the degree, such as 'heavy smokers', which are based on scores obtained from the survey. This means that we do not have specific value to describe how many cigarettes are smoked per day would be categorized as 'heavy smokers'. However, it is worth noting that the adjective can effectively convey the degree of health habits.
+This is a survey conducted by the Ministry of Health from 2011 to 2019, focusing on individuals' health habits and health status. We utilized the relevant indicators from this survey to conduct a correlation analysis of cancer incidences. These indicators include smoking and drinking habits, dental health, BMI, and health insurance, etc. A limitation of this data is that in the original data, some variables only provide descriptions of the degree, such as "heavy smokers", which are based on scores obtained from the survey. This means that we do not have specific value to describe how many cigarettes are smoked per day would be categorized as "heavy smokers". However, it is worth noting that the adjective can effectively convey the degree of health habits.
 
 Data sources are shown in **Table 1**. Detailed descriptions of each dataset and variables are documented in: "*5. Data_Documentation".*
 
@@ -250,7 +250,7 @@ For the purpose of presentation and analysis, we have chosen to showcase the top
 
 The y-axis represents the logarithmically transformed p-value, where higher values indicate greater significance, while the x-axis corresponds to the Pearson correlation coefficient. The plot distinctly highlights numerous risk factors strongly associated with specific cancers. For instance, there is a significant and positive correlation between current smokers and "Lung Cancer," aligning with our expectations. This serves as evidence that our sampling and analysis methods are, to a certain extent, reasonable.
 
-The plot reveals intriguing findings, such as a positive correlation between earthquakes and air quality with 'Melanoma Cancer.' Additionally, there is a significant negative correlation between temperature and 'Colorectal'. These findings not only enrich our understanding of specific risk factor relationships but also present opportunities for timely interventions in cancer screening and prevention.
+The plot reveals intriguing findings, such as a positive correlation between earthquakes and air quality with "Melanoma Cancer". Additionally, there is a significant negative correlation between temperature and "Colorectal". These findings not only enrich our understanding of specific risk factor relationships but also present opportunities for timely interventions in cancer screening and prevention.
 
 ### 3.2.2 Risk Factors of Cancers
 
@@ -262,11 +262,11 @@ ftab[[1]] %>%
   flextable::fontsize(size = 10, part = "all")
 ```
 
-**Table 3** describes the risk factors associated with 'Breast Cancer,' 'Prostate Cancer,' and 'Colorectal Cancer'.
+**Table 3** describes the risk factors associated with "Breast Cancer", "Prostate Cancer", and "Colorectal Cancer".
 
-Notably, a significant positive correlation is observed between 'Breast Cancer' and Heavy Episodic Drinking, emphasizing the potential influence of alcohol consumption on breast cancer risk. Conversely, 'Prostate Cancer' demonstrates a strong negative correlation with extended work hours (weekly work hours ≥ 10), suggesting a potential protective effect associated with shorter work durations.
+Notably, a significant positive correlation is observed between "Breast Cancer" and Heavy Episodic Drinking, emphasizing the potential influence of alcohol consumption on breast cancer risk. Conversely, "Prostate Cancer" demonstrates a strong negative correlation with extended work hours (weekly work hours ≥ 10), suggesting a potential protective effect associated with shorter work durations.
 
-'Colorectal Cancer' shows positive correlations with three factors: maximum PM2.5 concentration, average earthquake magnitude, and being a 'Past-year drinker.' These findings illuminate the diverse factors influencing colorectal cancer risk, including environmental pollutants, seismic activity, and past-year drinking behavior.
+"Colorectal Cancer" shows positive correlations with three factors: maximum PM2.5 concentration, average earthquake magnitude, and being a "Past-year drinker". These findings illuminate the diverse factors influencing colorectal cancer risk, including environmental pollutants, seismic activity, and past-year drinking behavior.
 
 ```{r Table4}
 ftab[[2]] %>% 
@@ -275,9 +275,9 @@ ftab[[2]] %>%
   flextable::fontsize(size = 10, part = "all")
 ```
 
-**Table 4** shows factors associated with 'Lung Cancer'. Firstly, it is evident that being a Current Smoker significantly increases the risk of lung cancer. Additionally, weight-related factors such as being Obese and having a higher Mean BMI (kg/m²) are correlated with an elevated incidence of lung cancer. Similarly, engaging in Little or No Physical Activity and having High Blood Pressure (medicated) are positively associated with lung cancer.
+**Table 4** shows factors associated with "Lung Cancer". Firstly, it is evident that being a Current Smoker significantly increases the risk of lung cancer. Additionally, weight-related factors such as being Obese and having a higher Mean BMI (kg/m²) are correlated with an elevated incidence of lung cancer. Similarly, engaging in Little or No Physical Activity and having High Blood Pressure (medicated) are positively associated with lung cancer.
 
-Three factors related to Dental Health show correlations with lung cancer. 'Dental Health Care Worker Visit' exhibits a negative correlation, indicating a potential protective effect, while 'Only Visit Dental Health Care Worker for Problems' and 'Teeth Removed Due to Decay in Lifetime' are positively correlated with lung cancer. Furthermore, income-related factors are linked to lung cancer, with higher income, higher education levels, and having Private Health Insurance showing negative correlations with lung cancer incidence.
+Three factors related to Dental Health show correlations with lung cancer. "Dental Health Care Worker Visit" exhibits a negative correlation, indicating a potential protective effect, while "Only Visit Dental Health Care Worker for Problems" and "Teeth Removed Due to Decay in Lifetime" are positively correlated with lung cancer. Furthermore, income-related factors are linked to lung cancer, with higher income, higher education levels, and having Private Health Insurance showing negative correlations with lung cancer incidence.
 
 ```{r Table5}
 ftab[[3]] %>% 
@@ -285,7 +285,7 @@ ftab[[3]] %>%
   fit_to_width(8) %>%
   flextable::fontsize(size = 10, part = "all") 
 ```
-**Table 5** shows the risk factors linked to Melanoma. Within environmental considerations, Melanoma exhibits a positive correlation with the average concentration of PM2.5 and the average depth of earthquakes. In the realm of social factors, the incidence of Melanoma is positively linked to 'All Teeth Removed Due to Decay.' Furthermore, factors like 'Self-Rated Health - Very Good' and 'Mean Height' also display positive correlations with Melanoma incidence.
+**Table 5** shows the risk factors linked to Melanoma. Within environmental considerations, Melanoma exhibits a positive correlation with the average concentration of PM2.5 and the average depth of earthquakes. In the realm of social factors, the incidence of Melanoma is positively linked to "All Teeth Removed Due to Decay". Furthermore, factors like "Self-Rated Health - Very Good" and "Mean Height" also display positive correlations with Melanoma incidence.
 
 ### 3.2.3 Distribution in Detailed Observations
 
@@ -297,7 +297,7 @@ corplot.CRC
 corplot.Lung
 ```
 
-**Figures 6** and **Figure 7** illustrate the relationship between incidence rates and key risk factors for 'Colorectal' and 'Lung Cancer', providing a detailed analysis.
+**Figures 6** and **Figure 7** illustrate the relationship between incidence rates and key risk factors for "Colorectal" and "Lung Cancer", providing a detailed analysis.
 
 Notably, for both cancers, the graphs reveal discernible correlations with risk factors. While the seismic factor appears more scattered on the left side due to regions with no seismic activity, other distributions demonstrate pronounced correlations, with concentrated patterns across the graphs. Significantly, the distribution of Lung Cancer in relation to weight exhibits a conspicuous linear pattern, indicating a noteworthy correlation between these variables.
 
