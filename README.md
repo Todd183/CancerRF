@@ -9,9 +9,9 @@ Author: Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou
 .
 ├── 1.1 Data_wrangling_Cancer_Data_Julila.ipynb #Julia for cancer data wrangling
 ├── 1.2 Data_wrangling_Risk_Factors_R.ipynb #R for risk factors data wrangling
-├── 2. Cancer overview analysis-R.ipynb #R for cancer data overview analysis and visualization
-├── 3.1 Correlation analysis and visualization.ipynb #R for risk factors correlation analysis and visualization
-├── 3.2 Visualization_Julia-Copy1.ipynb #Julia for correlation analysis visualization
+├── 2. Cancer_overview_analysis_R.ipynb #R for cancer data overview analysis and visualization
+├── 3.1 Correlation_analysis_and_visualization.ipynb #R for risk factors correlation analysis and visualization
+├── 3.2 Visualization_Julia.ipynb #Julia for correlation analysis visualization
 ├── 4. Report.Rmd #Report Rmarkdown
 ├── 4. Report.pdf #Report Rmarkdown
 ├── 5. Data documentation.pdf #Detailed raw and clean data documentation
