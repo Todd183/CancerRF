@@ -22,6 +22,7 @@ Author: Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou
 ├── README.md
 ├── data
 │   ├── clean #clean datasets
+│   ├── correlation_result #correlation analysis results for Julia visulization
 │   └── raw #raw datasets
 ├── reference
 │   ├── apa-6th-edition.csl #reference APA style 
