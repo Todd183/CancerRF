@@ -4,6 +4,8 @@ This project analyzes the correlation between cancer incidence rates and associa
 
 Author: Todd (Zhen) Zhang, Shubo Feng, Dan Wei, Zichen Zhou
 
+GitHub: https://github.com/Todd183/CancerRF
+
 # Project Directory Structure
 ```bash
 .
