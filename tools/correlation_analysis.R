@@ -36,7 +36,7 @@ lapply(pairs,function(pair){
 }) %>% 
   do.call(rbind,.) %>%
   mutate(sign = ifelse(cor > 0,"pos","neg"),
-         group = case_when(category %in% c("Air","Earthquake","Water","Temperature") ~ "Environment",
+         group = case_when(category %in% c("Air quality","Earthquake","Water","Temperature") ~ "Environment",
                            TRUE ~ "Social"),
          group2 = case_when(category == "NZHS" ~ rf,
                             TRUE ~ category)
